@@ -8,6 +8,7 @@ import 'package:anymex/screens/manga/details_page.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
 import 'package:anymex/screens/novel/details/details_view.dart';
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/widgets/common/anymex_scaffold.dart';
 import 'package:anymex/widgets/media_items/media_item.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
@@ -589,12 +590,12 @@ class _UserMediaListPageState extends State<UserMediaListPage>
                 _searchOpen ? Icons.close_rounded : Iconsax.search_normal,
                 size: 20,
               ),
-              tooltip: _searchOpen ? 'Close search' : 'Search',
+              tooltip: _searchOpen ? context.l10n.closeSearch : context.l10n.search,
             ),
                         IconButton(
               onPressed: _openRandom,
               icon: const Icon(Iconsax.shuffle, size: 20),
-              tooltip: 'Random',
+              tooltip: context.l10n.random,
             ),
                         IconButton(
               onPressed: () => _showGenreFilter(context),
@@ -604,7 +605,7 @@ class _UserMediaListPageState extends State<UserMediaListPage>
                     style: const TextStyle(fontSize: 9)),
                 child: const Icon(Iconsax.filter, size: 20),
               ),
-              tooltip: 'Filter genres',
+              tooltip: context.l10n.filterGenres,
             ),
                         PopupMenuButton<String>(
               icon: const Icon(Icons.more_vert_rounded, size: 22),
@@ -677,7 +678,9 @@ class _UserMediaListPageState extends State<UserMediaListPage>
                             style: TextStyle(
                                 color: colors.onSurface, fontSize: 14),
                             decoration: InputDecoration(
-                              hintText: 'Search ${typeLabel.toLowerCase()}...',
+                              hintText: context.l10n.searchMediaType(
+                                  mediaType: localizeAppText(
+                                      context, typeLabel.toLowerCase())),
                               hintStyle: TextStyle(
                                   color:
                                       colors.onSurfaceVariant.withOpacity(0.4),

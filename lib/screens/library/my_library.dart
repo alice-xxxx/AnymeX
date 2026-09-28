@@ -21,6 +21,7 @@ import 'package:anymex/widgets/exceptions/empty_library.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:anymex/widgets/helper/tv_wrapper.dart';
 import 'package:anymex_extension_runtime_bridge/Models/Source.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -120,7 +121,7 @@ class _MyLibraryState extends State<MyLibrary>
                     controller: controller.searchController,
                     onChanged: controller.search,
                     onClose: controller.toggleSearch,
-                    hintText: 'Search in Library...',
+                    hintText: context.l10n.searchInLibrary,
                   ),
                   actions: [
                     HeaderActionButton(

@@ -1,6 +1,7 @@
 import 'package:anymex/controllers/source/source_controller.dart';
 import 'package:anymex/screens/search/source_search_page.dart';
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/common/search_bar.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
@@ -94,7 +95,9 @@ class _InstalledExtensionsGridViewState
                           source: exactSource,
                         ));
                   },
-                  hintText: "Search $title extensions...",
+                  hintText:
+                      context.l10n.searchNamedExtensions(
+                          extensionName: localizeAppText(context, title)),
                 ),
               ),
               const SizedBox(width: 10),

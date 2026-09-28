@@ -1,6 +1,7 @@
 import 'package:anymex/controllers/services/anilist/anilist_data.dart';
 import 'package:anymex/screens/search/widgets/search_filter_selector.dart';
 import 'package:anymex/utils/theme_extensions.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:super_sliver_list/super_sliver_list.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
@@ -1925,7 +1926,7 @@ class _FuturisticFilterSheetState extends State<FuturisticFilterSheet> {
                                 .toList();
                           }),
                           decoration: InputDecoration(
-                            hintText: 'Search tags...',
+                            hintText: context.l10n.searchTags,
                             prefixIcon: const Icon(Icons.search),
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(12)),

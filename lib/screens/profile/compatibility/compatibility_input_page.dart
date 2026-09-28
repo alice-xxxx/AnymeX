@@ -17,6 +17,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/common/anymex_scaffold.dart';
 import 'package:anymex/widgets/helper/scroll_wrapper.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -500,7 +501,7 @@ class _CompatibilityInputPageState extends State<CompatibilityInputPage> {
       context,
       title: 'First User',
       controller: _username1Controller,
-      hintText: 'Enter first AniList username',
+      hintText: context.l10n.enterFirstAniListUsername,
       prefixIcon: Iconsax.user,
       isUser1: true,
       onChanged: _onUser1Changed,
@@ -516,7 +517,7 @@ class _CompatibilityInputPageState extends State<CompatibilityInputPage> {
           ? 'Second User'
           : 'Compare With',
       controller: _username2Controller,
-      hintText: 'Enter AniList username',
+      hintText: context.l10n.enterAniListUsername,
       prefixIcon: Iconsax.user_search,
       isUser1: false,
       onChanged: _onUser2Changed,

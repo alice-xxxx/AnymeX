@@ -1,3 +1,4 @@
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:anymex/utils/al_about_me.dart';
@@ -194,7 +195,7 @@ class ActivityComposerSheetState extends State<ActivityComposerSheet> {
           content: TextField(
             autofocus: true,
             decoration: InputDecoration(
-              hintText: 'Paste URL here...',
+              hintText: context.l10n.pasteURLHere,
               filled: true,
               fillColor: context.theme.colorScheme.surface,
               border: OutlineInputBorder(
@@ -376,7 +377,7 @@ class ActivityComposerSheetState extends State<ActivityComposerSheet> {
               Container(
                 margin: EdgeInsets.only(bottom: _isExpanded ? 16 : 2),
                 child: IconButton(
-                  tooltip: _isPrivate ? 'Private' : 'Public',
+                  tooltip: _isPrivate ? context.l10n.private : context.l10n.public,
                   icon: Icon(
                     _isPrivate ? Icons.lock : Icons.public,
                     color: _isPrivate
@@ -394,7 +395,7 @@ class ActivityComposerSheetState extends State<ActivityComposerSheet> {
               Container(
                 margin: EdgeInsets.only(bottom: _isExpanded ? 16 : 2, right: 8),
                 child: IconButton(
-                  tooltip: 'Cancel',
+                  tooltip: context.l10n.cancel,
                   icon: Icon(
                     Icons.close_rounded,
                     color: context.theme.colorScheme.onSurfaceVariant,

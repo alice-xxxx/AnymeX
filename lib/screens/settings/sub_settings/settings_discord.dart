@@ -10,6 +10,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_tile.dart';
 import 'package:anymex/widgets/common/anymex_scaffold.dart';
 import 'package:anymex/widgets/helper/scroll_wrapper.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:get/get.dart';
@@ -119,7 +120,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Watching Anime Phrasing',
                     currentVal: animeWatching,
                     defaultVal: 'Watching \$anime',
-                    hintText: 'Watching \$anime',
+                    hintText: context.l10n.watchingAnime,
                     variablesHelp: 'Variables: \$anime, \$episode, \$totalEpisodes',
                     onSave: (val) {
                       setState(() {
@@ -137,7 +138,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Anime Details Phrasing',
                     currentVal: animeDetails,
                     defaultVal: 'Viewing \$anime',
-                    hintText: 'Viewing \$anime',
+                    hintText: context.l10n.viewingAnime,
                     variablesHelp: 'Variables: \$anime',
                     onSave: (val) {
                       setState(() {
@@ -155,7 +156,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Reading Manga Phrasing',
                     currentVal: mangaReading,
                     defaultVal: 'Reading \$manga',
-                    hintText: 'Reading \$manga',
+                    hintText: context.l10n.readingManga,
                     variablesHelp:
                         'Variables: \$manga, \$chapter, \$page, \$totalPages',
                     onSave: (val) {
@@ -174,7 +175,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Manga Details Phrasing',
                     currentVal: mangaDetails,
                     defaultVal: 'Viewing \$manga',
-                    hintText: 'Viewing \$manga',
+                    hintText: context.l10n.viewingManga,
                     variablesHelp: 'Variables: \$manga',
                     onSave: (val) {
                       setState(() {
@@ -192,7 +193,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Reading Novel Phrasing',
                     currentVal: novelReading,
                     defaultVal: 'Reading \$novel',
-                    hintText: 'Reading \$novel',
+                    hintText: context.l10n.readingNovel,
                     variablesHelp: 'Variables: \$novel, \$chapter',
                     onSave: (val) {
                       setState(() {
@@ -210,7 +211,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Novel Details Phrasing',
                     currentVal: novelDetails,
                     defaultVal: 'Viewing \$novel',
-                    hintText: 'Viewing \$novel',
+                    hintText: context.l10n.viewingNovel,
                     variablesHelp: 'Variables: \$novel',
                     onSave: (val) {
                       setState(() {
@@ -228,7 +229,7 @@ class _SettingsDiscordState extends State<SettingsDiscord> {
                     title: 'Browsing Phrasing',
                     currentVal: idleFormat,
                     defaultVal: 'Browsing \$status',
-                    hintText: 'Browsing \$status',
+                    hintText: context.l10n.browsingStatus,
                     variablesHelp: 'Variables: \$status, \$title',
                     onSave: (val) {
                       setState(() {

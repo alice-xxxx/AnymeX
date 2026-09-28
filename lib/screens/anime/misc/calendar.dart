@@ -15,6 +15,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:anymex/widgets/helper/tv_wrapper.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:anymex/utils/theme_extensions.dart';
@@ -277,7 +278,7 @@ class _CalendarState extends State<Calendar>
           if (isAnilist)
             IconButton(
               onPressed: _toggleDub,
-              tooltip: isDubMode.value ? 'Show All Anime' : 'Dubbed Only',
+              tooltip: isDubMode.value ? context.l10n.showAllAnime : context.l10n.dubbedOnly,
               icon: Icon(
                 isDubMode.value
                     ? HugeIcons.strokeRoundedMicOff01
@@ -289,7 +290,7 @@ class _CalendarState extends State<Calendar>
           if (serviceHandler.isLoggedIn.value)
             IconButton(
               onPressed: changeListType,
-              tooltip: includeList ? 'In My List' : 'All Anime',
+              tooltip: includeList ? context.l10n.inMyList : context.l10n.allAnime,
               icon: Icon(
                 !includeList ? Icons.book_rounded : Icons.text_snippet_sharp,
                 size: 20,
@@ -297,7 +298,7 @@ class _CalendarState extends State<Calendar>
             ),
           IconButton(
             onPressed: changeLayout,
-            tooltip: isGrid ? 'List Layout' : 'Grid Layout',
+            tooltip: isGrid ? context.l10n.listLayout : context.l10n.gridLayout,
             icon: Icon(
               isGrid ? Icons.grid_view_rounded : Icons.view_list,
               size: 20,

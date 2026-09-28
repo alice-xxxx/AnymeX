@@ -6,6 +6,7 @@ import 'package:anymex/screens/anime/watch/controller/player_controller.dart';
 import 'package:anymex/screens/anime/watch/controls/widgets/control_button.dart';
 import 'package:anymex/screens/anime/watch/controls/widgets/progress_slider.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/services/cast/widgets/cast_device_dialog.dart';
@@ -250,13 +251,13 @@ class BottomControls extends StatelessWidget {
           controller.isEpisodePaneOpened.value =
               !controller.isEpisodePaneOpened.value;
         },
-        tooltip: 'Playlist',
+        tooltip: context.l10n.playlist,
         compact: true,
       ),
       'shaders': ControlButton(
         icon: Icons.tune_rounded,
         onPressed: () => controller.openColorProfileBottomSheet(context),
-        tooltip: 'Shaders & Color Profiles',
+        tooltip: context.l10n.shadersColorProfiles,
         compact: true,
       ),
       'source': ControlButton(
@@ -265,7 +266,7 @@ class BottomControls extends StatelessWidget {
           controller.isSourcePaneOpened.value =
               !controller.isSourcePaneOpened.value;
         },
-        tooltip: 'Quality',
+        tooltip: context.l10n.quality,
         compact: true,
       ),
       'tracks': ControlButton(
@@ -274,7 +275,7 @@ class BottomControls extends StatelessWidget {
           controller.isTracksPaneOpened.value =
               !controller.isTracksPaneOpened.value;
         },
-        tooltip: 'Subtitles',
+        tooltip: context.l10n.subtitles,
         compact: true,
       ),
       'audio': ControlButton(
@@ -283,7 +284,7 @@ class BottomControls extends StatelessWidget {
           controller.isAudioPaneOpened.value =
               !controller.isAudioPaneOpened.value;
         },
-        tooltip: 'Audio',
+        tooltip: context.l10n.audio,
         compact: true,
       ),
       'sync_subs': ControlButton(
@@ -292,7 +293,7 @@ class BottomControls extends StatelessWidget {
           controller.isSyncSubsPaneOpened.value =
               !controller.isSyncSubsPaneOpened.value;
         },
-        tooltip: 'Sync Subtitles',
+        tooltip: context.l10n.syncSubtitles,
         compact: true,
       ),
       'speed': ControlButton(
@@ -301,7 +302,7 @@ class BottomControls extends StatelessWidget {
           controller.isSpeedPaneOpened.value =
               !controller.isSpeedPaneOpened.value;
         },
-        tooltip: 'Speed',
+        tooltip: context.l10n.speed,
         compact: true,
       ),
       'orientation': Obx(() {
@@ -311,7 +312,7 @@ class BottomControls extends StatelessWidget {
               ? Icons.screen_lock_rotation_rounded
               : Icons.screen_rotation_rounded,
           onPressed: () => controller.toggleOrientation(),
-          tooltip: isLocked ? 'Unlock Orientation' : 'Lock Orientation',
+          tooltip: isLocked ? context.l10n.unlockOrientation : context.l10n.lockOrientation,
           compact: true,
         );
       }),
@@ -319,13 +320,13 @@ class BottomControls extends StatelessWidget {
         icon: Icons.fit_screen,
         onPressed: () => controller.toggleVideoFit(),
         onLongPress: controller.resetVideoFit,
-        tooltip: 'Aspect Ratio',
+        tooltip: context.l10n.aspectRatio,
         compact: true,
       ),
       'external_player': ControlButton(
         icon: Icons.launch_rounded,
         onPressed: () => controller.launchExternalPlayer(),
-        tooltip: 'External Player',
+        tooltip: context.l10n.externalPlayer,
         compact: true,
       ),
       // 'watch_together': Obx(() {
@@ -354,7 +355,7 @@ class BottomControls extends StatelessWidget {
       'cast': ControlButton(
         icon: Icons.cast_rounded,
         onPressed: () => CastDeviceDialog.show(context, controller),
-        tooltip: 'Cast to Device',
+        tooltip: context.l10n.castToDevice,
         compact: true,
       ),
     };

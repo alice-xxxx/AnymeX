@@ -9,6 +9,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_dialog.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_bottomsheet.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
 import 'package:anymex_extension_runtime_bridge/Models/Source.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -627,7 +628,7 @@ class _CustomListsEditorState extends State<CustomListsEditor> {
         controller: controller,
         style: TextStyle(color: theme.colorScheme.onSurface),
         decoration: InputDecoration(
-          hintText: 'Enter list name',
+          hintText: context.l10n.enterListName,
           hintStyle: TextStyle(
             color: theme.colorScheme.onSurface.opaque(0.5),
           ),
@@ -690,7 +691,7 @@ class _CustomListsEditorState extends State<CustomListsEditor> {
         controller: controller,
         style: TextStyle(color: theme.colorScheme.onSurface),
         decoration: InputDecoration(
-          hintText: 'Enter list name',
+          hintText: context.l10n.enterListName,
           hintStyle: TextStyle(
             color: theme.colorScheme.onSurface.opaque(0.5),
           ),
@@ -917,7 +918,7 @@ class __ListMediaEditorBottomSheetState
                                 fontSize: 14,
                               ),
                               decoration: InputDecoration(
-                                hintText: 'Search items in list...',
+                                hintText: context.l10n.searchItemsInList,
                                 hintStyle: TextStyle(
                                   color: colors.onSurface.withOpacity(0.4),
                                   fontSize: 14,

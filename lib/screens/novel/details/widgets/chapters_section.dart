@@ -15,6 +15,7 @@ import 'package:anymex/widgets/common/source_selector.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:super_sliver_list/super_sliver_list.dart';
@@ -404,7 +405,7 @@ class _ChapterSliverSectionState extends State<ChapterSliverSection> {
                       )
                     : IconButton(
                         onPressed: controller.syncDetails,
-                        tooltip: 'Sync Details',
+                        tooltip: context.l10n.syncDetails,
                         icon: const Icon(Icons.sync_rounded),
                       )),
               IconButton(

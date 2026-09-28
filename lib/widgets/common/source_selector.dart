@@ -8,6 +8,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex_extension_runtime_bridge/Services/Aniyomi/Models/Source.dart';
 import 'package:anymex_extension_runtime_bridge/Services/Sora/Models/Source.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -501,7 +502,7 @@ class _SourceSheetContentState extends State<_SourceSheetContent> {
             fontFamily: 'Linotte',
           ),
           decoration: InputDecoration(
-            hintText: 'Search sources...',
+            hintText: context.l10n.searchSources,
             hintStyle: TextStyle(
               fontSize: 14,
               fontFamily: 'Linotte',

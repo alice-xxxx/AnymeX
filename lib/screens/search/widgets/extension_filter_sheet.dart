@@ -1,4 +1,5 @@
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex_extension_runtime_bridge/Services/Mangayomi/Eval/dart/model/filter.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
@@ -583,7 +584,9 @@ class _GroupFilterWidgetState extends State<_GroupFilterWidget> {
                   color: theme.colorScheme.onSurface,
                 ),
                 decoration: InputDecoration(
-                  hintText: 'Search ${group.name.toLowerCase()}...',
+                  hintText: context.l10n.searchCategory(
+                      category:
+                          localizeAppText(context, group.name.toLowerCase())),
                   hintStyle: theme.textTheme.bodyMedium?.copyWith(
                     fontSize: 13,
                     color: theme.colorScheme.onSurface.withOpacity(0.45),

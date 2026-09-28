@@ -1,0 +1,4106 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "@home": {
+    "description": "Home"
+  },
+  "libraryLabel": "Library",
+  "@libraryLabel": {
+    "description": "Library"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search"
+  },
+  "download": "Download",
+  "@download": {
+    "description": "Download"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password"
+  },
+  "history": "History",
+  "@history": {
+    "description": "History"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings"
+  },
+  "anime": "Anime",
+  "@anime": {
+    "description": "Anime"
+  },
+  "manga": "Manga",
+  "@manga": {
+    "description": "Manga"
+  },
+  "novel": "Novel",
+  "@novel": {
+    "description": "Novel"
+  },
+  "movies": "Movies",
+  "@movies": {
+    "description": "Movies"
+  },
+  "shows": "Shows",
+  "@shows": {
+    "description": "Shows"
+  },
+  "continueWatching": "Continue Watching",
+  "@continueWatching": {
+    "description": "Continue Watching"
+  },
+  "watchlist": "Watchlist",
+  "@watchlist": {
+    "description": "Watchlist"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed"
+  },
+  "watching": "Watching",
+  "@watching": {
+    "description": "Watching"
+  },
+  "planning": "Planning",
+  "@planning": {
+    "description": "Planning"
+  },
+  "paused": "Paused",
+  "@paused": {
+    "description": "Paused"
+  },
+  "dropped": "Dropped",
+  "@dropped": {
+    "description": "Dropped"
+  },
+  "common": "Common",
+  "@common": {
+    "description": "Common"
+  },
+  "commonSettings": "Common Settings",
+  "@commonSettings": {
+    "description": "Common Settings"
+  },
+  "universal": "Universal",
+  "@universal": {
+    "description": "Universal"
+  },
+  "accountsSync": "Accounts & Sync",
+  "@accountsSync": {
+    "description": "Accounts & Sync"
+  },
+  "preferencesSystem": "Preferences & System",
+  "@preferencesSystem": {
+    "description": "Preferences & System"
+  },
+  "appearanceInterface": "Appearance & Interface",
+  "@appearanceInterface": {
+    "description": "Appearance & Interface"
+  },
+  "mediaPlayback": "Media & Playback",
+  "@mediaPlayback": {
+    "description": "Media & Playback"
+  },
+  "extensionsDiagnostics": "Extensions & Diagnostics",
+  "@extensionsDiagnostics": {
+    "description": "Extensions & Diagnostics"
+  },
+  "downloadSettings": "Download Settings",
+  "@downloadSettings": {
+    "description": "Download Settings"
+  },
+  "accounts": "Accounts",
+  "@accounts": {
+    "description": "Accounts"
+  },
+  "discordRPC": "Discord RPC",
+  "@discordRPC": {
+    "description": "Discord RPC"
+  },
+  "backupRestore": "Backup & Restore",
+  "@backupRestore": {
+    "description": "Backup & Restore"
+  },
+  "storageManager": "Storage Manager",
+  "@storageManager": {
+    "description": "Storage Manager"
+  },
+  "ui": "UI",
+  "@ui": {
+    "description": "UI"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme"
+  },
+  "player": "Player",
+  "@player": {
+    "description": "Player"
+  },
+  "reader": "Reader",
+  "@reader": {
+    "description": "Reader"
+  },
+  "extensions": "Extensions",
+  "@extensions": {
+    "description": "Extensions"
+  },
+  "logs": "Logs",
+  "@logs": {
+    "description": "Logs"
+  },
+  "addJSONFilesOrPasteAURLToInstallCustomThemes": "Add JSON files or paste a URL\nto install custom themes.",
+  "@addJSONFilesOrPasteAURLToInstallCustomThemes": {
+    "description": "Add JSON files or paste a URL\nto install custom themes."
+  },
+  "animatchCalculatesRealTimeOverlapAcrossAnimeMangaWat0b21d0e58a": "AniMatch calculates real-time overlap across:\n• Anime & Manga Watch/Read Stats\n• Mean Score & Standard Deviation Affinity\n• Release Decades (2000s, 2010s, 2020s)\n• Media Formats (TV, Movie, OVA, ONA)\n• Shared Top Genres & Tags\n• Favorite Voice Actors, Staff & Studios\n• Mutual Social Connections & Following",
+  "@animatchCalculatesRealTimeOverlapAcrossAnimeMangaWat0b21d0e58a": {
+    "description": "AniMatch calculates real-time overlap across:\n• Anime & Manga Watch/Read Stats\n• Mean Score & Standard Deviation Affinity\n• Release Decades (2000s, 2010s, 2020s)\n• Media Formats (TV, Movie, OVA, ONA)\n• Shared Top Genres & Tags\n• Favorite Voice Actors, Staff & Studios\n• Mutual Social Connections & Following"
+  },
+  "baseURLHttpsWhzwmfxngelicmjyxwmrSupabaseCo": "Base URL: https://whzwmfxngelicmjyxwmr.supabase.co",
+  "@baseURLHttpsWhzwmfxngelicmjyxwmrSupabaseCo": {
+    "description": "Base URL: https://whzwmfxngelicmjyxwmr.supabase.co"
+  },
+  "chooseAccordinglyToYourSystemSpecsMidEndEgGTX980GTX10f40eec4a4": "Choose accordingly to your system specs.\nMid End = Eg. GTX 980, GTX 1060, RX 570\nHigh End = Eg. GTX 1080, RTX 2070, RTX 3060, RX 590, Vega 56",
+  "@chooseAccordinglyToYourSystemSpecsMidEndEgGTX980GTX10f40eec4a4": {
+    "description": "Choose accordingly to your system specs.\nMid End = Eg. GTX 980, GTX 1060, RX 570\nHigh End = Eg. GTX 1080, RTX 2070, RTX 3060, RX 590, Vega 56"
+  },
+  "createYourFirstCustomListToOrganizeYourFavoriteContent": "Create your first custom list to organize\nyour favorite content",
+  "@createYourFirstCustomListToOrganizeYourFavoriteContent": {
+    "description": "Create your first custom list to organize\nyour favorite content"
+  },
+  "logInToAniListMyAnimeListOrSimklFromSettingsAccountsad1c83e3cf": "Log in to AniList, MyAnimeList or Simkl from Settings → Accounts to track this media.",
+  "@logInToAniListMyAnimeListOrSimklFromSettingsAccountsad1c83e3cf": {
+    "description": "Log in to AniList, MyAnimeList or Simkl from Settings → Accounts to track this media."
+  },
+  "toMaintainASafeAndFriendlyCommunityPleaseReadAndAcce26c0ddbd4b": "To maintain a safe and friendly community, please read and accept our comment policy before posting.\n\nWe do not tolerate spam, harassment, or offensive content.",
+  "@toMaintainASafeAndFriendlyCommunityPleaseReadAndAcce26c0ddbd4b": {
+    "description": "To maintain a safe and friendly community, please read and accept our comment policy before posting.\n\nWe do not tolerate spam, harassment, or offensive content."
+  },
+  "wrapYourScaffoldOrMainPageWidgetSmoothPageEntranceSt4a05632451": "Wrap your Scaffold or main page widget:\n\nSmoothPageEntrance(\n  style: PageEntranceStyle.slideUpGentle,\n  child: YourPageContent(),\n)",
+  "@wrapYourScaffoldOrMainPageWidgetSmoothPageEntranceSt4a05632451": {
+    "description": "Wrap your Scaffold or main page widget:\n\nSmoothPageEntrance(\n  style: PageEntranceStyle.slideUpGentle,\n  child: YourPageContent(),\n)"
+  },
+  "contactModeratorsForContentIssuesReportBugsThroughTh84dca82edf": "• Contact moderators for content issues\n• Report bugs through the app settings\n• Join our Discord community for support",
+  "@contactModeratorsForContentIssuesReportBugsThroughTh84dca82edf": {
+    "description": "• Contact moderators for content issues\n• Report bugs through the app settings\n• Join our Discord community for support"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About"
+  },
+  "aboutTheApp": "About the App",
+  "@aboutTheApp": {
+    "description": "About the App"
+  },
+  "searchSettings": "Search settings...",
+  "@searchSettings": {
+    "description": "Search settings..."
+  },
+  "search6d7a30a931": "Search...",
+  "@search6d7a30a931": {
+    "description": "Search..."
+  },
+  "tweakGeneralAppSettings": "Tweak general app settings",
+  "@tweakGeneralAppSettings": {
+    "description": "Tweak general app settings"
+  },
+  "manageYourMyAnimeListAnilistSimklAccounts": "Manage your MyAnimeList, Anilist, Simkl Accounts!",
+  "@manageYourMyAnimeListAnilistSimklAccounts": {
+    "description": "Manage your MyAnimeList, Anilist, Simkl Accounts!"
+  },
+  "configureDiscordRichPresenceActivityStatus": "Configure Discord Rich Presence & activity status",
+  "@configureDiscordRichPresenceActivityStatus": {
+    "description": "Configure Discord Rich Presence & activity status"
+  },
+  "backupAndRestoreYourLibrary": "Backup and restore your library",
+  "@backupAndRestoreYourLibrary": {
+    "description": "Backup and restore your library"
+  },
+  "manageCachedImagesThresholdsAndResetAppData": "Manage cached images, thresholds, and reset app data",
+  "@manageCachedImagesThresholdsAndResetAppData": {
+    "description": "Manage cached images, thresholds, and reset app data"
+  },
+  "customizeTheInterfaceToYourLiking": "Customize the interface to your liking",
+  "@customizeTheInterfaceToYourLiking": {
+    "description": "Customize the interface to your liking"
+  },
+  "personalizeTheLookAndMakeItYours": "Personalize the look and make it yours",
+  "@personalizeTheLookAndMakeItYours": {
+    "description": "Personalize the look and make it yours"
+  },
+  "playAroundWithTheVideoPlayer": "Play around with the video player",
+  "@playAroundWithTheVideoPlayer": {
+    "description": "Play around with the video player"
+  },
+  "configureMangaAndNovelReaderDefaults": "Configure manga and novel reader defaults",
+  "@configureMangaAndNovelReaderDefaults": {
+    "description": "Configure manga and novel reader defaults"
+  },
+  "configureParallelDownloadsAndDirectory": "Configure parallel downloads and directory",
+  "@configureParallelDownloadsAndDirectory": {
+    "description": "Configure parallel downloads and directory"
+  },
+  "extensionsTailoredToYourNeeds": "Extensions tailored to your needs",
+  "@extensionsTailoredToYourNeeds": {
+    "description": "Extensions tailored to your needs"
+  },
+  "manageLogCaptureAndShareSavedLogs": "Manage log capture and share saved logs",
+  "@manageLogCaptureAndShareSavedLogs": {
+    "description": "Manage log capture and share saved logs"
+  },
+  "askForTrackingPermission": "Ask for tracking permission",
+  "@askForTrackingPermission": {
+    "description": "Ask for tracking permission"
+  },
+  "ifEnabledAnymexWillAskForTrackingPermissionIfNotThenbf1d7165c3": "If enabled, Anymex will ask for tracking permission if not then it will track by default.",
+  "@ifEnabledAnymexWillAskForTrackingPermissionIfNotThenbf1d7165c3": {
+    "description": "If enabled, Anymex will ask for tracking permission if not then it will track by default."
+  },
+  "unifiedLibrary": "Unified Library",
+  "@unifiedLibrary": {
+    "description": "Unified Library"
+  },
+  "ifEnabledAllLibraryItemsWillBeSharedAcrossAllTrackingServices": "If enabled, all library items will be shared across all tracking services.",
+  "@ifEnabledAllLibraryItemsWillBeSharedAcrossAllTrackingServices": {
+    "description": "If enabled, all library items will be shared across all tracking services."
+  },
+  "hideAdultContent": "Hide Adult Content",
+  "@hideAdultContent": {
+    "description": "Hide Adult Content"
+  },
+  "ifEnabledYouWillNotGetAPromptForEnablingAdultContentf57776e078": "If enabled, you will not get a prompt for enabling adult content on Anilist/MyAnimeList.",
+  "@ifEnabledYouWillNotGetAPromptForEnablingAdultContentf57776e078": {
+    "description": "If enabled, you will not get a prompt for enabling adult content on Anilist/MyAnimeList."
+  },
+  "showContinueWatchingOnHome": "Show Continue Watching on Home",
+  "@showContinueWatchingOnHome": {
+    "description": "Show Continue Watching on Home"
+  },
+  "ifEnabledAContinueWatchingBarWillBeShownAboveTheBottc417110144": "If enabled, a continue watching bar will be shown above the bottom navigation bar on the home page.",
+  "@ifEnabledAContinueWatchingBarWillBeShownAboveTheBottc417110144": {
+    "description": "If enabled, a continue watching bar will be shown above the bottom navigation bar on the home page."
+  },
+  "communityRecommendations": "Community Recommendations",
+  "@communityRecommendations": {
+    "description": "Community Recommendations"
+  },
+  "showCommunityRecommendations": "Show Community Recommendations",
+  "@showCommunityRecommendations": {
+    "description": "Show Community Recommendations"
+  },
+  "displayAnimeMangaMoviesAndShowsRecommendedByTheCommu246408cbbd": "Display anime, manga, movies and shows recommended by the community on the home page.",
+  "@displayAnimeMangaMoviesAndShowsRecommendedByTheCommu246408cbbd": {
+    "description": "Display anime, manga, movies and shows recommended by the community on the home page."
+  },
+  "hideNSFWRecommendations": "Hide NSFW Recommendations",
+  "@hideNSFWRecommendations": {
+    "description": "Hide NSFW Recommendations"
+  },
+  "filterOutAdultNSFWEntriesFromCommunityRecommendations": "Filter out adult/NSFW entries from community recommendations.",
+  "@filterOutAdultNSFWEntriesFromCommunityRecommendations": {
+    "description": "Filter out adult/NSFW entries from community recommendations."
+  },
+  "hideByListStatus": "Hide by List Status",
+  "@hideByListStatus": {
+    "description": "Hide by List Status"
+  },
+  "filterOutEntriesAlreadyInYourListBasedOnWatchingReadingStatus": "Filter out entries already in your list based on watching/reading status.",
+  "@filterOutEntriesAlreadyInYourListBasedOnWatchingReadingStatus": {
+    "description": "Filter out entries already in your list based on watching/reading status."
+  },
+  "hideCompleted": "Hide Completed",
+  "@hideCompleted": {
+    "description": "Hide Completed"
+  },
+  "hideEntriesThatAreMarkedAsCompletedInYourList": "Hide entries that are marked as completed in your list.",
+  "@hideEntriesThatAreMarkedAsCompletedInYourList": {
+    "description": "Hide entries that are marked as completed in your list."
+  },
+  "hideWatchingReading": "Hide Watching / Reading",
+  "@hideWatchingReading": {
+    "description": "Hide Watching / Reading"
+  },
+  "hideEntriesThatYouAreCurrentlyWatching": "Hide entries that you are currently watching.",
+  "@hideEntriesThatYouAreCurrentlyWatching": {
+    "description": "Hide entries that you are currently watching."
+  },
+  "hideEntriesThatYouAreCurrentlyWatchingReading": "Hide entries that you are currently watching/reading.",
+  "@hideEntriesThatYouAreCurrentlyWatchingReading": {
+    "description": "Hide entries that you are currently watching/reading."
+  },
+  "hideDropped": "Hide Dropped",
+  "@hideDropped": {
+    "description": "Hide Dropped"
+  },
+  "hideEntriesThatYouHaveDropped": "Hide entries that you have dropped.",
+  "@hideEntriesThatYouHaveDropped": {
+    "description": "Hide entries that you have dropped."
+  },
+  "hidePlanning": "Hide Planning",
+  "@hidePlanning": {
+    "description": "Hide Planning"
+  },
+  "hideEntriesThatAreInYourPlanList": "Hide entries that are in your plan list.",
+  "@hideEntriesThatAreInYourPlanList": {
+    "description": "Hide entries that are in your plan list."
+  },
+  "hideOnHoldPaused": "Hide On Hold / Paused",
+  "@hideOnHoldPaused": {
+    "description": "Hide On Hold / Paused"
+  },
+  "hideEntriesThatYouHavePutOnHold": "Hide entries that you have put on hold.",
+  "@hideEntriesThatYouHavePutOnHold": {
+    "description": "Hide entries that you have put on hold."
+  },
+  "hideRewatching": "Hide Rewatching",
+  "@hideRewatching": {
+    "description": "Hide Rewatching"
+  },
+  "hideEntriesThatYouAreRewatching": "Hide entries that you are rewatching.",
+  "@hideEntriesThatYouAreRewatching": {
+    "description": "Hide entries that you are rewatching."
+  },
+  "anilist": "Anilist",
+  "@anilist": {
+    "description": "Anilist"
+  },
+  "myanimelist": "MyAnimeList",
+  "@myanimelist": {
+    "description": "MyAnimeList"
+  },
+  "simkl": "Simkl",
+  "@simkl": {
+    "description": "Simkl"
+  },
+  "manageAnilistLists": "Manage Anilist Lists",
+  "@manageAnilistLists": {
+    "description": "Manage Anilist Lists"
+  },
+  "manageMyAnimeListLists": "Manage MyAnimeList Lists",
+  "@manageMyAnimeListLists": {
+    "description": "Manage MyAnimeList Lists"
+  },
+  "chooseWhichListToShowOnHomePage": "Choose which list to show on home page",
+  "@chooseWhichListToShowOnHomePage": {
+    "description": "Choose which list to show on home page"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language"
+  },
+  "followSystem": "Follow system",
+  "@followSystem": {
+    "description": "Follow system"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Done"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "Remove"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add"
+  },
+  "update": "Update",
+  "@update": {
+    "description": "Update"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading..."
+  },
+  "noResultsFound": "No results found",
+  "@noResultsFound": {
+    "description": "No results found"
+  },
+  "noResultsFounde9cc6d0e9a": "No results found.",
+  "@noResultsFounde9cc6d0e9a": {
+    "description": "No results found."
+  },
+  "noDataAvailable": "No data available",
+  "@noDataAvailable": {
+    "description": "No data available"
+  },
+  "noDataAvailable929ebf2080": "No data available.",
+  "@noDataAvailable929ebf2080": {
+    "description": "No data available."
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error"
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success"
+  },
+  "failed": "Failed",
+  "@failed": {
+    "description": "Failed"
+  },
+  "unknown": "Unknown",
+  "@unknown": {
+    "description": "Unknown"
+  },
+  "source": "Source",
+  "@source": {
+    "description": "Source"
+  },
+  "status": "Status",
+  "@status": {
+    "description": "Status"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name"
+  },
+  "title": "Title",
+  "@title": {
+    "description": "Title"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Description"
+  },
+  "sort": "Sort",
+  "@sort": {
+    "description": "Sort"
+  },
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset"
+  },
+  "enabled": "Enabled",
+  "@enabled": {
+    "description": "Enabled"
+  },
+  "disabled": "Disabled",
+  "@disabled": {
+    "description": "Disabled"
+  },
+  "on": "On",
+  "@on": {
+    "description": "On"
+  },
+  "off": "Off",
+  "@off": {
+    "description": "Off"
+  },
+  "auto": "Auto",
+  "@auto": {
+    "description": "Auto"
+  },
+  "none": "None",
+  "@none": {
+    "description": "None"
+  },
+  "defaultLabel": "Default",
+  "@defaultLabel": {
+    "description": "Default"
+  },
+  "unknownError": "Unknown error",
+  "@unknownError": {
+    "description": "Unknown error"
+  },
+  "somethingWentWrong": "Something went wrong",
+  "@somethingWentWrong": {
+    "description": "Something went wrong"
+  },
+  "noInternetConnection": "No internet connection",
+  "@noInternetConnection": {
+    "description": "No internet connection"
+  },
+  "copiedToClipboard": "Copied to clipboard",
+  "@copiedToClipboard": {
+    "description": "Copied to clipboard"
+  },
+  "copiedToClipboard46322ff3b9": "Copied to clipboard.",
+  "@copiedToClipboard46322ff3b9": {
+    "description": "Copied to clipboard."
+  },
+  "areYouSure": "Are you sure?",
+  "@areYouSure": {
+    "description": "Are you sure?"
+  },
+  "thisActionCannotBeUndone": "This action cannot be undone.",
+  "@thisActionCannotBeUndone": {
+    "description": "This action cannot be undone."
+  },
+  "plannedFeatures": "Planned features:",
+  "@plannedFeatures": {
+    "description": "Planned features:"
+  },
+  "editReason": "Edit Reason",
+  "@editReason": {
+    "description": "Edit Reason"
+  },
+  "moreOptions": "More Options",
+  "@moreOptions": {
+    "description": "More Options"
+  },
+  "pleaseLoginFirst": "Please login first",
+  "@pleaseLoginFirst": {
+    "description": "Please login first"
+  },
+  "selectServer": "Select Server",
+  "@selectServer": {
+    "description": "Select Server"
+  },
+  "userIDCopiedToClipboard": "User ID copied to clipboard",
+  "@userIDCopiedToClipboard": {
+    "description": "User ID copied to clipboard"
+  },
+  "vs": "vs",
+  "@vs": {
+    "description": "vs"
+  },
+  "deleteComment": "Delete Comment",
+  "@deleteComment": {
+    "description": "Delete Comment"
+  },
+  "filterByGenre": "Filter by Genre",
+  "@filterByGenre": {
+    "description": "Filter by Genre"
+  },
+  "leave": "Leave",
+  "@leave": {
+    "description": "Leave"
+  },
+  "noServersAvailable": "No servers available",
+  "@noServersAvailable": {
+    "description": "No servers available"
+  },
+  "saveChanges": "Save Changes",
+  "@saveChanges": {
+    "description": "Save Changes"
+  },
+  "sortBy": "Sort By",
+  "@sortBy": {
+    "description": "Sort By"
+  },
+  "track": "Track",
+  "@track": {
+    "description": "Track"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try Again"
+  },
+  "sRecs": "'s Recs",
+  "@sRecs": {
+    "description": "'s Recs"
+  },
+  "message18": "18+",
+  "@message18": {
+    "description": "18+"
+  },
+  "activityDeleted": "Activity deleted",
+  "@activityDeleted": {
+    "description": "Activity deleted"
+  },
+  "activityRefreshed": "Activity refreshed",
+  "@activityRefreshed": {
+    "description": "Activity refreshed"
+  },
+  "addYourRecommendation": "Add Your Recommendation",
+  "@addYourRecommendation": {
+    "description": "Add Your Recommendation"
+  },
+  "black": "Black",
+  "@black": {
+    "description": "Black"
+  },
+  "chapters": "Chapters",
+  "@chapters": {
+    "description": "Chapters"
+  },
+  "chooseQuality": "Choose Quality",
+  "@chooseQuality": {
+    "description": "Choose Quality"
+  },
+  "deleteReason": "Delete Reason?",
+  "@deleteReason": {
+    "description": "Delete Reason?"
+  },
+  "direct": "Direct",
+  "@direct": {
+    "description": "Direct"
+  },
+  "editActivity": "Edit Activity",
+  "@editActivity": {
+    "description": "Edit Activity"
+  },
+  "editComment": "Edit Comment",
+  "@editComment": {
+    "description": "Edit Comment"
+  },
+  "filler": "FILLER",
+  "@filler": {
+    "description": "FILLER"
+  },
+  "failedToLoadPage": "Failed to load page",
+  "@failedToLoadPage": {
+    "description": "Failed to load page"
+  },
+  "goBack": "Go Back",
+  "@goBack": {
+    "description": "Go Back"
+  },
+  "hls": "HLS",
+  "@hls": {
+    "description": "HLS"
+  },
+  "host": "HOST",
+  "@host": {
+    "description": "HOST"
+  },
+  "harassment": "Harassment",
+  "@harassment": {
+    "description": "Harassment"
+  },
+  "holdToUnlock": "Hold to Unlock",
+  "@holdToUnlock": {
+    "description": "Hold to Unlock"
+  },
+  "inappropriateContent": "Inappropriate Content",
+  "@inappropriateContent": {
+    "description": "Inappropriate Content"
+  },
+  "join": "Join",
+  "@join": {
+    "description": "Join"
+  },
+  "layoutStyle": "Layout Style",
+  "@layoutStyle": {
+    "description": "Layout Style"
+  },
+  "leaveWatchTogether": "Leave Watch Together?",
+  "@leaveWatchTogether": {
+    "description": "Leave Watch Together?"
+  },
+  "libraryStatistics": "Library Statistics",
+  "@libraryStatistics": {
+    "description": "Library Statistics"
+  },
+  "likedBy": "Liked by",
+  "@likedBy": {
+    "description": "Liked by"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login"
+  },
+  "loginWithToken": "Login with Token",
+  "@loginWithToken": {
+    "description": "Login with Token"
+  },
+  "logoName": "Logo Name:",
+  "@logoName": {
+    "description": "Logo Name:"
+  },
+  "misinformation": "Misinformation",
+  "@misinformation": {
+    "description": "Misinformation"
+  },
+  "noChaptersFound": "No chapters found",
+  "@noChaptersFound": {
+    "description": "No chapters found"
+  },
+  "noExtensionsFound": "No extensions found",
+  "@noExtensionsFound": {
+    "description": "No extensions found"
+  },
+  "noMoreActivities": "No more activities",
+  "@noMoreActivities": {
+    "description": "No more activities"
+  },
+  "noRecommendationsFound": "No recommendations found",
+  "@noRecommendationsFound": {
+    "description": "No recommendations found"
+  },
+  "noServersFound": "No servers found.",
+  "@noServersFound": {
+    "description": "No servers found."
+  },
+  "noStatsAvailable": "No stats available",
+  "@noStatsAvailable": {
+    "description": "No stats available"
+  },
+  "notificationSettings": "Notification Settings",
+  "@notificationSettings": {
+    "description": "Notification Settings"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK"
+  },
+  "offensiveLanguage": "Offensive Language",
+  "@offensiveLanguage": {
+    "description": "Offensive Language"
+  },
+  "onMyList": "On My List",
+  "@onMyList": {
+    "description": "On My List"
+  },
+  "oopsSomethingWentWrong": "Oops! Something went wrong",
+  "@oopsSomethingWentWrong": {
+    "description": "Oops! Something went wrong"
+  },
+  "other": "Other",
+  "@other": {
+    "description": "Other"
+  },
+  "pleaseSelectAReasonForReportingThisComment": "Please select a reason for reporting this comment:",
+  "@pleaseSelectAReasonForReportingThisComment": {
+    "description": "Please select a reason for reporting this comment:"
+  },
+  "preview": "Preview",
+  "@preview": {
+    "description": "Preview"
+  },
+  "private": "Private",
+  "@private": {
+    "description": "Private"
+  },
+  "random": "Random",
+  "@random": {
+    "description": "Random"
+  },
+  "range": "Range",
+  "@range": {
+    "description": "Range"
+  },
+  "read": "Read",
+  "@read": {
+    "description": "Read"
+  },
+  "readerSettings": "Reader Settings",
+  "@readerSettings": {
+    "description": "Reader Settings"
+  },
+  "recentNews": "Recent News",
+  "@recentNews": {
+    "description": "Recent News"
+  },
+  "report": "Report",
+  "@report": {
+    "description": "Report"
+  },
+  "reportComment": "Report Comment",
+  "@reportComment": {
+    "description": "Report Comment"
+  },
+  "scaleFactor": "Scale Factor",
+  "@scaleFactor": {
+    "description": "Scale Factor"
+  },
+  "scanningForMoreServers": "Scanning for more servers...",
+  "@scanningForMoreServers": {
+    "description": "Scanning for more servers..."
+  },
+  "scanningForVideoStreams": "Scanning for video streams...",
+  "@scanningForVideoStreams": {
+    "description": "Scanning for video streams..."
+  },
+  "searching": "Searching...",
+  "@searching": {
+    "description": "Searching..."
+  },
+  "sizeMode": "Size Mode:",
+  "@sizeMode": {
+    "description": "Size Mode:"
+  },
+  "spam": "Spam",
+  "@spam": {
+    "description": "Spam"
+  },
+  "switchToOnline": "Switch to Online",
+  "@switchToOnline": {
+    "description": "Switch to Online"
+  },
+  "sync": "Sync",
+  "@sync": {
+    "description": "Sync"
+  },
+  "synopsis": "Synopsis",
+  "@synopsis": {
+    "description": "Synopsis"
+  },
+  "tapRetryToAttemptLoadingAgain": "Tap retry to attempt loading again",
+  "@tapRetryToAttemptLoadingAgain": {
+    "description": "Tap retry to attempt loading again"
+  },
+  "thisMayTakeUpTo30Seconds": "This may take up to 30 seconds",
+  "@thisMayTakeUpTo30Seconds": {
+    "description": "This may take up to 30 seconds"
+  },
+  "voiceActors": "Voice Actors",
+  "@voiceActors": {
+    "description": "Voice Actors"
+  },
+  "wasThisHelpful": "Was this helpful?",
+  "@wasThisHelpful": {
+    "description": "Was this helpful?"
+  },
+  "white": "White",
+  "@white": {
+    "description": "White"
+  },
+  "wrongTitle": "Wrong Title?",
+  "@wrongTitle": {
+    "description": "Wrong Title?"
+  },
+  "youWillLeaveTheRoomAndStopWatchingWithEveryone": "You will leave the room and stop watching with everyone.",
+  "@youWillLeaveTheRoomAndStopWatchingWithEveryone": {
+    "description": "You will leave the room and stop watching with everyone."
+  },
+  "download4KShaders": "Download 4K Shaders",
+  "@download4KShaders": {
+    "description": "Download 4K Shaders"
+  },
+  "downloadFailed": "Download Failed",
+  "@downloadFailed": {
+    "description": "Download Failed"
+  },
+  "downloadSize4MB": "Download size: ~4MB",
+  "@downloadSize4MB": {
+    "description": "Download size: ~4MB"
+  },
+  "dragToReorderStatusSections": "Drag to reorder status sections",
+  "@dragToReorderStatusSections": {
+    "description": "Drag to reorder status sections"
+  },
+  "dynamicVariablesWillBeReplacedAutomaticallyYouCanAls16613742bb": "Dynamic variables will be replaced automatically. You can also use a static phrase.",
+  "@dynamicVariablesWillBeReplacedAutomaticallyYouCanAls16613742bb": {
+    "description": "Dynamic variables will be replaced automatically. You can also use a static phrase."
+  },
+  "editMediaEntry": "Edit Media Entry",
+  "@editMediaEntry": {
+    "description": "Edit Media Entry"
+  },
+  "edited": "Edited",
+  "@edited": {
+    "description": "Edited"
+  },
+  "enableExperimentalInPlayerSettingsToUseThisTab": "Enable Experimental in Player Settings to use this tab.",
+  "@enableExperimentalInPlayerSettingsToUseThisTab": {
+    "description": "Enable Experimental in Player Settings to use this tab."
+  },
+  "enableShaders": "Enable Shaders",
+  "@enableShaders": {
+    "description": "Enable Shaders"
+  },
+  "enterGitHubRepositoryURL": "Enter GitHub repository URL",
+  "@enterGitHubRepositoryURL": {
+    "description": "Enter GitHub repository URL"
+  },
+  "enterA6CharacterRoomCodeToJoinAWatchParty": "Enter a 6-character room code to join a watch party",
+  "@enterA6CharacterRoomCodeToJoinAWatchParty": {
+    "description": "Enter a 6-character room code to join a watch party"
+  },
+  "episodes": "Episodes",
+  "@episodes": {
+    "description": "Episodes"
+  },
+  "errorOccured": "Error Occured",
+  "@errorOccured": {
+    "description": "Error Occured"
+  },
+  "errorOccurred": "Error Occurred",
+  "@errorOccurred": {
+    "description": "Error Occurred"
+  },
+  "errorLoadingChaptersFromSource": "Error loading chapters from source",
+  "@errorLoadingChaptersFromSource": {
+    "description": "Error loading chapters from source"
+  },
+  "errorLoadingEpisodesFromSource": "Error loading episodes from source",
+  "@errorLoadingEpisodesFromSource": {
+    "description": "Error loading episodes from source"
+  },
+  "everyScoreIsMappedToARankTheTableBelowShowsEachBracke6579f8869": "Every score is mapped to a rank. The table below shows each bracket, its badge, and what the range represents.",
+  "@everyScoreIsMappedToARankTheTableBelowShowsEachBracke6579f8869": {
+    "description": "Every score is mapped to a rank. The table below shows each bracket, its badge, and what the range represents."
+  },
+  "exportSettings": "Export Settings",
+  "@exportSettings": {
+    "description": "Export Settings"
+  },
+  "extensionManagerIsNotSupportedOnIOS": "Extension Manager is not supported on iOS.",
+  "@extensionManagerIsNotSupportedOnIOS": {
+    "description": "Extension Manager is not supported on iOS."
+  },
+  "extensionSettings": "Extension Settings",
+  "@extensionSettings": {
+    "description": "Extension Settings"
+  },
+  "extensionType": "Extension Type",
+  "@extensionType": {
+    "description": "Extension Type"
+  },
+  "externalBrowser": "External Browser",
+  "@externalBrowser": {
+    "description": "External Browser"
+  },
+  "filters": "FILTERS",
+  "@filters": {
+    "description": "FILTERS"
+  },
+  "failedToStartExtensionRuntime": "Failed to Start Extension Runtime",
+  "@failedToStartExtensionRuntime": {
+    "description": "Failed to Start Extension Runtime"
+  },
+  "failedToFetchServers": "Failed to fetch servers",
+  "@failedToFetchServers": {
+    "description": "Failed to fetch servers"
+  },
+  "failedToLoadChapter": "Failed to load chapter",
+  "@failedToLoadChapter": {
+    "description": "Failed to load chapter"
+  },
+  "failedToLoadDetails": "Failed to load details",
+  "@failedToLoadDetails": {
+    "description": "Failed to load details"
+  },
+  "failedToLoadProfileAccountMayBePrivateOrNotFound": "Failed to load profile — account may be private or not found",
+  "@failedToLoadProfileAccountMayBePrivateOrNotFound": {
+    "description": "Failed to load profile — account may be private or not found"
+  },
+  "fast": "Fast",
+  "@fast": {
+    "description": "Fast"
+  },
+  "favoriteTitle": "Favorite Title",
+  "@favoriteTitle": {
+    "description": "Favorite Title"
+  },
+  "fetchingAvailableServers": "Fetching available servers...",
+  "@fetchingAvailableServers": {
+    "description": "Fetching available servers..."
+  },
+  "fetchingFromFirstEpisodeAutoMatchedForBatch": "Fetching from first episode · auto-matched for batch",
+  "@fetchingFromFirstEpisodeAutoMatchedForBatch": {
+    "description": "Fetching from first episode · auto-matched for batch"
+  },
+  "fetchingLatestReleaseDetails": "Fetching latest release details...",
+  "@fetchingLatestReleaseDetails": {
+    "description": "Fetching latest release details..."
+  },
+  "filterActivity": "Filter Activity",
+  "@filterActivity": {
+    "description": "Filter Activity"
+  },
+  "filters96e578211a": "Filters",
+  "@filters96e578211a": {
+    "description": "Filters"
+  },
+  "findSource": "Find Source",
+  "@findSource": {
+    "description": "Find Source"
+  },
+  "findAnimeSauceByScreenshots": "Find anime sauce by screenshots",
+  "@findAnimeSauceByScreenshots": {
+    "description": "Find anime sauce by screenshots"
+  },
+  "findYourFavouriteAnimeMangaManhwaOrWhateverYouLike": "Find your favourite Anime, Manga, Manhwa or whatever you like!",
+  "@findYourFavouriteAnimeMangaManhwaOrWhateverYouLike": {
+    "description": "Find your favourite Anime, Manga, Manhwa or whatever you like!"
+  },
+  "findYourFavouriteAnimeOrMangaManhwaOrWhateverYouLike": "Find your favourite anime or manga, manhwa or whatever you like!",
+  "@findYourFavouriteAnimeOrMangaManhwaOrWhateverYouLike": {
+    "description": "Find your favourite anime or manga, manhwa or whatever you like!"
+  },
+  "fineTuneIndividualSettingsToYourPreference": "Fine-tune individual settings to your preference",
+  "@fineTuneIndividualSettingsToYourPreference": {
+    "description": "Fine-tune individual settings to your preference"
+  },
+  "flashColor": "Flash Color",
+  "@flashColor": {
+    "description": "Flash Color"
+  },
+  "frequentlyRevisited": "Frequently Revisited",
+  "@frequentlyRevisited": {
+    "description": "Frequently Revisited"
+  },
+  "friendsNeedAPasswordToJoin": "Friends need a password to join",
+  "@friendsNeedAPasswordToJoin": {
+    "description": "Friends need a password to join"
+  },
+  "fromURL": "From URL",
+  "@fromURL": {
+    "description": "From URL"
+  },
+  "full": "Full",
+  "@full": {
+    "description": "Full"
+  },
+  "genres": "Genres",
+  "@genres": {
+    "description": "Genres"
+  },
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "Get Started"
+  },
+  "githubGistSync": "GitHub Gist Sync",
+  "@githubGistSync": {
+    "description": "GitHub Gist Sync"
+  },
+  "goToExtensionsToGetStarted": "Go to Extensions to get started",
+  "@goToExtensionsToGetStarted": {
+    "description": "Go to Extensions to get started"
+  },
+  "goToPluginDownloader": "Go to Plugin Downloader",
+  "@goToPluginDownloader": {
+    "description": "Go to Plugin Downloader"
+  },
+  "grantPermission": "Grant Permission",
+  "@grantPermission": {
+    "description": "Grant Permission"
+  },
+  "grantPermissions": "Grant Permissions",
+  "@grantPermissions": {
+    "description": "Grant Permissions"
+  },
+  "gray": "Gray",
+  "@gray": {
+    "description": "Gray"
+  },
+  "helpSupport": "Help & Support",
+  "@helpSupport": {
+    "description": "Help & Support"
+  },
+  "hiddenTabs": "Hidden Tabs",
+  "@hiddenTabs": {
+    "description": "Hidden Tabs"
+  },
+  "highBicubic": "High (Bicubic)",
+  "@highBicubic": {
+    "description": "High (Bicubic)"
+  },
+  "holdAndDragAnyItemToReorder": "Hold and drag any item to reorder",
+  "@holdAndDragAnyItemToReorder": {
+    "description": "Hold and drag any item to reorder"
+  },
+  "howItWorksCompatibilityRanks": "How it works & Compatibility Ranks",
+  "@howItWorksCompatibilityRanks": {
+    "description": "How it works & Compatibility Ranks"
+  },
+  "howToUseTheCommentSystem": "How to use the comment system:",
+  "@howToUseTheCommentSystem": {
+    "description": "How to use the comment system:"
+  },
+  "hue": "Hue",
+  "@hue": {
+    "description": "Hue"
+  },
+  "ifYouAreUsingAJSONThemeChangesHereWillNotAffectPlaye1550c0564d": "If you are using a JSON theme, changes here will not affect player controls. Switch to a built-in theme to apply these settings.",
+  "@ifYouAreUsingAJSONThemeChangesHereWillNotAffectPlaye1550c0564d": {
+    "description": "If you are using a JSON theme, changes here will not affect player controls. Switch to a built-in theme to apply these settings."
+  },
+  "imageFilterQuality": "Image Filter Quality",
+  "@imageFilterQuality": {
+    "description": "Image Filter Quality"
+  },
+  "imagesWillBeDownloadedInFullQualityEachChapterIsStorb358930ac9": "Images will be downloaded in full quality. Each chapter is stored in its own folder.",
+  "@imagesWillBeDownloadedInFullQualityEachChapterIsStorb358930ac9": {
+    "description": "Images will be downloaded in full quality. Each chapter is stored in its own folder."
+  },
+  "importLabel": "Import",
+  "@importLabel": {
+    "description": "Import"
+  },
+  "importManageCustomJSONThemes": "Import & manage custom JSON themes",
+  "@importManageCustomJSONThemes": {
+    "description": "Import & manage custom JSON themes"
+  },
+  "importFromURL": "Import from URL",
+  "@importFromURL": {
+    "description": "Import from URL"
+  },
+  "insert": "Insert",
+  "@insert": {
+    "description": "Insert"
+  },
+  "installedThemes": "Installed Themes",
+  "@installedThemes": {
+    "description": "Installed Themes"
+  },
+  "internalBrowser": "Internal Browser",
+  "@internalBrowser": {
+    "description": "Internal Browser"
+  },
+  "inviteLink": "Invite Link",
+  "@inviteLink": {
+    "description": "Invite Link"
+  },
+  "joinNewDiscord": "Join New Discord",
+  "@joinNewDiscord": {
+    "description": "Join New Discord"
+  },
+  "joinTelegramChannel": "Join Telegram Channel",
+  "@joinTelegramChannel": {
+    "description": "Join Telegram Channel"
+  },
+  "joinWithCode": "Join with Code",
+  "@joinWithCode": {
+    "description": "Join with Code"
+  },
+  "join630a81aa29": "Join →",
+  "@join630a81aa29": {
+    "description": "Join →"
+  },
+  "keepEditing": "Keep editing",
+  "@keepEditing": {
+    "description": "Keep editing"
+  },
+  "livePREVIEW": "LIVE PREVIEW",
+  "@livePREVIEW": {
+    "description": "LIVE PREVIEW"
+  },
+  "lanczosPreScaleBestQualitySlower": "Lanczos Pre-scale (Best quality, slower)",
+  "@lanczosPreScaleBestQualitySlower": {
+    "description": "Lanczos Pre-scale (Best quality, slower)"
+  },
+  "languageVariant": "Language Variant",
+  "@languageVariant": {
+    "description": "Language Variant"
+  },
+  "levelProgress": "Level Progress",
+  "@levelProgress": {
+    "description": "Level Progress"
+  },
+  "librarySettings": "Library Settings",
+  "@librarySettings": {
+    "description": "Library Settings"
+  },
+  "lightness": "Lightness",
+  "@lightness": {
+    "description": "Lightness"
+  },
+  "loadingMedia": "Loading Media...",
+  "@loadingMedia": {
+    "description": "Loading Media..."
+  },
+  "loadingChapter": "Loading chapter...",
+  "@loadingChapter": {
+    "description": "Loading chapter..."
+  },
+  "loadingComments": "Loading comments...",
+  "@loadingComments": {
+    "description": "Loading comments..."
+  },
+  "loadingMediaFiles": "Loading media files...",
+  "@loadingMediaFiles": {
+    "description": "Loading media files..."
+  },
+  "loadingPages": "Loading pages...",
+  "@loadingPages": {
+    "description": "Loading pages..."
+  },
+  "localLibrary": "Local Library",
+  "@localLibrary": {
+    "description": "Local Library"
+  },
+  "lockThread": "Lock Thread",
+  "@lockThread": {
+    "description": "Lock Thread"
+  },
+  "logOut": "Log Out",
+  "@logOut": {
+    "description": "Log Out"
+  },
+  "logInToAniListMyAnimeListOrSimklFromSettingsAccounts": "Log in to AniList, MyAnimeList or Simkl from Settings → Accounts",
+  "@logInToAniListMyAnimeListOrSimklFromSettingsAccounts": {
+    "description": "Log in to AniList, MyAnimeList or Simkl from Settings → Accounts"
+  },
+  "loggedInTrackingServices": "Logged-in tracking services",
+  "@loggedInTrackingServices": {
+    "description": "Logged-in tracking services"
+  },
+  "loginInsideTheAppRecommended": "Login inside the app (Recommended)",
+  "@loginInsideTheAppRecommended": {
+    "description": "Login inside the app (Recommended)"
+  },
+  "loginSessionsForMALSimklEtc": "Login sessions for MAL, Simkl, etc.",
+  "@loginSessionsForMALSimklEtc": {
+    "description": "Login sessions for MAL, Simkl, etc."
+  },
+  "loginToDiscord": "Login to Discord",
+  "@loginToDiscord": {
+    "description": "Login to Discord"
+  },
+  "loginUsingYourDefaultBrowser": "Login using your default browser",
+  "@loginUsingYourDefaultBrowser": {
+    "description": "Login using your default browser"
+  },
+  "lowBilinear": "Low (Bilinear)",
+  "@lowBilinear": {
+    "description": "Low (Bilinear)"
+  },
+  "makeDefaultSpeed": "Make Default Speed",
+  "@makeDefaultSpeed": {
+    "description": "Make Default Speed"
+  },
+  "manage": "Manage",
+  "@manage": {
+    "description": "Manage"
+  },
+  "manageGitHubGistSync": "Manage GitHub Gist Sync",
+  "@manageGitHubGistSync": {
+    "description": "Manage GitHub Gist Sync"
+  },
+  "manageUser": "Manage User",
+  "@manageUser": {
+    "description": "Manage User"
+  },
+  "manageDeviceStorageAndNotificationsToDownloadAndMana61224b3d5a": "Manage device storage and notifications to download and manage your media offline.",
+  "@manageDeviceStorageAndNotificationsToDownloadAndMana61224b3d5a": {
+    "description": "Manage device storage and notifications to download and manage your media offline."
+  },
+  "managePluginsSources": "Manage plugins & sources",
+  "@managePluginsSources": {
+    "description": "Manage plugins & sources"
+  },
+  "mangaCustomLists": "Manga Custom Lists",
+  "@mangaCustomLists": {
+    "description": "Manga Custom Lists"
+  },
+  "mangaLibrary": "Manga Library",
+  "@mangaLibrary": {
+    "description": "Manga Library"
+  },
+  "manuallyPasteOAuthAccessToken": "Manually paste OAuth access token",
+  "@manuallyPasteOAuthAccessToken": {
+    "description": "Manually paste OAuth access token"
+  },
+  "maxMembers": "Max Members",
+  "@maxMembers": {
+    "description": "Max Members"
+  },
+  "meanScore": "Mean Score",
+  "@meanScore": {
+    "description": "Mean Score"
+  },
+  "mediaYouDownloadWillAppearHere": "Media you download will appear here.",
+  "@mediaYouDownloadWillAppearHere": {
+    "description": "Media you download will appear here."
+  },
+  "mediumDefault": "Medium (Default)",
+  "@mediumDefault": {
+    "description": "Medium (Default)"
+  },
+  "moderationHistory": "Moderation History",
+  "@moderationHistory": {
+    "description": "Moderation History"
+  },
+  "moderationPanel": "Moderation Panel",
+  "@moderationPanel": {
+    "description": "Moderation Panel"
+  },
+  "moderationRules": "Moderation Rules",
+  "@moderationRules": {
+    "description": "Moderation Rules"
+  },
+  "moderationStatistics": "Moderation Statistics",
+  "@moderationStatistics": {
+    "description": "Moderation Statistics"
+  },
+  "moderationHistoryWillBeAvailableInFutureUpdates": "Moderation history will be available in future updates.",
+  "@moderationHistoryWillBeAvailableInFutureUpdates": {
+    "description": "Moderation history will be available in future updates."
+  },
+  "moderationRulesConfigurationWillBeAvailableInFutureUpdates": "Moderation rules configuration will be available in future updates.",
+  "@moderationRulesConfigurationWillBeAvailableInFutureUpdates": {
+    "description": "Moderation rules configuration will be available in future updates."
+  },
+  "moderationStatisticsWillBeAvailableInFutureUpdates": "Moderation statistics will be available in future updates.",
+  "@moderationStatisticsWillBeAvailableInFutureUpdates": {
+    "description": "Moderation statistics will be available in future updates."
+  },
+  "muteUser": "Mute User",
+  "@muteUser": {
+    "description": "Mute User"
+  },
+  "mutualConnections": "Mutual Connections",
+  "@mutualConnections": {
+    "description": "Mutual Connections"
+  },
+  "mutualFriends": "Mutual Friends",
+  "@mutualFriends": {
+    "description": "Mutual Friends"
+  },
+  "needHelp": "Need help?",
+  "@needHelp": {
+    "description": "Need help?"
+  },
+  "newCollection": "New Collection",
+  "@newCollection": {
+    "description": "New Collection"
+  },
+  "newList": "New List",
+  "@newList": {
+    "description": "New List"
+  },
+  "nextRelease": "Next Release",
+  "@nextRelease": {
+    "description": "Next Release"
+  },
+  "noAnimeFound": "No Anime found",
+  "@noAnimeFound": {
+    "description": "No Anime found"
+  },
+  "noChaptersFound57a004ec75": "No Chapters Found",
+  "@noChaptersFound57a004ec75": {
+    "description": "No Chapters Found"
+  },
+  "noDescriptionAvailable": "No Description Available",
+  "@noDescriptionAvailable": {
+    "description": "No Description Available"
+  },
+  "noMediaFilesFound": "No Media Files Found",
+  "@noMediaFilesFound": {
+    "description": "No Media Files Found"
+  },
+  "noSourceInstalled": "No Source Installed",
+  "@noSourceInstalled": {
+    "description": "No Source Installed"
+  },
+  "noVisualsFoundForThisAnime": "No Visuals found for this Anime (╥﹏╥)",
+  "@noVisualsFoundForThisAnime": {
+    "description": "No Visuals found for this Anime (╥﹏╥)"
+  },
+  "noActiveDownloads": "No active downloads",
+  "@noActiveDownloads": {
+    "description": "No active downloads"
+  },
+  "noActiveRooms": "No active rooms",
+  "@noActiveRooms": {
+    "description": "No active rooms"
+  },
+  "noActivity": "No activity",
+  "@noActivity": {
+    "description": "No activity"
+  },
+  "noAudioTracksAvailable": "No audio tracks available",
+  "@noAudioTracksAvailable": {
+    "description": "No audio tracks available"
+  },
+  "noCastingDevicesFoundOnLocalNetwork": "No casting devices found on local network.",
+  "@noCastingDevicesFoundOnLocalNetwork": {
+    "description": "No casting devices found on local network."
+  },
+  "noCommentsYet": "No comments yet",
+  "@noCommentsYet": {
+    "description": "No comments yet"
+  },
+  "noContentAvailable": "No content available",
+  "@noContentAvailable": {
+    "description": "No content available"
+  },
+  "noContributorsFound": "No contributors found.",
+  "@noContributorsFound": {
+    "description": "No contributors found."
+  },
+  "noCustomListsAvailable": "No custom lists available.",
+  "@noCustomListsAvailable": {
+    "description": "No custom lists available."
+  },
+  "noCustomListsYet": "No custom lists yet",
+  "@noCustomListsYet": {
+    "description": "No custom lists yet"
+  },
+  "noCustomListsYetd8993f8021": "No custom lists yet.",
+  "@noCustomListsYetd8993f8021": {
+    "description": "No custom lists yet."
+  },
+  "noDataAvailableForThisSection": "No data available for this section",
+  "@noDataAvailableForThisSection": {
+    "description": "No data available for this section"
+  },
+  "noDecadeBreakdownAvailable": "No decade breakdown available",
+  "@noDecadeBreakdownAvailable": {
+    "description": "No decade breakdown available"
+  },
+  "noDownloadedChaptersFoundForThisManga": "No downloaded chapters found for this manga",
+  "@noDownloadedChaptersFoundForThisManga": {
+    "description": "No downloaded chapters found for this manga"
+  },
+  "noDownloadedEpisodesFoundForThisAnime": "No downloaded episodes found for this anime",
+  "@noDownloadedEpisodesFoundForThisAnime": {
+    "description": "No downloaded episodes found for this anime"
+  },
+  "noEntriesFound": "No entries found",
+  "@noEntriesFound": {
+    "description": "No entries found"
+  },
+  "noExtensionManagersFound": "No extension managers found.",
+  "@noExtensionManagersFound": {
+    "description": "No extension managers found."
+  },
+  "noExtensionsInstalled": "No extensions installed",
+  "@noExtensionsInstalled": {
+    "description": "No extensions installed"
+  },
+  "otakuRankLevel": "Otaku Rank Level",
+  "@otakuRankLevel": {
+    "description": "Otaku Rank Level"
+  },
+  "otherRecommendations": "Other Recommendations",
+  "@otherRecommendations": {
+    "description": "Other Recommendations"
+  },
+  "outOfSyncWithHost": "Out of sync with host",
+  "@outOfSyncWithHost": {
+    "description": "Out of sync with host"
+  },
+  "overlayPosition": "Overlay position",
+  "@overlayPosition": {
+    "description": "Overlay position"
+  },
+  "pngJPGWEBPGIFMax20MB": "PNG, JPG, WEBP, GIF (Max 20MB)",
+  "@pngJPGWEBPGIFMax20MB": {
+    "description": "PNG, JPG, WEBP, GIF (Max 20MB)"
+  },
+  "pageActions": "Page Actions",
+  "@pageActions": {
+    "description": "Page Actions"
+  },
+  "pageAnimationDemo": "Page Animation Demo",
+  "@pageAnimationDemo": {
+    "description": "Page Animation Demo"
+  },
+  "party": "Party",
+  "@party": {
+    "description": "Party"
+  },
+  "partySettings": "Party Settings",
+  "@partySettings": {
+    "description": "Party Settings"
+  },
+  "permissionsRequired": "Permissions Required",
+  "@permissionsRequired": {
+    "description": "Permissions Required"
+  },
+  "pinComment": "Pin Comment",
+  "@pinComment": {
+    "description": "Pin Comment"
+  },
+  "plannedMetrics": "Planned metrics:",
+  "@plannedMetrics": {
+    "description": "Planned metrics:"
+  },
+  "plannedNotifications": "Planned notifications:",
+  "@plannedNotifications": {
+    "description": "Planned notifications:"
+  },
+  "play": "Play",
+  "@play": {
+    "description": "Play"
+  },
+  "playAll": "Play All",
+  "@playAll": {
+    "description": "Play All"
+  },
+  "playerSettings": "Player Settings",
+  "@playerSettings": {
+    "description": "Player Settings"
+  },
+  "playerThemes": "Player Themes",
+  "@playerThemes": {
+    "description": "Player Themes"
+  },
+  "pleaseGrantStoragePermissionToBrowseYourMediaFiles": "Please grant storage permission to browse your media files",
+  "@pleaseGrantStoragePermissionToBrowseYourMediaFiles": {
+    "description": "Please grant storage permission to browse your media files"
+  },
+  "pleasePasteTheTokenFromTheBrowser": "Please paste the token from the browser",
+  "@pleasePasteTheTokenFromTheBrowser": {
+    "description": "Please paste the token from the browser"
+  },
+  "pleaseRestartTheAppToApplyChanges": "Please restart the app to apply changes.",
+  "@pleaseRestartTheAppToApplyChanges": {
+    "description": "Please restart the app to apply changes."
+  },
+  "pluginNotInstalled": "Plugin Not Installed",
+  "@pluginNotInstalled": {
+    "description": "Plugin Not Installed"
+  },
+  "post": "Post",
+  "@post": {
+    "description": "Post"
+  },
+  "poweredByAniMatch16PointCompatibilityAnalysisInAnymeX": "Powered by AniMatch 16-point compatibility analysis in AnymeX",
+  "@poweredByAniMatch16PointCompatibilityAnalysisInAnymeX": {
+    "description": "Powered by AniMatch 16-point compatibility analysis in AnymeX"
+  },
+  "preparingStream": "Preparing stream",
+  "@preparingStream": {
+    "description": "Preparing stream"
+  },
+  "presets": "Presets",
+  "@presets": {
+    "description": "Presets"
+  },
+  "privacySafety": "Privacy & Safety",
+  "@privacySafety": {
+    "description": "Privacy & Safety"
+  },
+  "privateRoom": "Private Room",
+  "@privateRoom": {
+    "description": "Private Room"
+  },
+  "progress": "Progress",
+  "@progress": {
+    "description": "Progress"
+  },
+  "protectYourBackup": "Protect your backup",
+  "@protectYourBackup": {
+    "description": "Protect your backup"
+  },
+  "quickREACTIONS": "QUICK REACTIONS",
+  "@quickREACTIONS": {
+    "description": "QUICK REACTIONS"
+  },
+  "repositoryURL": "REPOSITORY URL",
+  "@repositoryURL": {
+    "description": "REPOSITORY URL"
+  },
+  "restoreOPTIONS": "RESTORE OPTIONS",
+  "@restoreOPTIONS": {
+    "description": "RESTORE OPTIONS"
+  },
+  "rank": "Rank",
+  "@rank": {
+    "description": "Rank"
+  },
+  "readArticle": "Read Article",
+  "@readArticle": {
+    "description": "Read Article"
+  },
+  "readFullRules": "Read Full Rules",
+  "@readFullRules": {
+    "description": "Read Full Rules"
+  },
+  "readLatestUpdatesAboutThisAnime": "Read latest updates about this anime",
+  "@readLatestUpdatesAboutThisAnime": {
+    "description": "Read latest updates about this anime"
+  },
+  "readLatestUpdatesAboutThisManga": "Read latest updates about this manga",
+  "@readLatestUpdatesAboutThisManga": {
+    "description": "Read latest updates about this manga"
+  },
+  "readerBackground": "Reader Background",
+  "@readerBackground": {
+    "description": "Reader Background"
+  },
+  "readingSettings": "Reading Settings",
+  "@readingSettings": {
+    "description": "Reading Settings"
+  },
+  "realTime4KUpscalingForAnimeContent": "Real-time 4K upscaling for anime content",
+  "@realTime4KUpscalingForAnimeContent": {
+    "description": "Real-time 4K upscaling for anime content"
+  },
+  "recentSearches": "Recent Searches",
+  "@recentSearches": {
+    "description": "Recent Searches"
+  },
+  "recommendedBy": "Recommended by",
+  "@recommendedBy": {
+    "description": "Recommended by"
+  },
+  "removeMember": "Remove Member",
+  "@removeMember": {
+    "description": "Remove Member"
+  },
+  "removeTheme": "Remove Theme",
+  "@removeTheme": {
+    "description": "Remove Theme"
+  },
+  "removeYourReason": "Remove Your Reason?",
+  "@removeYourReason": {
+    "description": "Remove Your Reason?"
+  },
+  "removeMember1c31d1d273": "Remove member",
+  "@removeMember1c31d1d273": {
+    "description": "Remove member"
+  },
+  "replay": "Replay",
+  "@replay": {
+    "description": "Replay"
+  },
+  "reply": "Reply",
+  "@reply": {
+    "description": "Reply"
+  },
+  "repositoryURLca38850cbc": "Repository URL",
+  "@repositoryURLca38850cbc": {
+    "description": "Repository URL"
+  },
+  "resetShaderToDefault": "Reset Shader to Default",
+  "@resetShaderToDefault": {
+    "description": "Reset Shader to Default"
+  },
+  "resetVisualSettings": "Reset Visual Settings",
+  "@resetVisualSettings": {
+    "description": "Reset Visual Settings"
+  },
+  "resetToDefault": "Reset to Default",
+  "@resetToDefault": {
+    "description": "Reset to Default"
+  },
+  "resetToDefaultSettings": "Reset to Default Settings",
+  "@resetToDefaultSettings": {
+    "description": "Reset to Default Settings"
+  },
+  "resetToNaturalProfile": "Reset to Natural Profile",
+  "@resetToNaturalProfile": {
+    "description": "Reset to Natural Profile"
+  },
+  "resetToNaturalProfiledaa491192d": "Reset to Natural profile",
+  "@resetToNaturalProfiledaa491192d": {
+    "description": "Reset to Natural profile"
+  },
+  "resetToDefault39c90eb758": "Reset to default",
+  "@resetToDefault39c90eb758": {
+    "description": "Reset to default"
+  },
+  "restoreLoginTokens": "Restore Login Tokens",
+  "@restoreLoginTokens": {
+    "description": "Restore Login Tokens"
+  },
+  "restorePreview": "Restore Preview",
+  "@restorePreview": {
+    "description": "Restore Preview"
+  },
+  "restoreSettings": "Restore Settings",
+  "@restoreSettings": {
+    "description": "Restore Settings"
+  },
+  "results": "Results",
+  "@results": {
+    "description": "Results"
+  },
+  "roomCode": "Room Code",
+  "@roomCode": {
+    "description": "Room Code"
+  },
+  "roomCreated": "Room Created!",
+  "@roomCreated": {
+    "description": "Room Created!"
+  },
+  "roomDuration": "Room Duration",
+  "@roomDuration": {
+    "description": "Room Duration"
+  },
+  "roomsWillAppearHereWhenSomeoneCreatesOne": "Rooms will appear here when someone creates one",
+  "@roomsWillAppearHereWhenSomeoneCreatesOne": {
+    "description": "Rooms will appear here when someone creates one"
+  },
+  "searcha62a7a3d23": "SEARCH",
+  "@searcha62a7a3d23": {
+    "description": "SEARCH"
+  },
+  "security": "SECURITY",
+  "@security": {
+    "description": "SECURITY"
+  },
+  "selectTAGS": "SELECT TAGS",
+  "@selectTAGS": {
+    "description": "SELECT TAGS"
+  },
+  "sortBY": "SORT BY",
+  "@sortBY": {
+    "description": "SORT BY"
+  },
+  "safetyFeatures": "Safety features:",
+  "@safetyFeatures": {
+    "description": "Safety features:"
+  },
+  "saturation": "Saturation",
+  "@saturation": {
+    "description": "Saturation"
+  },
+  "sauceSearcher": "Sauce Searcher",
+  "@sauceSearcher": {
+    "description": "Sauce Searcher"
+  },
+  "saveChanges179359b39e": "Save changes",
+  "@saveChanges179359b39e": {
+    "description": "Save changes"
+  },
+  "searchComments": "Search Comments",
+  "@searchComments": {
+    "description": "Search Comments"
+  },
+  "searchExtensions": "Search Extensions",
+  "@searchExtensions": {
+    "description": "Search Extensions"
+  },
+  "searchNamedExtensions": "Search {extensionName} extensions...",
+  "@searchNamedExtensions": {
+    "description": "Search {extensionName} extensions...",
+    "placeholders": {
+      "extensionName": {
+        "type": "String"
+      }
+    }
+  },
+  "searchFailed": "Search Failed",
+  "@searchFailed": {
+    "description": "Search Failed"
+  },
+  "searchQuery": "Search Query",
+  "@searchQuery": {
+    "description": "Search Query"
+  },
+  "searchUser": "Search User",
+  "@searchUser": {
+    "description": "Search User"
+  },
+  "searchingDatabase": "Searching database...",
+  "@searchingDatabase": {
+    "description": "Searching database..."
+  },
+  "season": "Season",
+  "@season": {
+    "description": "Season"
+  },
+  "seeAll": "See All",
+  "@seeAll": {
+    "description": "See All"
+  },
+  "selectDirectory": "Select Directory",
+  "@selectDirectory": {
+    "description": "Select Directory"
+  },
+  "selectExtensions": "Select Extensions",
+  "@selectExtensions": {
+    "description": "Select Extensions"
+  },
+  "selectFolder": "Select Folder",
+  "@selectFolder": {
+    "description": "Select Folder"
+  },
+  "selectMediaDirectory": "Select Media Directory",
+  "@selectMediaDirectory": {
+    "description": "Select Media Directory"
+  },
+  "selectAFolderWhereAnymeXWillSaveYourDownloadedAnimeE83d0ab598b": "Select a folder where AnymeX will save your downloaded anime episodes and manga chapters.",
+  "@selectAFolderWhereAnymeXWillSaveYourDownloadedAnimeE83d0ab598b": {
+    "description": "Select a folder where AnymeX will save your downloaded anime episodes and manga chapters."
+  },
+  "selectAction": "Select action:",
+  "@selectAction": {
+    "description": "Select action:"
+  },
+  "selectAnAnimeScreenshotToFindItsSource": "Select an anime screenshot to find its source",
+  "@selectAnAnimeScreenshotToFindItsSource": {
+    "description": "Select an anime screenshot to find its source"
+  },
+  "selectStreamingServerQualityToWatch": "Select streaming server quality to watch",
+  "@selectStreamingServerQualityToWatch": {
+    "description": "Select streaming server quality to watch"
+  },
+  "selectYourPreferredContentSource": "Select your preferred content source",
+  "@selectYourPreferredContentSource": {
+    "description": "Select your preferred content source"
+  },
+  "serverChanIsTakingANap": "Server-chan is taking a nap!",
+  "@serverChanIsTakingANap": {
+    "description": "Server-chan is taking a nap!"
+  },
+  "setUpYourPreferencesForTheBestExperience": "Set up your preferences for the best experience",
+  "@setUpYourPreferencesForTheBestExperience": {
+    "description": "Set up your preferences for the best experience"
+  },
+  "shaderProfilesInitialized": "Shader Profiles Initialized",
+  "@shaderProfilesInitialized": {
+    "description": "Shader Profiles Initialized"
+  },
+  "shaderResetToDefault": "Shader reset to Default",
+  "@shaderResetToDefault": {
+    "description": "Shader reset to Default"
+  },
+  "shaders": "Shaders",
+  "@shaders": {
+    "description": "Shaders"
+  },
+  "shareAnymeXLink": "Share AnymeX link",
+  "@shareAnymeXLink": {
+    "description": "Share AnymeX link"
+  },
+  "shareMatchCard": "Share Match Card",
+  "@shareMatchCard": {
+    "description": "Share Match Card"
+  },
+  "shareTheCodeOrInviteLinkWithFriends": "Share the code or invite link with friends.",
+  "@shareTheCodeOrInviteLinkWithFriends": {
+    "description": "Share the code or invite link with friends."
+  },
+  "shareThisCodeWithFriends": "Share this code with friends:",
+  "@shareThisCodeWithFriends": {
+    "description": "Share this code with friends:"
+  },
+  "shareWithYourSelectedTrackingService": "Share with your selected tracking service",
+  "@shareWithYourSelectedTrackingService": {
+    "description": "Share with your selected tracking service"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign In"
+  },
+  "signInToContinue": "Sign in to continue",
+  "@signInToContinue": {
+    "description": "Sign in to continue"
+  },
+  "slow": "Slow",
+  "@slow": {
+    "description": "Slow"
+  },
+  "sourceDoesnTHaveAnySettings": "Source doesn't have any settings",
+  "@sourceDoesnTHaveAnySettings": {
+    "description": "Source doesn't have any settings"
+  },
+  "speedPresets": "Speed Presets",
+  "@speedPresets": {
+    "description": "Speed Presets"
+  },
+  "spoiler": "Spoiler",
+  "@spoiler": {
+    "description": "Spoiler"
+  },
+  "spoilerTapToReveal": "Spoiler — tap to reveal",
+  "@spoilerTapToReveal": {
+    "description": "Spoiler — tap to reveal"
+  },
+  "staff": "Staff",
+  "@staff": {
+    "description": "Staff"
+  },
+  "startMangaDownload": "Start Manga Download",
+  "@startMangaDownload": {
+    "description": "Start Manga Download"
+  },
+  "startTest": "Start Test",
+  "@startTest": {
+    "description": "Start Test"
+  },
+  "startANewDownloadFromTheNewDownloadTab": "Start a new download from the \"New Download\" tab",
+  "@startANewDownloadFromTheNewDownloadTab": {
+    "description": "Start a new download from the \"New Download\" tab"
+  },
+  "startTheConversationAndShareYourThoughts": "Start the conversation and share your thoughts!",
+  "@startTheConversationAndShareYourThoughts": {
+    "description": "Start the conversation and share your thoughts!"
+  },
+  "startingExtensionRuntime": "Starting extension runtime...",
+  "@startingExtensionRuntime": {
+    "description": "Starting extension runtime..."
+  },
+  "statistics": "Statistics",
+  "@statistics": {
+    "description": "Statistics"
+  },
+  "stats": "Stats",
+  "@stats": {
+    "description": "Stats"
+  },
+  "statusPostedSuccessfully": "Status posted successfully!",
+  "@statusPostedSuccessfully": {
+    "description": "Status posted successfully!"
+  },
+  "storagePermissionRequired": "Storage Permission Required",
+  "@storagePermissionRequired": {
+    "description": "Storage Permission Required"
+  },
+  "subtitlePreview": "Subtitle Preview",
+  "@subtitlePreview": {
+    "description": "Subtitle Preview"
+  },
+  "tag": "Tag",
+  "@tag": {
+    "description": "Tag"
+  },
+  "takingLongerThanExpected": "Taking longer than expected...",
+  "@takingLongerThanExpected": {
+    "description": "Taking longer than expected..."
+  },
+  "tapToAddARepositoryURL": "Tap + to add a repository URL",
+  "@tapToAddARepositoryURL": {
+    "description": "Tap + to add a repository URL"
+  },
+  "tapAction": "Tap Action",
+  "@tapAction": {
+    "description": "Tap Action"
+  },
+  "tapAZoneToChangeItsAction": "Tap a zone to change its action",
+  "@tapAZoneToChangeItsAction": {
+    "description": "Tap a zone to change its action"
+  },
+  "tapAgainToUnlock": "Tap again to unlock",
+  "@tapAgainToUnlock": {
+    "description": "Tap again to unlock"
+  },
+  "tapToChooseASource": "Tap to choose a source",
+  "@tapToChooseASource": {
+    "description": "Tap to choose a source"
+  },
+  "tellTheCommunityWhyThisDeservesMoreAttention": "Tell the community why this deserves more attention.",
+  "@tellTheCommunityWhyThisDeservesMoreAttention": {
+    "description": "Tell the community why this deserves more attention."
+  },
+  "temporaryAppCache": "Temporary App Cache",
+  "@temporaryAppCache": {
+    "description": "Temporary App Cache"
+  },
+  "testResults": "Test Results",
+  "@testResults": {
+    "description": "Test Results"
+  },
+  "testType": "Test Type",
+  "@testType": {
+    "description": "Test Type"
+  },
+  "textAlignment": "Text Alignment",
+  "@textAlignment": {
+    "description": "Text Alignment"
+  },
+  "theseControlsDirectlyAffectMpvRenderingQualityPictureOutput": "These controls directly affect mpv rendering quality & picture output",
+  "@theseControlsDirectlyAffectMpvRenderingQualityPictureOutput": {
+    "description": "These controls directly affect mpv rendering quality & picture output"
+  },
+  "thisBackupIsEncryptedPleaseEnterThePasswordToContinue": "This backup is encrypted. Please enter the password to continue.",
+  "@thisBackupIsEncryptedPleaseEnterThePasswordToContinue": {
+    "description": "This backup is encrypted. Please enter the password to continue."
+  },
+  "thisDirectoryContainsNoSupportedMediaFiles": "This directory contains no supported media files",
+  "@thisDirectoryContainsNoSupportedMediaFiles": {
+    "description": "This directory contains no supported media files"
+  },
+  "thisMayTakeAFewSeconds": "This may take a few seconds",
+  "@thisMayTakeAFewSeconds": {
+    "description": "This may take a few seconds"
+  },
+  "thisMightTakeAFewSeconds": "This might take a few seconds",
+  "@thisMightTakeAFewSeconds": {
+    "description": "This might take a few seconds"
+  },
+  "thisReasonWillBeDeletedImmediately": "This reason will be deleted immediately.",
+  "@thisReasonWillBeDeletedImmediately": {
+    "description": "This reason will be deleted immediately."
+  },
+  "thisRoomRequiresAPassword": "This room requires a password",
+  "@thisRoomRequiresAPassword": {
+    "description": "This room requires a password"
+  },
+  "thisServerHasNoPlayableURL": "This server has no playable URL",
+  "@thisServerHasNoPlayableURL": {
+    "description": "This server has no playable URL"
+  },
+  "thisWillCompletelyReplaceYourCurrentLibraryAllExisti334ab7e895": "This will completely replace your current library. All existing data will be overwritten.",
+  "@thisWillCompletelyReplaceYourCurrentLibraryAllExisti334ab7e895": {
+    "description": "This will completely replace your current library. All existing data will be overwritten."
+  },
+  "toDownloadForTheFirstTimeGrantPermissionsByVisitingT6233cfb7c0": "To download for the first time, grant permissions by visiting the Downloads page first:",
+  "@toDownloadForTheFirstTimeGrantPermissionsByVisitingT6233cfb7c0": {
+    "description": "To download for the first time, grant permissions by visiting the Downloads page first:"
+  },
+  "trackYourProgress": "Track your progress?",
+  "@trackYourProgress": {
+    "description": "Track your progress?"
+  },
+  "transfer": "Transfer",
+  "@transfer": {
+    "description": "Transfer"
+  },
+  "transferHost": "Transfer Host",
+  "@transferHost": {
+    "description": "Transfer Host"
+  },
+  "transferHost26ce97a00b": "Transfer host",
+  "@transferHost26ce97a00b": {
+    "description": "Transfer host"
+  },
+  "tryADifferentKeyword": "Try a different keyword",
+  "@tryADifferentKeyword": {
+    "description": "Try a different keyword"
+  },
+  "tryAdjustingYourSearchTermsOrFilters": "Try adjusting your search terms or filters",
+  "@tryAdjustingYourSearchTermsOrFilters": {
+    "description": "Try adjusting your search terms or filters"
+  },
+  "tryDifferentAnimationStylesForPageEntrances": "Try different animation styles for page entrances",
+  "@tryDifferentAnimationStylesForPageEntrances": {
+    "description": "Try different animation styles for page entrances"
+  },
+  "uiPlayerAndGeneralAppSettings": "UI, Player, and general app settings",
+  "@uiPlayerAndGeneralAppSettings": {
+    "description": "UI, Player, and general app settings"
+  },
+  "updateAll": "Update All",
+  "@updateAll": {
+    "description": "Update All"
+  },
+  "uploadImage": "Upload Image",
+  "@uploadImage": {
+    "description": "Upload Image"
+  },
+  "uploadAnImageToGetStarted": "Upload an image to get started",
+  "@uploadAnImageToGetStarted": {
+    "description": "Upload an image to get started"
+  },
+  "customSettingsResetToDefault": "Custom settings reset to default",
+  "@customSettingsResetToDefault": {
+    "description": "Custom settings reset to default"
+  },
+  "visualSettingsResetToDefaults": "Visual settings reset to defaults",
+  "@visualSettingsResetToDefaults": {
+    "description": "Visual settings reset to defaults"
+  },
+  "colorProfiles": "Color Profiles",
+  "@colorProfiles": {
+    "description": "Color Profiles"
+  },
+  "visual": "Visual",
+  "@visual": {
+    "description": "Visual"
+  },
+  "custom": "Custom",
+  "@custom": {
+    "description": "Custom"
+  },
+  "chooseAPresetThatMatchesYourViewingPreference": "Choose a preset that matches your viewing preference",
+  "@chooseAPresetThatMatchesYourViewingPreference": {
+    "description": "Choose a preset that matches your viewing preference"
+  },
+  "visualSettingsAreExperimental": "Visual settings are experimental",
+  "@visualSettingsAreExperimental": {
+    "description": "Visual settings are experimental"
+  },
+  "blurRadius": "Blur Radius",
+  "@blurRadius": {
+    "description": "Blur Radius"
+  },
+  "brightness": "Brightness",
+  "@brightness": {
+    "description": "Brightness"
+  },
+  "opensDirectlyInAnymeX": "Opens directly in AnymeX",
+  "@opensDirectlyInAnymeX": {
+    "description": "Opens directly in AnymeX"
+  },
+  "newVersionAvailable": "New Version Available",
+  "@newVersionAvailable": {
+    "description": "New Version Available"
+  },
+  "whatSNew": "What's New",
+  "@whatSNew": {
+    "description": "What's New"
+  },
+  "later": "Later",
+  "@later": {
+    "description": "Later"
+  },
+  "usage": "Usage:",
+  "@usage": {
+    "description": "Usage:"
+  },
+  "bypassCloudflare": "Bypass Cloudflare",
+  "@bypassCloudflare": {
+    "description": "Bypass Cloudflare"
+  },
+  "completeAnyCloudflareChallengeThenTapSyncCookiesToPad634edefa3": "Complete any Cloudflare challenge, then tap \"Sync Cookies\" to pass the session to extensions.",
+  "@completeAnyCloudflareChallengeThenTapSyncCookiesToPad634edefa3": {
+    "description": "Complete any Cloudflare challenge, then tap \"Sync Cookies\" to pass the session to extensions."
+  },
+  "clearFilter": "Clear Filter",
+  "@clearFilter": {
+    "description": "Clear Filter"
+  },
+  "noSourcesFound": "No sources found",
+  "@noSourcesFound": {
+    "description": "No sources found"
+  },
+  "addCustomLogoGifWebp": "Add Custom Logo (.gif, .webp)",
+  "@addCustomLogoGifWebp": {
+    "description": "Add Custom Logo (.gif, .webp)"
+  },
+  "customLogos": "Custom Logos",
+  "@customLogos": {
+    "description": "Custom Logos"
+  },
+  "builtInStyles": "Built-in Styles",
+  "@builtInStyles": {
+    "description": "Built-in Styles"
+  },
+  "yourWatchReadHistory": "Your watch & read history",
+  "@yourWatchReadHistory": {
+    "description": "Your watch & read history"
+  },
+  "yourWatchReadStatistics": "Your watch & read statistics",
+  "@yourWatchReadStatistics": {
+    "description": "Your watch & read statistics"
+  },
+  "openInBrowser": "Open in Browser",
+  "@openInBrowser": {
+    "description": "Open in Browser"
+  },
+  "deleteActivity": "Delete Activity",
+  "@deleteActivity": {
+    "description": "Delete Activity"
+  },
+  "compose": "Compose",
+  "@compose": {
+    "description": "Compose"
+  },
+  "nothingToPreview": "Nothing to preview",
+  "@nothingToPreview": {
+    "description": "Nothing to preview"
+  },
+  "noRecommendationsYet": "No recommendations yet",
+  "@noRecommendationsYet": {
+    "description": "No recommendations yet"
+  },
+  "beTheFirstToRecommendThisTitle": "Be the first to recommend this title!",
+  "@beTheFirstToRecommendThisTitle": {
+    "description": "Be the first to recommend this title!"
+  },
+  "you": "You",
+  "@you": {
+    "description": "You"
+  },
+  "botURLNotConfigured": "Bot URL not configured",
+  "@botURLNotConfigured": {
+    "description": "Bot URL not configured"
+  },
+  "deleteRecommendation": "Delete Recommendation?",
+  "@deleteRecommendation": {
+    "description": "Delete Recommendation?"
+  },
+  "alreadyRecommended": "Already recommended",
+  "@alreadyRecommended": {
+    "description": "Already recommended"
+  },
+  "yourRecommendation": "Your Recommendation",
+  "@yourRecommendation": {
+    "description": "Your Recommendation"
+  },
+  "chooseProvider": "Choose Provider",
+  "@chooseProvider": {
+    "description": "Choose Provider"
+  },
+  "watchTogether": "Watch Together",
+  "@watchTogether": {
+    "description": "Watch Together"
+  },
+  "copyCode": "Copy Code",
+  "@copyCode": {
+    "description": "Copy Code"
+  },
+  "copyLink": "Copy Link",
+  "@copyLink": {
+    "description": "Copy Link"
+  },
+  "watchParty": "Watch Party",
+  "@watchParty": {
+    "description": "Watch Party"
+  },
+  "noMessagesYet": "No messages yet",
+  "@noMessagesYet": {
+    "description": "No messages yet"
+  },
+  "beTheFirstToSaySomething": "Be the first to say something!",
+  "@beTheFirstToSaySomething": {
+    "description": "Be the first to say something!"
+  },
+  "chatHasBeenDisabledByTheHost": "Chat has been disabled by the host",
+  "@chatHasBeenDisabledByTheHost": {
+    "description": "Chat has been disabled by the host"
+  },
+  "announcementModeOnlyHostAndCoHostsCanSendMessages": "Announcement mode — only host and co-hosts can send messages",
+  "@announcementModeOnlyHostAndCoHostsCanSendMessages": {
+    "description": "Announcement mode — only host and co-hosts can send messages"
+  },
+  "announcementModeActiveMembersCanOnlyRead": "Announcement mode active — members can only read",
+  "@announcementModeActiveMembersCanOnlyRead": {
+    "description": "Announcement mode active — members can only read"
+  },
+  "coHOST": "CO-HOST",
+  "@coHOST": {
+    "description": "CO-HOST"
+  },
+  "watchingNow": "Watching Now",
+  "@watchingNow": {
+    "description": "Watching Now"
+  },
+  "created": "Created",
+  "@created": {
+    "description": "Created"
+  },
+  "whereLiveCommentsAppearOnScreen": "Where live comments appear on screen",
+  "@whereLiveCommentsAppearOnScreen": {
+    "description": "Where live comments appear on screen"
+  },
+  "noServersAvailableForThisRoom": "No servers available for this room",
+  "@noServersAvailableForThisRoom": {
+    "description": "No servers available for this room"
+  },
+  "castToDevice": "Cast to Device",
+  "@castToDevice": {
+    "description": "Cast to Device"
+  },
+  "disconnect": "Disconnect",
+  "@disconnect": {
+    "description": "Disconnect"
+  },
+  "noMediaFoundForThisStudio": "No media found for this studio",
+  "@noMediaFoundForThisStudio": {
+    "description": "No media found for this studio"
+  },
+  "chooseDownloadFolder": "Choose Download Folder",
+  "@chooseDownloadFolder": {
+    "description": "Choose Download Folder"
+  },
+  "animeLibrary": "Anime Library",
+  "@animeLibrary": {
+    "description": "Anime Library"
+  },
+  "novelLibrary": "Novel Library",
+  "@novelLibrary": {
+    "description": "Novel Library"
+  },
+  "animeCustomLists": "Anime Custom Lists",
+  "@animeCustomLists": {
+    "description": "Anime Custom Lists"
+  },
+  "novelCustomLists": "Novel Custom Lists",
+  "@novelCustomLists": {
+    "description": "Novel Custom Lists"
+  },
+  "noItemsInThisLibrary": "No items in this library.",
+  "@noItemsInThisLibrary": {
+    "description": "No items in this library."
+  },
+  "noMediaInThisList": "No media in this list.",
+  "@noMediaInThisList": {
+    "description": "No media in this list."
+  },
+  "chooseADirectoryToBrowseYourMediaFiles": "Choose a directory to browse your media files",
+  "@chooseADirectoryToBrowseYourMediaFiles": {
+    "description": "Choose a directory to browse your media files"
+  },
+  "welcomeToAnymeX": "Welcome to AnymeX",
+  "@welcomeToAnymeX": {
+    "description": "Welcome to AnymeX"
+  },
+  "deleteReply": "Delete Reply",
+  "@deleteReply": {
+    "description": "Delete Reply"
+  },
+  "areYouSureYouWantToDeleteThisReply": "Are you sure you want to delete this reply?",
+  "@areYouSureYouWantToDeleteThisReply": {
+    "description": "Are you sure you want to delete this reply?"
+  },
+  "noRepliesYetBeTheFirst": "No replies yet. Be the first!",
+  "@noRepliesYetBeTheFirst": {
+    "description": "No replies yet. Be the first!"
+  },
+  "replya5dfd1e2a1": "reply",
+  "@replya5dfd1e2a1": {
+    "description": "reply"
+  },
+  "delete9485989ff5": "delete",
+  "@delete9485989ff5": {
+    "description": "delete"
+  },
+  "edit9ead47a82a": "edit",
+  "@edit9ead47a82a": {
+    "description": "edit"
+  },
+  "createStatus": "Create Status",
+  "@createStatus": {
+    "description": "Create Status"
+  },
+  "openWebview": "Open Webview",
+  "@openWebview": {
+    "description": "Open Webview"
+  },
+  "noSearchResults": "No search results",
+  "@noSearchResults": {
+    "description": "No search results"
+  },
+  "activityHeatmap": "Activity Heatmap",
+  "@activityHeatmap": {
+    "description": "Activity Heatmap"
+  },
+  "noLoggedStatsYetStartWatchingReading": "No logged stats yet. Start watching/reading!",
+  "@noLoggedStatsYetStartWatchingReading": {
+    "description": "No logged stats yet. Start watching/reading!"
+  },
+  "detailedInsights": "Detailed Insights",
+  "@detailedInsights": {
+    "description": "Detailed Insights"
+  },
+  "noInsightsAvailableYetAddItemsToYourLibrary": "No insights available yet. Add items to your library!",
+  "@noInsightsAvailableYetAddItemsToYourLibrary": {
+    "description": "No insights available yet. Add items to your library!"
+  },
+  "activeRooms": "Active Rooms",
+  "@activeRooms": {
+    "description": "Active Rooms"
+  },
+  "chooseImage": "Choose Image",
+  "@chooseImage": {
+    "description": "Choose Image"
+  },
+  "chooseDifferentImage": "Choose Different Image",
+  "@chooseDifferentImage": {
+    "description": "Choose Different Image"
+  },
+  "noResultsYet": "No results yet",
+  "@noResultsYet": {
+    "description": "No results yet"
+  },
+  "watchAnime": "Watch Anime",
+  "@watchAnime": {
+    "description": "Watch Anime"
+  },
+  "anilistSettings": "Anilist Settings",
+  "@anilistSettings": {
+    "description": "Anilist Settings"
+  },
+  "nothingToPreviewYet": "Nothing to preview yet.",
+  "@nothingToPreviewYet": {
+    "description": "Nothing to preview yet."
+  },
+  "commentSystem": "Comment System",
+  "@commentSystem": {
+    "description": "Comment System"
+  },
+  "aboutCommentumV2": "About Commentum v2",
+  "@aboutCommentumV2": {
+    "description": "About Commentum v2"
+  },
+  "commentumV2IsAnAdvancedCommentSystemThatProvides": "Commentum v2 is an advanced comment system that provides:",
+  "@commentumV2IsAnAdvancedCommentSystemThatProvides": {
+    "description": "Commentum v2 is an advanced comment system that provides:"
+  },
+  "userRolesPermissions": "User Roles & Permissions",
+  "@userRolesPermissions": {
+    "description": "User Roles & Permissions"
+  },
+  "yourCurrentRoleAndPermissions": "Your current role and permissions:",
+  "@yourCurrentRoleAndPermissions": {
+    "description": "Your current role and permissions:"
+  },
+  "commentPreferences": "Comment Preferences",
+  "@commentPreferences": {
+    "description": "Comment Preferences"
+  },
+  "commentDisplayPreferencesWillBeAvailableInFutureUpdates": "Comment display preferences will be available in future updates.",
+  "@commentDisplayPreferencesWillBeAvailableInFutureUpdates": {
+    "description": "Comment display preferences will be available in future updates."
+  },
+  "commentNotificationPreferencesWillBeAvailableInFutureUpdates": "Comment notification preferences will be available in future updates.",
+  "@commentNotificationPreferencesWillBeAvailableInFutureUpdates": {
+    "description": "Comment notification preferences will be available in future updates."
+  },
+  "yourPrivacyIsImportant": "Your privacy is important:",
+  "@yourPrivacyIsImportant": {
+    "description": "Your privacy is important:"
+  },
+  "notSupported": "Not supported",
+  "@notSupported": {
+    "description": "Not supported"
+  },
+  "noRepositoriesYet": "No repositories yet",
+  "@noRepositoriesYet": {
+    "description": "No repositories yet"
+  },
+  "addRepo": "Add Repo",
+  "@addRepo": {
+    "description": "Add Repo"
+  },
+  "addingRepositoryFetchingExtensions": "Adding repository & fetching extensions...",
+  "@addingRepositoryFetchingExtensions": {
+    "description": "Adding repository & fetching extensions..."
+  },
+  "userSearchFunctionalityWillBeAvailableInFutureUpdates": "User search functionality will be available in future updates.",
+  "@userSearchFunctionalityWillBeAvailableInFutureUpdates": {
+    "description": "User search functionality will be available in future updates."
+  },
+  "commentSearchFunctionalityWillBeAvailableInFutureUpdates": "Comment search functionality will be available in future updates.",
+  "@commentSearchFunctionalityWillBeAvailableInFutureUpdates": {
+    "description": "Comment search functionality will be available in future updates."
+  },
+  "notificationSettingsWillBeAvailableInFutureUpdates": "Notification settings will be available in future updates.",
+  "@notificationSettingsWillBeAvailableInFutureUpdates": {
+    "description": "Notification settings will be available in future updates."
+  },
+  "anime4KEnhancement": "Anime 4K Enhancement",
+  "@anime4KEnhancement": {
+    "description": "Anime 4K Enhancement"
+  },
+  "chooseShaderProfile": "Choose Shader Profile",
+  "@chooseShaderProfile": {
+    "description": "Choose Shader Profile"
+  },
+  "useKeyboardShortcutsDuringPlaybackToSwitchProfiles": "Use keyboard shortcuts during playback to switch profiles",
+  "@useKeyboardShortcutsDuringPlaybackToSwitchProfiles": {
+    "description": "Use keyboard shortcuts during playback to switch profiles"
+  },
+  "availableKeybindings": "Available Keybindings:",
+  "@availableKeybindings": {
+    "description": "Available Keybindings:"
+  },
+  "visibleTabs": "Visible Tabs",
+  "@visibleTabs": {
+    "description": "Visible Tabs"
+  },
+  "noVisibleTabs": "No visible tabs",
+  "@noVisibleTabs": {
+    "description": "No visible tabs"
+  },
+  "noHiddenTabs": "No hidden tabs",
+  "@noHiddenTabs": {
+    "description": "No hidden tabs"
+  },
+  "confirmRESTORE": "CONFIRM & RESTORE",
+  "@confirmRESTORE": {
+    "description": "CONFIRM & RESTORE"
+  },
+  "backupOwner": "Backup Owner",
+  "@backupOwner": {
+    "description": "Backup Owner"
+  },
+  "backupCONTENT": "BACKUP CONTENT",
+  "@backupCONTENT": {
+    "description": "BACKUP CONTENT"
+  },
+  "noteAddingKotatsuRepositoryWillTakeAtLeast12MinutesB3b4ab83208": "Note: Adding Kotatsu repository will take at least 1-2 minutes because it needs to download and convert the extension plugin on first load.",
+  "@noteAddingKotatsuRepositoryWillTakeAtLeast12MinutesB3b4ab83208": {
+    "description": "Note: Adding Kotatsu repository will take at least 1-2 minutes because it needs to download and convert the extension plugin on first load."
+  },
+  "addRepository": "Add Repository",
+  "@addRepository": {
+    "description": "Add Repository"
+  },
+  "noThemesYet": "No themes yet",
+  "@noThemesYet": {
+    "description": "No themes yet"
+  },
+  "noteIfTheExtensionSupportsResetToLoadFiltersAndItDoe315a4c0063": "Note: If the extension supports reset to load filters and it doesn't work, try searching something first or open WebView. If that doesn't work, then click the 'Reset' button to load filters.",
+  "@noteIfTheExtensionSupportsResetToLoadFiltersAndItDoe315a4c0063": {
+    "description": "Note: If the extension supports reset to load filters and it doesn't work, try searching something first or open WebView. If that doesn't work, then click the 'Reset' button to load filters."
+  },
+  "noMatchesFound": "No matches found",
+  "@noMatchesFound": {
+    "description": "No matches found"
+  },
+  "useYearRange": "Use Year Range",
+  "@useYearRange": {
+    "description": "Use Year Range"
+  },
+  "noGenresAvailableAniListAPIMayBeTemporarilyDown": "No genres available. AniList API may be temporarily down.",
+  "@noGenresAvailableAniListAPIMayBeTemporarilyDown": {
+    "description": "No genres available. AniList API may be temporarily down."
+  },
+  "order": "ORDER",
+  "@order": {
+    "description": "ORDER"
+  },
+  "vsb8a1e1dc56": "VS",
+  "@vsb8a1e1dc56": {
+    "description": "VS"
+  },
+  "calculateCompatibility": "Calculate Compatibility",
+  "@calculateCompatibility": {
+    "description": "Calculate Compatibility"
+  },
+  "message16FactorDeepComparison": "16-Factor Deep Comparison",
+  "@message16FactorDeepComparison": {
+    "description": "16-Factor Deep Comparison"
+  },
+  "noResult": "No result",
+  "@noResult": {
+    "description": "No result"
+  },
+  "animatch": "AniMatch",
+  "@animatch": {
+    "description": "AniMatch"
+  },
+  "animatchCompatibility": "AniMatch Compatibility",
+  "@animatchCompatibility": {
+    "description": "AniMatch Compatibility"
+  },
+  "count": "Count",
+  "@count": {
+    "description": "Count"
+  },
+  "compatibilityIsCalculatedByComparingSignalsFromBothUsers": "Compatibility is calculated by comparing signals from both users",
+  "@compatibilityIsCalculatedByComparingSignalsFromBothUsers": {
+    "description": "Compatibility is calculated by comparing signals from both users"
+  },
+  "compatibilityRanks": "Compatibility Ranks",
+  "@compatibilityRanks": {
+    "description": "Compatibility Ranks"
+  },
+  "badge": "Badge",
+  "@badge": {
+    "description": "Badge"
+  },
+  "discard": "Discard",
+  "@discard": {
+    "description": "Discard"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All"
+  },
+  "applyFilters": "Apply Filters",
+  "@applyFilters": {
+    "description": "Apply Filters"
+  },
+  "noMoreUsers": "No more users",
+  "@noMoreUsers": {
+    "description": "No more users"
+  },
+  "deleteChapter": "Delete Chapter",
+  "@deleteChapter": {
+    "description": "Delete Chapter"
+  },
+  "blendMode": "Blend Mode",
+  "@blendMode": {
+    "description": "Blend Mode"
+  },
+  "controlTheme": "Control Theme",
+  "@controlTheme": {
+    "description": "Control Theme"
+  },
+  "automatic": "Automatic",
+  "@automatic": {
+    "description": "Automatic"
+  },
+  "noneNearestNeighbor": "None (Nearest-neighbor)",
+  "@noneNearestNeighbor": {
+    "description": "None (Nearest-neighbor)"
+  },
+  "clearHistory": "Clear History",
+  "@clearHistory": {
+    "description": "Clear History"
+  },
+  "customLists": "Custom Lists",
+  "@customLists": {
+    "description": "Custom Lists"
+  },
+  "noTestsRunning": "No tests running",
+  "@noTestsRunning": {
+    "description": "No tests running"
+  },
+  "changelog": "CHANGELOG",
+  "@changelog": {
+    "description": "CHANGELOG"
+  },
+  "downloaded": "DOWNLOADED",
+  "@downloaded": {
+    "description": "DOWNLOADED"
+  },
+  "nothingDownloadedYet": "Nothing downloaded yet",
+  "@nothingDownloadedYet": {
+    "description": "Nothing downloaded yet"
+  },
+  "noSubtitleTracksAvailable": "No subtitle tracks available",
+  "@noSubtitleTracksAvailable": {
+    "description": "No subtitle tracks available"
+  },
+  "aSingleMediaCanBeTrackedOnAllLoggedInServicesAtOnce": "A single media can be tracked on all logged-in services at once.",
+  "@aSingleMediaCanBeTrackedOnAllLoggedInServicesAtOnce": {
+    "description": "A single media can be tracked on all logged-in services at once."
+  },
+  "notTracked": "Not tracked",
+  "@notTracked": {
+    "description": "Not tracked"
+  },
+  "noResultsTrySearchingByTitle": "No results. Try searching by title.",
+  "@noResultsTrySearchingByTitle": {
+    "description": "No results. Try searching by title."
+  },
+  "noTrackingServiceConnected": "No tracking service connected",
+  "@noTrackingServiceConnected": {
+    "description": "No tracking service connected"
+  },
+  "openSettings": "Open Settings",
+  "@openSettings": {
+    "description": "Open Settings"
+  },
+  "noMoreRecommendations": "No more recommendations",
+  "@noMoreRecommendations": {
+    "description": "No more recommendations"
+  },
+  "noPlayableMediaAvailable": "No playable media available",
+  "@noPlayableMediaAvailable": {
+    "description": "No playable media available"
+  },
+  "noThemesFound": "No themes found",
+  "@noThemesFound": {
+    "description": "No themes found"
+  },
+  "openingsEndings": "Openings & Endings",
+  "@openingsEndings": {
+    "description": "Openings & Endings"
+  },
+  "viewOpeningAndEndingThemes": "View opening and ending themes",
+  "@viewOpeningAndEndingThemes": {
+    "description": "View opening and ending themes"
+  },
+  "watchOrder": "Watch Order",
+  "@watchOrder": {
+    "description": "Watch Order"
+  },
+  "viewTheChronologicalWatchOrderOfThisAnime": "View the chronological watch order of this anime",
+  "@viewTheChronologicalWatchOrderOfThisAnime": {
+    "description": "View the chronological watch order of this anime"
+  },
+  "voicedCharacters": "Voiced Characters",
+  "@voicedCharacters": {
+    "description": "Voiced Characters"
+  },
+  "deleteEpisode": "Delete Episode",
+  "@deleteEpisode": {
+    "description": "Delete Episode"
+  },
+  "chooseServer": "Choose Server",
+  "@chooseServer": {
+    "description": "Choose Server"
+  },
+  "characters": "Characters",
+  "@characters": {
+    "description": "Characters"
+  },
+  "noWatchOrderFound": "No watch order found.",
+  "@noWatchOrderFound": {
+    "description": "No watch order found."
+  },
+  "warnUser": "Warn User",
+  "@warnUser": {
+    "description": "Warn User"
+  },
+  "banUser": "Ban User",
+  "@banUser": {
+    "description": "Ban User"
+  },
+  "commentPolicy": "Comment Policy",
+  "@commentPolicy": {
+    "description": "Comment Policy"
+  },
+  "acceptPost": "Accept & Post",
+  "@acceptPost": {
+    "description": "Accept & Post"
+  },
+  "youNeedToBeLoggedInToComment": "You need to be logged in to comment.",
+  "@youNeedToBeLoggedInToComment": {
+    "description": "You need to be logged in to comment."
+  },
+  "comments": "Comments",
+  "@comments": {
+    "description": "Comments"
+  },
+  "areYouSureYouWantToDeleteThisCommentThisActionCannotBeUndone": "Are you sure you want to delete this comment? This action cannot be undone.",
+  "@areYouSureYouWantToDeleteThisCommentThisActionCannotBeUndone": {
+    "description": "Are you sure you want to delete this comment? This action cannot be undone."
+  },
+  "fillerbf848cb112": "[Filler]",
+  "@fillerbf848cb112": {
+    "description": "[Filler]"
+  },
+  "audioCHANNELSLAYOUT": "AUDIO CHANNELS / LAYOUT",
+  "@audioCHANNELSLAYOUT": {
+    "description": "AUDIO CHANNELS / LAYOUT"
+  },
+  "addSpeed": "Add Speed",
+  "@addSpeed": {
+    "description": "Add Speed"
+  },
+  "currentSpeed": "Current Speed",
+  "@currentSpeed": {
+    "description": "Current Speed"
+  },
+  "noSubtitleCuesLoaded": "No subtitle cues loaded",
+  "@noSubtitleCuesLoaded": {
+    "description": "No subtitle cues loaded"
+  },
+  "cuesAreOnlyAvailableForExternalSubtitlesUseTheDelayCe558bf3d29": "Cues are only available for external subtitles. Use the delay controls above to sync embedded tracks.",
+  "@cuesAreOnlyAvailableForExternalSubtitlesUseTheDelayCe558bf3d29": {
+    "description": "Cues are only available for external subtitles. Use the delay controls above to sync embedded tracks."
+  },
+  "previousEpisode": "Previous Episode",
+  "@previousEpisode": {
+    "description": "Previous Episode"
+  },
+  "nextEpisode": "Next Episode",
+  "@nextEpisode": {
+    "description": "Next Episode"
+  },
+  "lockControls": "Lock Controls",
+  "@lockControls": {
+    "description": "Lock Controls"
+  },
+  "whyAreYouRecommendingThisMin30Chars": "Why are you recommending this? (min 30 chars)",
+  "@whyAreYouRecommendingThisMin30Chars": {
+    "description": "Why are you recommending this? (min 30 chars)"
+  },
+  "quality": "Quality",
+  "@quality": {
+    "description": "Quality"
+  },
+  "unlockOrientation": "Unlock Orientation",
+  "@unlockOrientation": {
+    "description": "Unlock Orientation"
+  },
+  "lockOrientation": "Lock Orientation",
+  "@lockOrientation": {
+    "description": "Lock Orientation"
+  },
+  "pictureInPicture": "Picture in Picture",
+  "@pictureInPicture": {
+    "description": "Picture in Picture"
+  },
+  "fullscreen": "Fullscreen",
+  "@fullscreen": {
+    "description": "Fullscreen"
+  },
+  "eGMyAnimeLogo": "e.g. My Anime Logo",
+  "@eGMyAnimeLogo": {
+    "description": "e.g. My Anime Logo"
+  },
+  "filterActivities": "Filter Activities",
+  "@filterActivities": {
+    "description": "Filter Activities"
+  },
+  "enterPassword": "Enter password",
+  "@enterPassword": {
+    "description": "Enter password"
+  },
+  "ascending": "Ascending",
+  "@ascending": {
+    "description": "Ascending"
+  },
+  "descending": "Descending",
+  "@descending": {
+    "description": "Descending"
+  },
+  "searchChapters": "Search chapters...",
+  "@searchChapters": {
+    "description": "Search chapters..."
+  },
+  "enterListName": "Enter list name",
+  "@enterListName": {
+    "description": "Enter list name"
+  },
+  "playlist": "Playlist",
+  "@playlist": {
+    "description": "Playlist"
+  },
+  "shadersColorProfiles": "Shaders & Color Profiles",
+  "@shadersColorProfiles": {
+    "description": "Shaders & Color Profiles"
+  },
+  "subtitles": "Subtitles",
+  "@subtitles": {
+    "description": "Subtitles"
+  },
+  "audio": "Audio",
+  "@audio": {
+    "description": "Audio"
+  },
+  "syncSubtitles": "Sync Subtitles",
+  "@syncSubtitles": {
+    "description": "Sync Subtitles"
+  },
+  "aspectRatio": "Aspect Ratio",
+  "@aspectRatio": {
+    "description": "Aspect Ratio"
+  },
+  "externalPlayer": "External Player",
+  "@externalPlayer": {
+    "description": "External Player"
+  },
+  "replay30s": "Replay 30s",
+  "@replay30s": {
+    "description": "Replay 30s"
+  },
+  "forward30s": "Forward 30s",
+  "@forward30s": {
+    "description": "Forward 30s"
+  },
+  "searchSources": "Search sources...",
+  "@searchSources": {
+    "description": "Search sources..."
+  },
+  "changeFile": "Change File",
+  "@changeFile": {
+    "description": "Change File"
+  },
+  "defaultSize200px": "Default Size (200px)",
+  "@defaultSize200px": {
+    "description": "Default Size (200px)"
+  },
+  "originalSize": "Original Size",
+  "@originalSize": {
+    "description": "Original Size"
+  },
+  "customScale": "Custom Scale",
+  "@customScale": {
+    "description": "Custom Scale"
+  },
+  "editLogoSettings": "Edit Logo Settings",
+  "@editLogoSettings": {
+    "description": "Edit Logo Settings"
+  },
+  "deleteLogo": "Delete Logo",
+  "@deleteLogo": {
+    "description": "Delete Logo"
+  },
+  "updateYourActivity": "Update your activity...",
+  "@updateYourActivity": {
+    "description": "Update your activity..."
+  },
+  "pasteURLHere": "Paste URL here...",
+  "@pasteURLHere": {
+    "description": "Paste URL here..."
+  },
+  "public": "Public",
+  "@public": {
+    "description": "Public"
+  },
+  "recommend": "Recommend",
+  "@recommend": {
+    "description": "Recommend"
+  },
+  "editRecommendationReasonMin30Chars": "Edit recommendation reason (min 30 chars)",
+  "@editRecommendationReasonMin30Chars": {
+    "description": "Edit recommendation reason (min 30 chars)"
+  },
+  "whyIsThisUnderratedMin30Chars": "Why is this underrated? (min 30 chars)",
+  "@whyIsThisUnderratedMin30Chars": {
+    "description": "Why is this underrated? (min 30 chars)"
+  },
+  "searchAcrossExtensions": "Search across extensions...",
+  "@searchAcrossExtensions": {
+    "description": "Search across extensions..."
+  },
+  "testExtensions": "Test Extensions",
+  "@testExtensions": {
+    "description": "Test Extensions"
+  },
+  "repositories": "Repositories",
+  "@repositories": {
+    "description": "Repositories"
+  },
+  "searchExtensions5ba4f342a1": "Search extensions...",
+  "@searchExtensions5ba4f342a1": {
+    "description": "Search extensions..."
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Select Language"
+  },
+  "searchInHistory": "Search in History...",
+  "@searchInHistory": {
+    "description": "Search in History..."
+  },
+  "searchInLibrary": "Search in Library...",
+  "@searchInLibrary": {
+    "description": "Search in Library..."
+  },
+  "searchAnimeMovies": "Search anime, movies...",
+  "@searchAnimeMovies": {
+    "description": "Search anime, movies..."
+  },
+  "editReply": "Edit reply...",
+  "@editReply": {
+    "description": "Edit reply..."
+  },
+  "writeAReply": "Write a reply...",
+  "@writeAReply": {
+    "description": "Write a reply..."
+  },
+  "whatSOnYourMind": "What's on your mind?",
+  "@whatSOnYourMind": {
+    "description": "What's on your mind?"
+  },
+  "createActivity": "Create Activity",
+  "@createActivity": {
+    "description": "Create Activity"
+  },
+  "messageFriend": "Message Friend",
+  "@messageFriend": {
+    "description": "Message Friend"
+  },
+  "writeAMessage": "Write a message...",
+  "@writeAMessage": {
+    "description": "Write a message..."
+  },
+  "newCustomListName": "New custom list name",
+  "@newCustomListName": {
+    "description": "New custom list name"
+  },
+  "collapseEditor": "Collapse editor",
+  "@collapseEditor": {
+    "description": "Collapse editor"
+  },
+  "expandEditor": "Expand editor",
+  "@expandEditor": {
+    "description": "Expand editor"
+  },
+  "writeYourAniListBio": "Write your AniList bio...",
+  "@writeYourAniListBio": {
+    "description": "Write your AniList bio..."
+  },
+  "collapsePreview": "Collapse preview",
+  "@collapsePreview": {
+    "description": "Collapse preview"
+  },
+  "expandPreview": "Expand preview",
+  "@expandPreview": {
+    "description": "Expand preview"
+  },
+  "extensionManager": "Extension Manager",
+  "@extensionManager": {
+    "description": "Extension Manager"
+  },
+  "enterValue": "Enter value",
+  "@enterValue": {
+    "description": "Enter value"
+  },
+  "showOnLeft": "Show on left",
+  "@showOnLeft": {
+    "description": "Show on left"
+  },
+  "showOnRight": "Show on right",
+  "@showOnRight": {
+    "description": "Show on right"
+  },
+  "hideButton": "Hide button",
+  "@hideButton": {
+    "description": "Hide button"
+  },
+  "moveToRight": "Move to right",
+  "@moveToRight": {
+    "description": "Move to right"
+  },
+  "moveToLeft": "Move to left",
+  "@moveToLeft": {
+    "description": "Move to left"
+  },
+  "hexColorCode": "Hex Color Code",
+  "@hexColorCode": {
+    "description": "Hex Color Code"
+  },
+  "message3f51b5Or3F51B5": "#3F51B5 or 3F51B5",
+  "@message3f51b5Or3F51B5": {
+    "description": "#3F51B5 or 3F51B5"
+  },
+  "invalidHexColorCode": "Invalid Hex color code",
+  "@invalidHexColorCode": {
+    "description": "Invalid Hex color code"
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm Password"
+  },
+  "reEnterPassword": "Re-enter password",
+  "@reEnterPassword": {
+    "description": "Re-enter password"
+  },
+  "searchTags": "Search tags...",
+  "@searchTags": {
+    "description": "Search tags..."
+  },
+  "enterFirstAniListUsername": "Enter first AniList username",
+  "@enterFirstAniListUsername": {
+    "description": "Enter first AniList username"
+  },
+  "enterAniListUsername": "Enter AniList username",
+  "@enterAniListUsername": {
+    "description": "Enter AniList username"
+  },
+  "gridView": "Grid view",
+  "@gridView": {
+    "description": "Grid view"
+  },
+  "listView": "List view",
+  "@listView": {
+    "description": "List view"
+  },
+  "closeSearch": "Close search",
+  "@closeSearch": {
+    "description": "Close search"
+  },
+  "filterGenres": "Filter genres",
+  "@filterGenres": {
+    "description": "Filter genres"
+  },
+  "checkCompatibility": "Check Compatibility",
+  "@checkCompatibility": {
+    "description": "Check Compatibility"
+  },
+  "previousParagraph": "Previous Paragraph",
+  "@previousParagraph": {
+    "description": "Previous Paragraph"
+  },
+  "pauseTTS": "Pause TTS",
+  "@pauseTTS": {
+    "description": "Pause TTS"
+  },
+  "playTTS": "Play TTS",
+  "@playTTS": {
+    "description": "Play TTS"
+  },
+  "nextParagraph": "Next Paragraph",
+  "@nextParagraph": {
+    "description": "Next Paragraph"
+  },
+  "previousChapter": "Previous Chapter",
+  "@previousChapter": {
+    "description": "Previous Chapter"
+  },
+  "decreaseFontSize": "Decrease Font Size",
+  "@decreaseFontSize": {
+    "description": "Decrease Font Size"
+  },
+  "increaseFontSize": "Increase Font Size",
+  "@increaseFontSize": {
+    "description": "Increase Font Size"
+  },
+  "nextChapter": "Next Chapter",
+  "@nextChapter": {
+    "description": "Next Chapter"
+  },
+  "syncDetails": "Sync Details",
+  "@syncDetails": {
+    "description": "Sync Details"
+  },
+  "increaseAutoScrollSpeed": "Increase auto-scroll speed",
+  "@increaseAutoScrollSpeed": {
+    "description": "Increase auto-scroll speed"
+  },
+  "pauseAutoScroll": "Pause auto-scroll",
+  "@pauseAutoScroll": {
+    "description": "Pause auto-scroll"
+  },
+  "startAutoScroll": "Start auto-scroll",
+  "@startAutoScroll": {
+    "description": "Start auto-scroll"
+  },
+  "decreaseAutoScrollSpeed": "Decrease auto-scroll speed",
+  "@decreaseAutoScrollSpeed": {
+    "description": "Decrease auto-scroll speed"
+  },
+  "listViewfb1bde1b6c": "List View",
+  "@listViewfb1bde1b6c": {
+    "description": "List View"
+  },
+  "gridView602bf12902": "Grid View",
+  "@gridView602bf12902": {
+    "description": "Grid View"
+  },
+  "searchItemsInList": "Search items in list...",
+  "@searchItemsInList": {
+    "description": "Search items in list..."
+  },
+  "enterSearchQuery": "Enter search query",
+  "@enterSearchQuery": {
+    "description": "Enter search query"
+  },
+  "forceSyncFromSDCard": "Force Sync from SD Card",
+  "@forceSyncFromSDCard": {
+    "description": "Force Sync from SD Card"
+  },
+  "unbind": "Unbind",
+  "@unbind": {
+    "description": "Unbind"
+  },
+  "showAllAnime": "Show All Anime",
+  "@showAllAnime": {
+    "description": "Show All Anime"
+  },
+  "dubbedOnly": "Dubbed Only",
+  "@dubbedOnly": {
+    "description": "Dubbed Only"
+  },
+  "inMyList": "In My List",
+  "@inMyList": {
+    "description": "In My List"
+  },
+  "allAnime": "All Anime",
+  "@allAnime": {
+    "description": "All Anime"
+  },
+  "listLayout": "List Layout",
+  "@listLayout": {
+    "description": "List Layout"
+  },
+  "gridLayout": "Grid Layout",
+  "@gridLayout": {
+    "description": "Grid Layout"
+  },
+  "enterUsername": "Enter Username",
+  "@enterUsername": {
+    "description": "Enter Username"
+  },
+  "collectionName": "Collection name",
+  "@collectionName": {
+    "description": "Collection name"
+  },
+  "switchToListView": "Switch to List View",
+  "@switchToListView": {
+    "description": "Switch to List View"
+  },
+  "switchToCardView": "Switch to Card View",
+  "@switchToCardView": {
+    "description": "Switch to Card View"
+  },
+  "commentRules": "Comment Rules",
+  "@commentRules": {
+    "description": "Comment Rules"
+  },
+  "refreshComments": "Refresh comments",
+  "@refreshComments": {
+    "description": "Refresh comments"
+  },
+  "orTypeCustomTag": "Or type custom tag...",
+  "@orTypeCustomTag": {
+    "description": "Or type custom tag..."
+  },
+  "editYourComment": "Edit your comment...",
+  "@editYourComment": {
+    "description": "Edit your comment..."
+  },
+  "reason": "Reason",
+  "@reason": {
+    "description": "Reason"
+  },
+  "additionalNotesOptional": "Additional notes (optional)",
+  "@additionalNotesOptional": {
+    "description": "Additional notes (optional)"
+  },
+  "speed": "Speed",
+  "@speed": {
+    "description": "Speed"
+  },
+  "audioTracks": "Audio Tracks",
+  "@audioTracks": {
+    "description": "Audio Tracks"
+  },
+  "playbackSpeed": "Playback Speed",
+  "@playbackSpeed": {
+    "description": "Playback Speed"
+  },
+  "shadersColors": "Shaders & Colors",
+  "@shadersColors": {
+    "description": "Shaders & Colors"
+  },
+  "forward": "Forward",
+  "@forward": {
+    "description": "Forward"
+  },
+  "syncSubs": "Sync Subs",
+  "@syncSubs": {
+    "description": "Sync Subs"
+  },
+  "server": "Server",
+  "@server": {
+    "description": "Server"
+  },
+  "resetReLogin": "Reset & re-login",
+  "@resetReLogin": {
+    "description": "Reset & re-login"
+  },
+  "enterTokenHere": "Enter token here",
+  "@enterTokenHere": {
+    "description": "Enter token here"
+  },
+  "allYourLocalShi": "All your local shi",
+  "@allYourLocalShi": {
+    "description": "All your local shi"
+  },
+  "compatibilityIsCalculatedByComparingSignalsFromBothUb45bf76d25": "Compatibility is calculated by comparing signals from both users' AniList profiles across 16 heuristics in Anime and Manga.\nSet overlaps use cube-root exponential scaling (1/3), decade proportions are adjusted for personal baseline mean score deviation, and weights are dynamically distributed.",
+  "@compatibilityIsCalculatedByComparingSignalsFromBothUb45bf76d25": {
+    "description": "Compatibility is calculated by comparing signals from both users' AniList profiles across 16 heuristics in Anime and Manga.\nSet overlaps use cube-root exponential scaling (1/3), decade proportions are adjusted for personal baseline mean score deviation, and weights are dynamically distributed."
+  },
+  "aSingleMediaCanBeTrackedOnAllLoggedInServicesAtOnceP64f8f811c5": "A single media can be tracked on all logged-in services at once. Progress is pushed to every bound service in parallel.",
+  "@aSingleMediaCanBeTrackedOnAllLoggedInServicesAtOnceP64f8f811c5": {
+    "description": "A single media can be tracked on all logged-in services at once. Progress is pushed to every bound service in parallel."
+  },
+  "online": "Online",
+  "@online": {
+    "description": "Online"
+  },
+  "offline": "Offline",
+  "@offline": {
+    "description": "Offline"
+  },
+  "removeCoHost": "Remove Co-host",
+  "@removeCoHost": {
+    "description": "Remove Co-host"
+  },
+  "makeCoHost": "Make Co-host",
+  "@makeCoHost": {
+    "description": "Make Co-host"
+  },
+  "joining": "Joining...",
+  "@joining": {
+    "description": "Joining..."
+  },
+  "joinRoom": "Join Room",
+  "@joinRoom": {
+    "description": "Join Room"
+  },
+  "creating": "Creating...",
+  "@creating": {
+    "description": "Creating..."
+  },
+  "createRoom": "Create Room",
+  "@createRoom": {
+    "description": "Create Room"
+  },
+  "yourHistoryIsEmpty": "Your history is empty",
+  "@yourHistoryIsEmpty": {
+    "description": "Your history is empty"
+  },
+  "yourLibraryIsEmpty": "Your library is empty",
+  "@yourLibraryIsEmpty": {
+    "description": "Your library is empty"
+  },
+  "message1Recommendation": "1 Recommendation",
+  "@message1Recommendation": {
+    "description": "1 Recommendation"
+  },
+  "unpin": "Unpin",
+  "@unpin": {
+    "description": "Unpin"
+  },
+  "pinActivity": "Pin Activity",
+  "@pinActivity": {
+    "description": "Pin Activity"
+  },
+  "watch": "Watch",
+  "@watch": {
+    "description": "Watch"
+  },
+  "showLess": "Show Less",
+  "@showLess": {
+    "description": "Show Less"
+  },
+  "readMore": "Read More",
+  "@readMore": {
+    "description": "Read More"
+  },
+  "browseExtensions": "Browse Extensions",
+  "@browseExtensions": {
+    "description": "Browse Extensions"
+  },
+  "goToHome": "Go to Home",
+  "@goToHome": {
+    "description": "Go to Home"
+  },
+  "submitting": "Submitting…",
+  "@submitting": {
+    "description": "Submitting…"
+  },
+  "addRecommendation": "Add Recommendation",
+  "@addRecommendation": {
+    "description": "Add Recommendation"
+  },
+  "submitRecommendation": "Submit Recommendation",
+  "@submitRecommendation": {
+    "description": "Submit Recommendation"
+  },
+  "continueReading": "Continue Reading",
+  "@continueReading": {
+    "description": "Continue Reading"
+  },
+  "deselectAll": "Deselect all",
+  "@deselectAll": {
+    "description": "Deselect all"
+  },
+  "selectAll": "Select all",
+  "@selectAll": {
+    "description": "Select all"
+  },
+  "leaveReset": "Leave / Reset",
+  "@leaveReset": {
+    "description": "Leave / Reset"
+  },
+  "defaultTabOrder": "Default tab order",
+  "@defaultTabOrder": {
+    "description": "Default tab order"
+  },
+  "reverseTabs": "Reverse tabs",
+  "@reverseTabs": {
+    "description": "Reverse tabs"
+  },
+  "synced": "Synced!",
+  "@synced": {
+    "description": "Synced!"
+  },
+  "syncCookies": "Sync Cookies",
+  "@syncCookies": {
+    "description": "Sync Cookies"
+  },
+  "message1Title": "1 title",
+  "@message1Title": {
+    "description": "1 title"
+  },
+  "message1ItemInHistory": "1 item in history",
+  "@message1ItemInHistory": {
+    "description": "1 item in history"
+  },
+  "title3c6de1b7dd": "title",
+  "@title3c6de1b7dd": {
+    "description": "title"
+  },
+  "titles": "titles",
+  "@titles": {
+    "description": "titles"
+  },
+  "item": "item",
+  "@item": {
+    "description": "item"
+  },
+  "items": "items",
+  "@items": {
+    "description": "items"
+  },
+  "read0a3768425d": "READ",
+  "@read0a3768425d": {
+    "description": "READ"
+  },
+  "watched": "WATCHED",
+  "@watched": {
+    "description": "WATCHED"
+  },
+  "downloadedChapters": "Downloaded Chapters",
+  "@downloadedChapters": {
+    "description": "Downloaded Chapters"
+  },
+  "downloadedEpisodes": "Downloaded Episodes",
+  "@downloadedEpisodes": {
+    "description": "Downloaded Episodes"
+  },
+  "watchingProgress": "Watching Progress",
+  "@watchingProgress": {
+    "description": "Watching Progress"
+  },
+  "readingProgress": "Reading Progress",
+  "@readingProgress": {
+    "description": "Reading Progress"
+  },
+  "saving": "Saving...",
+  "@saving": {
+    "description": "Saving..."
+  },
+  "saveAniListSettings": "Save AniList Settings",
+  "@saveAniListSettings": {
+    "description": "Save AniList Settings"
+  },
+  "shadersDisabled": "Shaders Disabled",
+  "@shadersDisabled": {
+    "description": "Shaders Disabled"
+  },
+  "pin": "Pin",
+  "@pin": {
+    "description": "Pin"
+  },
+  "charactersVoiceActors": "Characters & Voice Actors",
+  "@charactersVoiceActors": {
+    "description": "Characters & Voice Actors"
+  },
+  "activityPhrasing": "Activity Phrasing",
+  "@activityPhrasing": {
+    "description": "Activity Phrasing"
+  },
+  "alwaysShowChapterTransition": "Always Show Chapter Transition",
+  "@alwaysShowChapterTransition": {
+    "description": "Always Show Chapter Transition"
+  },
+  "animateControlOverlay": "Animate Control Overlay",
+  "@animateControlOverlay": {
+    "description": "Animate Control Overlay"
+  },
+  "appearance": "Appearance",
+  "@appearance": {
+    "description": "Appearance"
+  },
+  "audioPitchCorrection": "Audio Pitch Correction",
+  "@audioPitchCorrection": {
+    "description": "Audio Pitch Correction"
+  },
+  "autoPlay": "Auto Play",
+  "@autoPlay": {
+    "description": "Auto Play"
+  },
+  "autoScroll": "Auto Scroll",
+  "@autoScroll": {
+    "description": "Auto Scroll"
+  },
+  "autoScrollSpeed": "Auto Scroll Speed",
+  "@autoScrollSpeed": {
+    "description": "Auto Scroll Speed"
+  },
+  "autoSkipED": "Auto Skip ED",
+  "@autoSkipED": {
+    "description": "Auto Skip ED"
+  },
+  "autoSkipFiller": "Auto Skip Filler",
+  "@autoSkipFiller": {
+    "description": "Auto Skip Filler"
+  },
+  "autoSkipOP": "Auto Skip OP",
+  "@autoSkipOP": {
+    "description": "Auto Skip OP"
+  },
+  "autoSkipOnceOnly": "Auto Skip Once Only",
+  "@autoSkipOnceOnly": {
+    "description": "Auto Skip Once Only"
+  },
+  "autoSkipRecap": "Auto Skip Recap",
+  "@autoSkipRecap": {
+    "description": "Auto Skip Recap"
+  },
+  "autoTranslateSubtitles": "Auto Translate Subtitles",
+  "@autoTranslateSubtitles": {
+    "description": "Auto Translate Subtitles"
+  },
+  "autoWebtoonMode": "Auto Webtoon Mode",
+  "@autoWebtoonMode": {
+    "description": "Auto Webtoon Mode"
+  },
+  "autoClearThreshold": "Auto-clear threshold",
+  "@autoClearThreshold": {
+    "description": "Auto-clear threshold"
+  },
+  "backgroundOpacity": "Background Opacity",
+  "@backgroundOpacity": {
+    "description": "Background Opacity"
+  },
+  "bloom": "Bloom",
+  "@bloom": {
+    "description": "Bloom"
+  },
+  "blurMultiplier": "Blur Multiplier",
+  "@blurMultiplier": {
+    "description": "Blur Multiplier"
+  },
+  "bottomMargin": "Bottom Margin",
+  "@bottomMargin": {
+    "description": "Bottom Margin"
+  },
+  "browsingStatus": "Browsing \\$status",
+  "@browsingStatus": {
+    "description": "Browsing \\$status"
+  },
+  "readingManga": "Reading \\$manga",
+  "@readingManga": {
+    "description": "Reading \\$manga"
+  },
+  "readingNovel": "Reading \\$novel",
+  "@readingNovel": {
+    "description": "Reading \\$novel"
+  },
+  "viewingAnime": "Viewing \\$anime",
+  "@viewingAnime": {
+    "description": "Viewing \\$anime"
+  },
+  "viewingManga": "Viewing \\$manga",
+  "@viewingManga": {
+    "description": "Viewing \\$manga"
+  },
+  "viewingNovel": "Viewing \\$novel",
+  "@viewingNovel": {
+    "description": "Viewing \\$novel"
+  },
+  "watchingAnime": "Watching \\$anime",
+  "@watchingAnime": {
+    "description": "Watching \\$anime"
+  },
+  "browsingIdle": "Browsing / Idle",
+  "@browsingIdle": {
+    "description": "Browsing / Idle"
+  },
+  "bufferSize": "Buffer Size",
+  "@bufferSize": {
+    "description": "Buffer Size"
+  },
+  "cacheMinutes": "Cache Minutes",
+  "@cacheMinutes": {
+    "description": "Cache Minutes"
+  },
+  "cardAnimationDuration": "Card Animation Duration",
+  "@cardAnimationDuration": {
+    "description": "Card Animation Duration"
+  },
+  "cardRoundness": "Card Roundness",
+  "@cardRoundness": {
+    "description": "Card Roundness"
+  },
+  "cardStyle": "Card Style",
+  "@cardStyle": {
+    "description": "Card Style"
+  },
+  "carouselStyle": "Carousel Style",
+  "@carouselStyle": {
+    "description": "Carousel Style"
+  },
+  "checkForUpdates": "Check for Updates",
+  "@checkForUpdates": {
+    "description": "Check for Updates"
+  },
+  "clearImageCacheNow": "Clear image cache now",
+  "@clearImageCacheNow": {
+    "description": "Clear image cache now"
+  },
+  "contributors": "Contributors",
+  "@contributors": {
+    "description": "Contributors"
+  },
+  "createBackup": "Create Backup",
+  "@createBackup": {
+    "description": "Create Backup"
+  },
+  "cropBorders": "Crop Borders",
+  "@cropBorders": {
+    "description": "Crop Borders"
+  },
+  "customTheme": "Custom Theme",
+  "@customTheme": {
+    "description": "Custom Theme"
+  },
+  "decoderHWDec": "Decoder (HWDec)",
+  "@decoderHWDec": {
+    "description": "Decoder (HWDec)"
+  },
+  "decoderThreads": "Decoder Threads",
+  "@decoderThreads": {
+    "description": "Decoder Threads"
+  },
+  "defaultPortrait": "Default Portrait",
+  "@defaultPortrait": {
+    "description": "Default Portrait"
+  },
+  "defaultTheme": "Default Theme",
+  "@defaultTheme": {
+    "description": "Default Theme"
+  },
+  "demuxerMaxBuffer": "Demuxer Max Buffer",
+  "@demuxerMaxBuffer": {
+    "description": "Demuxer Max Buffer"
+  },
+  "demuxerReadahead": "Demuxer Readahead",
+  "@demuxerReadahead": {
+    "description": "Demuxer Readahead"
+  },
+  "direction": "Direction",
+  "@direction": {
+    "description": "Direction"
+  },
+  "discord": "Discord",
+  "@discord": {
+    "description": "Discord"
+  },
+  "doubletapToSeek": "DoubleTap to Seek",
+  "@doubletapToSeek": {
+    "description": "DoubleTap to Seek"
+  },
+  "dualPageMode": "Dual Page Mode",
+  "@dualPageMode": {
+    "description": "Dual Page Mode"
+  },
+  "enableAnimation": "Enable Animation",
+  "@enableAnimation": {
+    "description": "Enable Animation"
+  },
+  "enableBetaUpdates": "Enable Beta Updates",
+  "@enableBetaUpdates": {
+    "description": "Enable Beta Updates"
+  },
+  "enableDiscordRPC": "Enable Discord RPC",
+  "@enableDiscordRPC": {
+    "description": "Enable Discord RPC"
+  },
+  "enableExperimentalSettings": "Enable Experimental Settings",
+  "@enableExperimentalSettings": {
+    "description": "Enable Experimental Settings"
+  },
+  "enableKenBurns": "Enable Ken Burns",
+  "@enableKenBurns": {
+    "description": "Enable Ken Burns"
+  },
+  "enableSwipeControls": "Enable Swipe Controls",
+  "@enableSwipeControls": {
+    "description": "Enable Swipe Controls"
+  },
+  "enableTTS": "Enable TTS",
+  "@enableTTS": {
+    "description": "Enable TTS"
+  },
+  "experimental": "Experimental",
+  "@experimental": {
+    "description": "Experimental"
+  },
+  "extras": "Extras",
+  "@extras": {
+    "description": "Extras"
+  },
+  "factoryReset": "Factory reset",
+  "@factoryReset": {
+    "description": "Factory reset"
+  },
+  "featuresIssues": "Features/Issues",
+  "@featuresIssues": {
+    "description": "Features/Issues"
+  },
+  "fontFamily": "Font Family",
+  "@fontFamily": {
+    "description": "Font Family"
+  },
+  "fontSize": "Font Size",
+  "@fontSize": {
+    "description": "Font Size"
+  },
+  "forks": "Forks",
+  "@forks": {
+    "description": "Forks"
+  },
+  "frameInterpolation": "Frame Interpolation",
+  "@frameInterpolation": {
+    "description": "Frame Interpolation"
+  },
+  "generalPrivacy": "General & Privacy",
+  "@generalPrivacy": {
+    "description": "General & Privacy"
+  },
+  "github": "GitHub",
+  "@github": {
+    "description": "GitHub"
+  },
+  "glowMultiplier": "Glow Multiplier",
+  "@glowMultiplier": {
+    "description": "Glow Multiplier"
+  },
+  "hideNSFW18Content": "Hide NSFW / 18+ Content",
+  "@hideNSFW18Content": {
+    "description": "Hide NSFW / 18+ Content"
+  },
+  "historyCardStyle": "History Card Style",
+  "@historyCardStyle": {
+    "description": "History Card Style"
+  },
+  "invertVolumeKeys": "Invert Volume Keys",
+  "@invertVolumeKeys": {
+    "description": "Invert Volume Keys"
+  },
+  "jsonThemeManager": "JSON Theme Manager",
+  "@jsonThemeManager": {
+    "description": "JSON Theme Manager"
+  },
+  "keepScreenOn": "Keep Screen On",
+  "@keepScreenOn": {
+    "description": "Keep Screen On"
+  },
+  "koFi": "Ko-fi",
+  "@koFi": {
+    "description": "Ko-fi"
+  },
+  "layout": "Layout",
+  "@layout": {
+    "description": "Layout"
+  },
+  "letterSpacing": "Letter Spacing",
+  "@letterSpacing": {
+    "description": "Letter Spacing"
+  },
+  "lineHeight": "Line Height",
+  "@lineHeight": {
+    "description": "Line Height"
+  },
+  "liquidBackground": "Liquid Background",
+  "@liquidBackground": {
+    "description": "Liquid Background"
+  },
+  "liquidMode": "Liquid Mode",
+  "@liquidMode": {
+    "description": "Liquid Mode"
+  },
+  "logDirectory": "Log directory",
+  "@logDirectory": {
+    "description": "Log directory"
+  },
+  "logoAnimation": "Logo Animation",
+  "@logoAnimation": {
+    "description": "Logo Animation"
+  },
+  "longPressPageActions": "Long Press Page Actions",
+  "@longPressPageActions": {
+    "description": "Long Press Page Actions"
+  },
+  "markAsWatched": "Mark As Watched",
+  "@markAsWatched": {
+    "description": "Mark As Watched"
+  },
+  "materialYou": "Material You",
+  "@materialYou": {
+    "description": "Material You"
+  },
+  "megaskipDuration": "MegaSkip Duration",
+  "@megaskipDuration": {
+    "description": "MegaSkip Duration"
+  },
+  "oledMode": "Oled Mode",
+  "@oledMode": {
+    "description": "Oled Mode"
+  },
+  "outlineType": "Outline Type",
+  "@outlineType": {
+    "description": "Outline Type"
+  },
+  "overscroll": "Overscroll",
+  "@overscroll": {
+    "description": "Overscroll"
+  },
+  "pageReaderMode": "Page Reader Mode",
+  "@pageReaderMode": {
+    "description": "Page Reader Mode"
+  },
+  "palette": "Palette",
+  "@palette": {
+    "description": "Palette"
+  },
+  "paragraphSpacing": "Paragraph Spacing",
+  "@paragraphSpacing": {
+    "description": "Paragraph Spacing"
+  },
+  "persistentPageIndicator": "Persistent Page Indicator",
+  "@persistentPageIndicator": {
+    "description": "Persistent Page Indicator"
+  },
+  "playerTheme": "Player Theme",
+  "@playerTheme": {
+    "description": "Player Theme"
+  },
+  "radiusMultiplier": "Radius Multiplier",
+  "@radiusMultiplier": {
+    "description": "Radius Multiplier"
+  },
+  "readingManga75faaa8083": "Reading Manga",
+  "@readingManga75faaa8083": {
+    "description": "Reading Manga"
+  },
+  "readingNovela6d3a61176": "Reading Novel",
+  "@readingNovela6d3a61176": {
+    "description": "Reading Novel"
+  },
+  "reddit": "Reddit",
+  "@reddit": {
+    "description": "Reddit"
+  },
+  "resetNovelReaderSettings": "Reset Novel Reader Settings",
+  "@resetNovelReaderSettings": {
+    "description": "Reset Novel Reader Settings"
+  },
+  "resetToDefaultPicture": "Reset to Default Picture",
+  "@resetToDefaultPicture": {
+    "description": "Reset to Default Picture"
+  },
+  "resizeMode": "Resize Mode",
+  "@resizeMode": {
+    "description": "Resize Mode"
+  },
+  "restoreData": "Restore Data",
+  "@restoreData": {
+    "description": "Restore Data"
+  },
+  "retainOriginalColor": "Retain Original Color",
+  "@retainOriginalColor": {
+    "description": "Retain Original Color"
+  },
+  "saveLastFrame": "Save Last Frame",
+  "@saveLastFrame": {
+    "description": "Save Last Frame"
+  },
+  "shareLogs": "Share logs",
+  "@shareLogs": {
+    "description": "Share logs"
+  },
+  "showBatteryTime": "Show Battery & Time",
+  "@showBatteryTime": {
+    "description": "Show Battery & Time"
+  },
+  "showContinueWatchingCard": "Show Continue Watching Card",
+  "@showContinueWatchingCard": {
+    "description": "Show Continue Watching Card"
+  },
+  "showReadingProgress": "Show Reading Progress",
+  "@showReadingProgress": {
+    "description": "Show Reading Progress"
+  },
+  "showTimestamps": "Show Timestamps",
+  "@showTimestamps": {
+    "description": "Show Timestamps"
+  },
+  "spacedPages": "Spaced Pages",
+  "@spacedPages": {
+    "description": "Spaced Pages"
+  },
+  "subtitleBackgroundColor": "Subtitle Background Color",
+  "@subtitleBackgroundColor": {
+    "description": "Subtitle Background Color"
+  },
+  "subtitleColor": "Subtitle Color",
+  "@subtitleColor": {
+    "description": "Subtitle Color"
+  },
+  "subtitleFont": "Subtitle Font",
+  "@subtitleFont": {
+    "description": "Subtitle Font"
+  },
+  "subtitleOutlineColor": "Subtitle Outline Color",
+  "@subtitleOutlineColor": {
+    "description": "Subtitle Outline Color"
+  },
+  "subtitleOutlineWidth": "Subtitle Outline Width",
+  "@subtitleOutlineWidth": {
+    "description": "Subtitle Outline Width"
+  },
+  "subtitleSize": "Subtitle Size",
+  "@subtitleSize": {
+    "description": "Subtitle Size"
+  },
+  "subtitleTransparency": "Subtitle Transparency",
+  "@subtitleTransparency": {
+    "description": "Subtitle Transparency"
+  },
+  "swipeBetweenChapters": "Swipe Between Chapters",
+  "@swipeBetweenChapters": {
+    "description": "Swipe Between Chapters"
+  },
+  "swipeIndicatorTheme": "Swipe Indicator Theme",
+  "@swipeIndicatorTheme": {
+    "description": "Swipe Indicator Theme"
+  },
+  "ttsAutoAdvance": "TTS Auto Advance",
+  "@ttsAutoAdvance": {
+    "description": "TTS Auto Advance"
+  },
+  "ttsPitch": "TTS Pitch",
+  "@ttsPitch": {
+    "description": "TTS Pitch"
+  },
+  "ttsSpeed": "TTS Speed",
+  "@ttsSpeed": {
+    "description": "TTS Speed"
+  },
+  "tapToScroll": "Tap to Scroll",
+  "@tapToScroll": {
+    "description": "Tap to Scroll"
+  },
+  "telegram": "Telegram",
+  "@telegram": {
+    "description": "Telegram"
+  },
+  "termsOfServicePrivacyPolicy": "Terms of Service/Privacy Policy",
+  "@termsOfServicePrivacyPolicy": {
+    "description": "Terms of Service/Privacy Policy"
+  },
+  "transitionSubtitle": "Transition Subtitle",
+  "@transitionSubtitle": {
+    "description": "Transition Subtitle"
+  },
+  "translateTo": "Translate To",
+  "@translateTo": {
+    "description": "Translate To"
+  },
+  "translucentNav": "Translucent Nav",
+  "@translucentNav": {
+    "description": "Translucent Nav"
+  },
+  "useBuffering": "Use Buffering",
+  "@useBuffering": {
+    "description": "Use Buffering"
+  },
+  "useLibMpvForPlayback": "Use LibMpv for Playback",
+  "@useLibMpvForPlayback": {
+    "description": "Use LibMpv for Playback"
+  },
+  "useLibassForSubtitles": "Use Libass for Subtitles",
+  "@useLibassForSubtitles": {
+    "description": "Use Libass for Subtitles"
+  },
+  "usePosterColor": "Use Poster Color",
+  "@usePosterColor": {
+    "description": "Use Poster Color"
+  },
+  "videoSync": "Video Sync",
+  "@videoSync": {
+    "description": "Video Sync"
+  },
+  "viewingAnimeDetails": "Viewing Anime Details",
+  "@viewingAnimeDetails": {
+    "description": "Viewing Anime Details"
+  },
+  "viewingMangaDetails": "Viewing Manga Details",
+  "@viewingMangaDetails": {
+    "description": "Viewing Manga Details"
+  },
+  "viewingNovelDetails": "Viewing Novel Details",
+  "@viewingNovelDetails": {
+    "description": "Viewing Novel Details"
+  },
+  "volumeButtonScrolling": "Volume Button Scrolling",
+  "@volumeButtonScrolling": {
+    "description": "Volume Button Scrolling"
+  },
+  "volumeKeysNavigation": "Volume Keys Navigation",
+  "@volumeKeysNavigation": {
+    "description": "Volume Keys Navigation"
+  },
+  "watchingAnime35f3aa1e6c": "Watching Anime",
+  "@watchingAnime35f3aa1e6c": {
+    "description": "Watching Anime"
+  },
+  "wordSpacing": "Word Spacing",
+  "@wordSpacing": {
+    "description": "Word Spacing"
+  },
+  "writeLogToAFile": "Write log to a file",
+  "@writeLogToAFile": {
+    "description": "Write log to a file"
+  },
+  "encrypted": "Encrypted •",
+  "@encrypted": {
+    "description": "Encrypted •"
+  },
+  "current": "Current •",
+  "@current": {
+    "description": "Current •"
+  },
+  "simplifiedChinese": "简体中文",
+  "@simplifiedChinese": {
+    "description": "简体中文"
+  },
+  "rawThemesUrlHint": "https://raw.githubusercontent.com/...",
+  "@rawThemesUrlHint": {
+    "description": "https://raw.githubusercontent.com/..."
+  },
+  "githubRepositoryUrlHint": "https://github.com/username/repo.json",
+  "@githubRepositoryUrlHint": {
+    "description": "https://github.com/username/repo.json"
+  },
+  "customThemesUrlHint": "https://example.com/themes.json",
+  "@customThemesUrlHint": {
+    "description": "https://example.com/themes.json"
+  },
+  "searchCategory": "Search {category}...",
+  "@searchCategory": {
+    "description": "Search {category}...",
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "searchTrackerForTitle": "Search {tracker} for \"{title}\"…",
+  "@searchTrackerForTitle": {
+    "description": "Search {tracker} for \"{title}\"…",
+    "placeholders": {
+      "tracker": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "searchMediaType": "Search {mediaType}...",
+  "@searchMediaType": {
+    "description": "Search {mediaType}...",
+    "placeholders": {
+      "mediaType": {
+        "type": "String"
+      }
+    }
+  }
+}

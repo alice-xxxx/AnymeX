@@ -7,6 +7,7 @@ import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_bottomsheet.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:get/get.dart';
@@ -339,7 +340,7 @@ class _ChapterListSheetState extends State<ChapterListSheet> {
                     color: colors.primary,
                     size: 20,
                   ),
-                  tooltip: _isReversed ? 'Ascending' : 'Descending',
+                  tooltip: _isReversed ? context.l10n.ascending : context.l10n.descending,
                 ),
                 IconButton(
                   onPressed: () {
@@ -352,7 +353,7 @@ class _ChapterListSheetState extends State<ChapterListSheet> {
                     color: colors.primary,
                     size: 20,
                   ),
-                  tooltip: _isGrid ? 'List View' : 'Grid View',
+                  tooltip: _isGrid ? context.l10n.listViewfb1bde1b6c : context.l10n.gridView602bf12902,
                 ),
               ],
             ),
@@ -374,7 +375,7 @@ class _ChapterListSheetState extends State<ChapterListSheet> {
                   color: colors.onSurface,
                 ),
                 decoration: InputDecoration(
-                  hintText: 'Search chapters...',
+                  hintText: context.l10n.searchChapters,
                   hintStyle: TextStyle(
                     fontSize: 13,
                     color: colors.onSurface.withOpacity(0.45),

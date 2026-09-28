@@ -1,0 +1,10 @@
+arb-dir: assets/l10n
+# Regional ARBs inherit messages from the base-language ARBs.
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+output-dir: lib/l10n/generated
+preferred-supported-locales: [en_US]
+nullable-getter: false
+required-resource-attributes: true
+use-named-parameters: true

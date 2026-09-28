@@ -14,6 +14,7 @@ import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.
 import 'package:anymex/utils/function.dart';
 import 'package:anymex/screens/profile/activity_details_page.dart';
 import 'package:anymex/widgets/non_widgets/activity_card.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
@@ -454,7 +455,7 @@ class _ProfilePageState extends State<ProfilePage>
                   child: ActivityComposerSheet(
                     key: composerKey,
                     isModal: true,
-                    hintText: "What's on your mind?",
+                    hintText: context.l10n.whatSOnYourMind,
                     onSubmit: (text, {isPrivate = false}) async {
                       final anilistAuth = Get.find<AnilistAuth>();
                       try {
@@ -569,7 +570,7 @@ class _ProfilePageState extends State<ProfilePage>
               IconButton(
                 icon: const Icon(Icons.add),
                 onPressed: () => _showCreateActivitySheet(context),
-                tooltip: "Create Activity",
+                tooltip: context.l10n.createActivity,
                 style: IconButton.styleFrom(
                   backgroundColor: context.theme.colorScheme.primaryContainer,
                   foregroundColor: context.theme.colorScheme.primary,
@@ -579,7 +580,7 @@ class _ProfilePageState extends State<ProfilePage>
               IconButton(
                 icon: const Icon(IconlyLight.filter),
                 onPressed: () => _showFilterSheet(context),
-                tooltip: "Filter Activities",
+                tooltip: context.l10n.filterActivities,
               ),
             ],
           ),

@@ -4,6 +4,7 @@ import 'package:anymex/screens/anime/watch/controller/player_controller.dart';
 import 'package:anymex/screens/anime/watch/controls/widgets/control_button.dart';
 import 'package:anymex/controllers/watchium/watchium_service.dart';
 import 'package:expressive_loading_indicator/expressive_loading_indicator.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -42,8 +43,8 @@ class CenterControls extends StatelessWidget {
               duration: controller.overlayAnimationDuration(300),
               curve: Curves.easeOut,
               child: isDesktop
-                  ? _buildDesktopLayout(theme)
-                  : _buildMobileLayout(theme),
+                  ? _buildDesktopLayout(context, theme)
+                  : _buildMobileLayout(context, theme),
             ),
           ),
         ),
@@ -51,7 +52,7 @@ class CenterControls extends StatelessWidget {
     });
   }
 
-  Widget _buildMobileLayout(ThemeData theme) {
+  Widget _buildMobileLayout(BuildContext context, ThemeData theme) {
     final controller = Get.find<PlayerController>();
 
     return Row(
@@ -61,7 +62,7 @@ class CenterControls extends StatelessWidget {
         ControlButton(
           icon: Icons.skip_previous_rounded,
           onPressed: () => controller.navigator(false),
-          tooltip: 'Previous Episode',
+          tooltip: context.l10n.previousEpisode,
         ),
         const SizedBox(width: 32),
         Obx(() {
@@ -101,13 +102,13 @@ class CenterControls extends StatelessWidget {
         ControlButton(
           icon: Icons.skip_next_rounded,
           onPressed: () => controller.navigator(true),
-          tooltip: 'Next Episode',
+          tooltip: context.l10n.nextEpisode,
         ),
       ],
     );
   }
 
-  Widget _buildDesktopLayout(ThemeData theme) {
+  Widget _buildDesktopLayout(BuildContext context, ThemeData theme) {
     final controller = Get.find<PlayerController>();
 
     return Row(
@@ -119,7 +120,7 @@ class CenterControls extends StatelessWidget {
           child: ControlButton(
             icon: Icons.skip_previous_rounded,
             onPressed: () => controller.navigator(false),
-            tooltip: 'Previous Episode',
+            tooltip: context.l10n.previousEpisode,
           ),
         ),
         const SizedBox(width: 28),
@@ -132,7 +133,7 @@ class CenterControls extends StatelessWidget {
                   final newPos = currentPos - const Duration(seconds: 30);
                   controller.seekTo(newPos.isNegative ? Duration.zero : newPos);
                 },
-          tooltip: 'Replay 30s',
+          tooltip: context.l10n.replay30s,
         ),
         const SizedBox(width: 32),
         Obx(() {
@@ -186,7 +187,7 @@ class CenterControls extends StatelessWidget {
                   final newPos = currentPos + const Duration(seconds: 30);
                   controller.seekTo(newPos > duration ? duration : newPos);
                 },
-          tooltip: 'Forward 30s',
+          tooltip: context.l10n.forward30s,
         ),
         const SizedBox(width: 28),
         Opacity(
@@ -194,7 +195,7 @@ class CenterControls extends StatelessWidget {
           child: ControlButton(
             icon: Icons.skip_next_rounded,
             onPressed: () => controller.navigator(true),
-            tooltip: 'Next Episode',
+            tooltip: context.l10n.nextEpisode,
           ),
         ),
       ],

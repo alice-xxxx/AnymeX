@@ -9,6 +9,7 @@ import 'package:anymex/widgets/common/policy_sheet.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:expressive_loading_indicator/expressive_loading_indicator.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:timeago/timeago.dart' as timeago;
@@ -226,7 +227,7 @@ class _CommentSectionState extends State<CommentSection> {
                   color: colorScheme.primary,
                   size: 20,
                 ),
-                tooltip: 'Comment Rules',
+                tooltip: context.l10n.commentRules,
               ),
               Obx(() => IconButton(
                     onPressed: controller.isRefreshing.value
@@ -247,7 +248,7 @@ class _CommentSectionState extends State<CommentSection> {
                             Icons.refresh,
                             color: colorScheme.onSurfaceVariant,
                           ),
-                    tooltip: 'Refresh comments',
+                    tooltip: context.l10n.refreshComments,
                   )),
             ],
           ),
@@ -317,7 +318,7 @@ class _CommentSectionState extends State<CommentSection> {
                           height: 1.4,
                         ),
                         decoration: InputDecoration(
-                            hintText: 'What\'s on your mind?',
+                            hintText: context.l10n.whatSOnYourMind,
                             hintStyle: TextStyle(
                               color: colorScheme.onSurfaceVariant.opaque(0.6),
                               fontSize: 16,
@@ -475,7 +476,7 @@ class _CommentSectionState extends State<CommentSection> {
               fontWeight: FontWeight.w500,
             ),
             decoration: InputDecoration(
-              hintText: 'Or type custom tag...',
+              hintText: context.l10n.orTypeCustomTag,
               hintStyle: TextStyle(
                 color: colorScheme.onSurfaceVariant.opaque(0.6),
                 fontSize: 14,
@@ -938,8 +939,8 @@ class _CommentSectionState extends State<CommentSection> {
           controller: editController,
           maxLines: 5,
           minLines: 1,
-          decoration: const InputDecoration(
-            hintText: 'Edit your comment...',
+          decoration: InputDecoration(
+            hintText: context.l10n.editYourComment,
             border: OutlineInputBorder(),
           ),
         ),
@@ -1008,8 +1009,8 @@ class _CommentSectionState extends State<CommentSection> {
             DropdownButtonFormField<String>(
               value:
                   reasonController.text.isEmpty ? null : reasonController.text,
-              decoration: const InputDecoration(
-                labelText: 'Reason',
+              decoration: InputDecoration(
+                labelText: context.l10n.reason,
                 border: OutlineInputBorder(),
               ),
               items: const [
@@ -1033,8 +1034,8 @@ class _CommentSectionState extends State<CommentSection> {
             TextField(
               controller: notesController,
               maxLines: 3,
-              decoration: const InputDecoration(
-                labelText: 'Additional notes (optional)',
+              decoration: InputDecoration(
+                labelText: context.l10n.additionalNotesOptional,
                 border: OutlineInputBorder(),
               ),
             ),

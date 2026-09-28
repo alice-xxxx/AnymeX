@@ -25,6 +25,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/helper/tv_wrapper.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_foreground_task/flutter_foreground_task.dart';
@@ -639,7 +640,7 @@ class _DownloadScreenState extends State<DownloadScreen> {
                     onSubmitted: controller.search,
                     style: TextStyle(fontSize: 15, color: theme.onSurface),
                     decoration: InputDecoration(
-                      hintText: 'Search across extensions...',
+                      hintText: context.l10n.searchAcrossExtensions,
                       hintStyle: TextStyle(
                           color: theme.onSurface.opaque(0.4), fontSize: 14),
                       filled: true,

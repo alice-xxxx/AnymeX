@@ -6,6 +6,7 @@ import 'package:anymex/controllers/service_handler/service_handler.dart';
 import 'package:anymex/utils/function.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -213,7 +214,7 @@ class SocialTabState extends State<SocialTab> {
                   color: context.theme.colorScheme.onSurfaceVariant,
                   size: 22,
                 ),
-                tooltip: _socialListMode ? 'Grid view' : 'List view',
+                tooltip: _socialListMode ? context.l10n.gridView : context.l10n.listView,
                 style: IconButton.styleFrom(
                   backgroundColor: context.theme.colorScheme.surfaceContainer,
                   shape: RoundedRectangleBorder(

@@ -1,3 +1,4 @@
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_dialog.dart';
@@ -50,8 +51,8 @@ class PasswordInputDialogState extends State<PasswordInputDialog> {
             obscureText: _obscurePassword,
             autofocus: true,
             decoration: InputDecoration(
-              labelText: "Password",
-              hintText: "Enter password",
+              labelText: context.l10n.password,
+              hintText: context.l10n.enterPassword,
               prefixIcon: const Icon(Icons.lock_outline),
               suffixIcon: IconButton(
                 icon: Icon(_obscurePassword
@@ -800,8 +801,8 @@ class BackupPasswordDialogState extends State<BackupPasswordDialog> {
               controller: widget.passwordController,
               obscureText: _obscurePassword,
               decoration: InputDecoration(
-                labelText: "Password",
-                hintText: "Enter password",
+                labelText: context.l10n.password,
+                hintText: context.l10n.enterPassword,
                 prefixIcon: const Icon(Icons.lock_outline),
                 suffixIcon: IconButton(
                   icon: Icon(_obscurePassword
@@ -823,8 +824,8 @@ class BackupPasswordDialogState extends State<BackupPasswordDialog> {
               controller: widget.confirmPasswordController,
               obscureText: _obscureConfirm,
               decoration: InputDecoration(
-                labelText: "Confirm Password",
-                hintText: "Re-enter password",
+                labelText: context.l10n.confirmPassword,
+                hintText: context.l10n.reEnterPassword,
                 prefixIcon: const Icon(Icons.lock_outline),
                 suffixIcon: IconButton(
                   icon: Icon(_obscureConfirm

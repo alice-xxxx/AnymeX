@@ -15,6 +15,7 @@ import 'package:anymex/utils/function.dart';
 import 'package:anymex/screens/profile/activity_details_page.dart';
 import 'package:anymex/widgets/non_widgets/activity_card.dart';
 import 'package:anymex/widgets/non_widgets/activity_composer_sheet.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
@@ -501,7 +502,7 @@ class _UserProfilePageState extends State<UserProfilePage>
                     }
                     _showCreateMessageSheet(context);
                   },
-                  tooltip: "Message Friend",
+                  tooltip: context.l10n.messageFriend,
                   style: IconButton.styleFrom(
                     backgroundColor: context.theme.colorScheme.primaryContainer,
                     foregroundColor: context.theme.colorScheme.primary,
@@ -511,7 +512,7 @@ class _UserProfilePageState extends State<UserProfilePage>
               IconButton(
                 icon: const Icon(IconlyLight.filter),
                 onPressed: () => _showFilterSheet(context),
-                tooltip: "Filter Activities",
+                tooltip: context.l10n.filterActivities,
               ),
             ],
           ),
@@ -1050,7 +1051,7 @@ class _UserProfilePageState extends State<UserProfilePage>
                   child: ActivityComposerSheet(
                     key: composerKey,
                     isModal: true,
-                    hintText: "Write a message...",
+                    hintText: context.l10n.writeAMessage,
                     showPrivateToggle: true,
                     onSubmit: (text, {isPrivate = false}) async {
                       final anilistAuth = Get.find<AnilistAuth>();

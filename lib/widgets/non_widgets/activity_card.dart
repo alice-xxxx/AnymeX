@@ -1,5 +1,6 @@
 import 'dart:ui' as ui;
 
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:anymex/models/Anilist/anilist_activity.dart';
@@ -498,7 +499,7 @@ class _ActivityCardState extends State<ActivityCard> {
                 child: ActivityComposerSheet(
                   initialText: activity.text,
                   isModal: true,
-                  hintText: "Update your activity...",
+                  hintText: context.l10n.updateYourActivity,
                   onSubmit: (text, {isPrivate = false}) async {
                     final success = await Get.find<AnilistAuth>()
                         .editActivity(activity.id, text.trim());

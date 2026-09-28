@@ -33,6 +33,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_tile_builder.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:anymex/widgets/non_widgets/reusable_checkmark.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -2749,12 +2750,12 @@ class _SettingsPlayerState extends State<SettingsPlayer>
     if (position == 'hidden') {
       return [
         IconButton(
-          tooltip: 'Show on left',
+          tooltip: context.l10n.showOnLeft,
           icon: const Icon(Icons.visibility_outlined, size: 20),
           onPressed: () => _showButton(control.id, 'left'),
         ),
         IconButton(
-          tooltip: 'Show on right',
+          tooltip: context.l10n.showOnRight,
           icon: const Icon(
             Icons.keyboard_arrow_right_rounded,
           ),
@@ -2764,7 +2765,7 @@ class _SettingsPlayerState extends State<SettingsPlayer>
     } else {
       return [
         IconButton(
-          tooltip: 'Hide button',
+          tooltip: context.l10n.hideButton,
           icon: const Icon(
             Icons.visibility_off_outlined,
             size: 20,
@@ -2773,7 +2774,7 @@ class _SettingsPlayerState extends State<SettingsPlayer>
         ),
         if (position == 'left')
           IconButton(
-            tooltip: 'Move to right',
+            tooltip: context.l10n.moveToRight,
             icon: const Icon(
               Icons.keyboard_arrow_right_rounded,
             ),
@@ -2781,7 +2782,7 @@ class _SettingsPlayerState extends State<SettingsPlayer>
           )
         else
           IconButton(
-            tooltip: 'Move to left',
+            tooltip: context.l10n.moveToLeft,
             icon: const Icon(Icons.keyboard_arrow_left_rounded,
                 color: Colors.white),
             onPressed: () => _moveButton(control.id, 'left'),

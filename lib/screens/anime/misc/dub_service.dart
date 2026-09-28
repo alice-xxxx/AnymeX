@@ -28,7 +28,7 @@ class DubService {
           DateTime? columnDate;
           if (dateText != null && dateText.isNotEmpty) {
             try {
-              columnDate = DateFormat('dd MMM').parse(dateText);
+              columnDate = DateFormat('dd MMM', 'en_US').parse(dateText);
               int currentYear = DateTime.now().year;
               columnDate = DateTime(
                 currentYear,

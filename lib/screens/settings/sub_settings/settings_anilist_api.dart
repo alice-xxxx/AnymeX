@@ -10,6 +10,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_section_builder.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile.dart';
 import 'package:anymex/widgets/helper/scroll_wrapper.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
@@ -495,7 +496,7 @@ class _SettingsAnilistApiState extends State<SettingsAnilistApi> {
                   Expanded(child: TextField(
                     controller: inputController, onSubmitted: (_) => addItem(),
                     decoration: InputDecoration(
-                      hintText: 'New custom list name', filled: true,
+                      hintText: context.l10n.newCustomListName, filled: true,
                       fillColor: context.colors.surfaceContainer.opaque(0.72),
                       enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),
                         borderSide: BorderSide(color: context.colors.outline.opaque(0.25))),
@@ -807,7 +808,7 @@ class _SettingsAnilistApiState extends State<SettingsAnilistApi> {
             ),
             if (!_aboutPreview)
               IconButton(
-                tooltip: _aboutEditorExpanded ? 'Collapse editor' : 'Expand editor',
+                tooltip: _aboutEditorExpanded ? context.l10n.collapseEditor : context.l10n.expandEditor,
                 onPressed: () => setState(() => _aboutEditorExpanded = !_aboutEditorExpanded),
                 icon: Icon(_aboutEditorExpanded ? Icons.unfold_less_rounded : Icons.unfold_more_rounded, size: 20),
                 visualDensity: VisualDensity.compact,
@@ -839,7 +840,7 @@ class _SettingsAnilistApiState extends State<SettingsAnilistApi> {
               maxLines: _aboutEditorExpanded ? 24 : 12,
               style: TextStyle(fontSize: 15, color: context.colors.onSurface, height: 1.35),
               decoration: InputDecoration(
-                hintText: 'Write your AniList bio...',
+                hintText: context.l10n.writeYourAniListBio,
                 filled: true, fillColor: context.colors.surfaceContainer.opaque(0.72),
                 enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(16),
                   borderSide: BorderSide(color: context.colors.outline.opaque(0.25))),
@@ -862,7 +863,7 @@ class _SettingsAnilistApiState extends State<SettingsAnilistApi> {
                 Row(children: [
                   const Spacer(),
                   IconButton(
-                    tooltip: _aboutPreviewExpanded ? 'Collapse preview' : 'Expand preview',
+                    tooltip: _aboutPreviewExpanded ? context.l10n.collapsePreview : context.l10n.expandPreview,
                     onPressed: () => setState(() => _aboutPreviewExpanded = !_aboutPreviewExpanded),
                     icon: Icon(_aboutPreviewExpanded ? Icons.keyboard_arrow_up_rounded : Icons.keyboard_arrow_down_rounded, size: 22),
                     visualDensity: VisualDensity.compact,

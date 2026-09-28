@@ -4,6 +4,7 @@ import 'package:anymex/models/Media/media.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
@@ -400,7 +401,7 @@ class _RecommendSheetState extends State<RecommendSheet> {
                   maxLength: 700,
                   autofocus: true,
                   decoration: InputDecoration(
-                    hintText: 'Why are you recommending this? (min 30 chars)',
+                    hintText: context.l10n.whyAreYouRecommendingThisMin30Chars,
                     filled: true,
                     fillColor: colors.surfaceContainerLow,
                     border: OutlineInputBorder(
@@ -606,7 +607,7 @@ class _RecommendSheetState extends State<RecommendSheet> {
                   maxLength: 700,
                   autofocus: true,
                   decoration: InputDecoration(
-                    hintText: 'Edit recommendation reason (min 30 chars)',
+                    hintText: context.l10n.editRecommendationReasonMin30Chars,
                     filled: true,
                     fillColor: colors.surfaceContainerLow,
                     border: OutlineInputBorder(
@@ -1086,7 +1087,7 @@ class _RecommendSheetState extends State<RecommendSheet> {
             maxLines: 5,
             maxLength: 700,
             decoration: InputDecoration(
-              hintText: 'Why are you recommending this? (min 30 chars)',
+              hintText: context.l10n.whyAreYouRecommendingThisMin30Chars,
               hintStyle:
                   TextStyle(color: colors.onSurfaceVariant, fontSize: 12),
               filled: true,
@@ -1166,7 +1167,7 @@ class _RecommendSheetState extends State<RecommendSheet> {
           maxLines: 6,
           maxLength: 700,
           decoration: InputDecoration(
-            hintText: 'Why is this underrated? (min 30 chars)',
+            hintText: context.l10n.whyIsThisUnderratedMin30Chars,
             hintStyle: TextStyle(color: colors.onSurfaceVariant, fontSize: 13),
             filled: true,
             fillColor: colors.surfaceContainerLow,

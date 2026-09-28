@@ -3,6 +3,7 @@ import 'package:anymex/controllers/service_handler/service_handler.dart';
 import 'package:anymex/models/Media/media.dart';
 import 'package:anymex/widgets/non_widgets/recommend_sheet.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -65,7 +66,7 @@ class RecommendIconButton extends StatelessWidget {
     return IconButton(
       onPressed: () => _openSheet(context),
       icon: icon,
-      tooltip: 'Recommend',
+      tooltip: context.l10n.recommend,
     );
   }
 }

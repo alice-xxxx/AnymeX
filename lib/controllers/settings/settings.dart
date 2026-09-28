@@ -41,6 +41,7 @@ class Settings extends GetxController {
   RxBool enableBetaUpdates = false.obs;
   RxBool writeLogToFile = false.obs;
   RxBool showHomeContinueWatching = true.obs;
+  final RxString appLanguage = 'system'.obs;
   Rxn<DisplayMode> preferredDisplayMode = Rxn<DisplayMode>();
   Rxn<DisplayMode> activeDisplayMode = Rxn<DisplayMode>();
   RxList<DisplayMode> supportedModes = <DisplayMode>[].obs;
@@ -104,6 +105,10 @@ class Settings extends GetxController {
     writeLogToFile.value = General.writeLogToFile.get<bool>(false);
     showHomeContinueWatching.value =
         General.showHomeContinueWatching.get<bool>(true);
+    final savedLanguage = General.appLanguage.get<String>('system');
+    appLanguage.value = const {'system', 'en_US', 'zh_CN'}.contains(savedLanguage)
+        ? savedLanguage
+        : 'system';
     customLogDirectory.value = General.customLogDirectory.get<String>("");
 
     downloadPath.value = DownloadKeys.downloadPath.get<String>("");
@@ -166,6 +171,20 @@ class Settings extends GetxController {
     } catch (e) {
       Logger.e("Error setting display refresh mode: $e");
     }
+  }
+
+  Locale? get appLocaleOverride => switch (appLanguage.value) {
+        'en_US' => const Locale('en', 'US'),
+        'zh_CN' => const Locale('zh', 'CN'),
+        _ => null,
+      };
+
+  Future<void> saveAppLanguage(String value) async {
+    if (!const {'system', 'en_US', 'zh_CN'}.contains(value)) return;
+
+    General.appLanguage.set(value);
+
+    appLanguage.value = value;
   }
 
   Future<void> savePreferredDisplayMode(DisplayMode mode) async {

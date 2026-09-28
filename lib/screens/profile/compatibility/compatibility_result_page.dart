@@ -31,6 +31,7 @@ import 'package:anymex/widgets/helper/scroll_wrapper.dart';
 import 'package:anymex/widgets/media_items/media_peek_popup.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
 import 'package:anymex_extension_runtime_bridge/Models/Source.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
@@ -103,7 +104,7 @@ class _CompatibilityResultPageState extends State<CompatibilityResultPage> {
           onPressed: _isSharing
               ? null
               : () => _shareCard(user1.name ?? '', user2.name ?? '', result),
-          tooltip: 'Share Match Card',
+          tooltip: context.l10n.shareMatchCard,
         ),
         body: Builder(
           builder: (ctx) => ScrollWrapper(

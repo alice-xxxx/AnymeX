@@ -10,6 +10,7 @@ import 'package:anymex/screens/downloads/model/download_models.dart';
 import 'package:anymex/screens/settings/sub_settings/settings_accounts.dart';
 import 'package:anymex/screens/downloads/controller/download_controller.dart';
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_bottomsheet.dart';
@@ -384,13 +385,13 @@ class _TrackSheetState extends State<_TrackSheet> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 IconButton(
-                  tooltip: 'Edit',
+                  tooltip: context.l10n.edit,
                   icon: Icon(Icons.edit_rounded,
                       size: 18, color: theme.primary.withOpacity(0.8)),
                   onPressed: () => _showEditDialog(context, theme, tracker, b),
                 ),
                 IconButton(
-                  tooltip: 'Unbind',
+                  tooltip: context.l10n.unbind,
                   icon: Icon(Icons.link_off_rounded,
                       size: 18, color: theme.error.withOpacity(0.7)),
                   onPressed: () => _unbind(b),
@@ -596,7 +597,10 @@ class _TrackSheetState extends State<_TrackSheet> {
               textInputAction: TextInputAction.search,
               onSubmitted: (q) => _runSearch(tracker, q),
               decoration: InputDecoration(
-                hintText: 'Search ${tracker.label} for "${widget.title}"…',
+                hintText: context.l10n.searchTrackerForTitle(
+                  tracker: tracker.label,
+                  title: widget.title,
+                ),
                 hintStyle: TextStyle(
                     color: theme.onSurface.withOpacity(0.4), fontSize: 13),
                 prefixIcon: Icon(Icons.search_rounded,

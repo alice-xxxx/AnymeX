@@ -14,6 +14,7 @@ import 'package:anymex/widgets/common/anymex_scaffold.dart';
 import 'package:anymex/widgets/dialogs/logo_animation_preview_dialog.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:anymex/widgets/helper/tv_wrapper.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:get/get.dart';
@@ -953,9 +954,9 @@ class _SettingsThemeState extends State<SettingsTheme> {
                   TextField(
                     controller: controller,
                     decoration: InputDecoration(
-                      labelText: 'Hex Color Code',
-                      hintText: '#3F51B5 or 3F51B5',
-                      errorText: isValid ? null : 'Invalid Hex color code',
+                      labelText: context.l10n.hexColorCode,
+                      hintText: context.l10n.message3f51b5Or3F51B5,
+                      errorText: isValid ? null : context.l10n.invalidHexColorCode,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),

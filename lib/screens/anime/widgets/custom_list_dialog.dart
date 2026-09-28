@@ -6,6 +6,7 @@ import 'package:anymex/widgets/common/search_bar.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_dialog.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_section_builder.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:isar_community/isar.dart';
@@ -109,7 +110,7 @@ class _CustomListDialogState extends State<CustomListDialog> {
               controller: textController,
               autofocus: true,
               decoration: InputDecoration(
-                labelText: 'Collection name',
+                labelText: context.l10n.collectionName,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),

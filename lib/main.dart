@@ -44,6 +44,9 @@ import 'package:anymex/services/fcm_service.dart';
 import 'package:anymex/services/commentum_service.dart';
 import 'package:anymex/controllers/watchium/watchium_service.dart';
 import 'package:anymex/utils/logger.dart';
+import 'package:anymex/utils/localization.dart';
+import 'package:anymex/l10n/generated/app_localizations.dart';
+import 'package:intl/intl.dart';
 import 'package:anymex/utils/deeplink.dart';
 import 'package:anymex/utils/external_font_loader.dart';
 import 'package:anymex/utils/register_protocol/register_protocol.dart';
@@ -368,13 +371,23 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     final theme = Provider.of<ThemeProvider>(context);
 
-    return Focus(
+    final settings = Get.find<Settings>();
+
+    return Obx(() => Focus(
       focusNode: focusNode,
       onKeyEvent: _handleKeyEvent,
       child: GetMaterialApp(
         scrollBehavior: MyCustomScrollBehavior(),
         debugShowCheckedModeBanner: false,
         title: "AnymeX",
+        locale: settings.appLocaleOverride,
+        supportedLocales: AppLocalizations.supportedLocales,
+        localeResolutionCallback: (locale, supportedLocales) {
+          final resolved = settings.appLocaleOverride ?? resolveAppLocale(locale);
+          Intl.defaultLocale = resolved.toString();
+          return resolved;
+        },
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
         theme: theme.lightTheme,
         darkTheme: theme.darkTheme,
         themeMode: theme.isSystemMode
@@ -418,7 +431,7 @@ class _MainAppState extends State<MainApp> {
           Logger.d(text);
         },
       ),
-    );
+    ));
   }
 }
 

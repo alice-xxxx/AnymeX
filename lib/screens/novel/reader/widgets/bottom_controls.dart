@@ -2,6 +2,7 @@ import 'package:anymex/screens/novel/reader/controller/reader_controller.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/common/anymex_slider_m3.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -331,7 +332,7 @@ class NovelBottomControls extends StatelessWidget {
                 }
               : null,
           icon: Icons.skip_previous_rounded,
-          tooltip: 'Previous Chapter',
+          tooltip: context.l10n.previousChapter,
           isEnabled: controller.canGoPrevious.value,
         ));
   }
@@ -357,7 +358,7 @@ class NovelBottomControls extends StatelessWidget {
                   controller.decreaseFontSize();
                 },
                 icon: Icons.text_decrease_rounded,
-                tooltip: 'Decrease Font Size',
+                tooltip: context.l10n.decreaseFontSize,
               ),
               SizedBox(width: isDesktop ? 16 : 12),
               Container(
@@ -387,7 +388,7 @@ class NovelBottomControls extends StatelessWidget {
                   controller.increaseFontSize();
                 },
                 icon: Icons.text_increase_rounded,
-                tooltip: 'Increase Font Size',
+                tooltip: context.l10n.increaseFontSize,
               ),
             ],
           ),
@@ -405,7 +406,7 @@ class NovelBottomControls extends StatelessWidget {
                 }
               : null,
           icon: Icons.skip_next_rounded,
-          tooltip: 'Next Chapter',
+          tooltip: context.l10n.nextChapter,
           isEnabled: controller.canGoNext.value,
         ));
   }

@@ -1,4 +1,5 @@
 import 'package:anymex/controllers/settings/settings.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -87,7 +88,7 @@ class AnymeXTextSpans extends StatelessWidget {
           text: TextSpan(
             children: spans!.map((span) {
               return TextSpan(
-                text: span.text,
+                text: localizeAppText(context, span.text),
                 style: _getTextStyle(
                   span.variant,
                   context,

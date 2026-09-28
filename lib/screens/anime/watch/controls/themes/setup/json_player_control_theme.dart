@@ -7,6 +7,7 @@ import 'package:anymex/screens/anime/watch/controls/themes/setup/player_control_
 import 'package:anymex/screens/anime/watch/controls/widgets/bottom_sheet.dart';
 import 'package:anymex/screens/anime/watch/controls/widgets/progress_slider.dart';
 import 'package:anymex/screens/settings/sub_settings/settings_player.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:expressive_loading_indicator/expressive_loading_indicator.dart';
 import 'package:anymex/widgets/common/marquee_text.dart';
 import 'package:flutter/material.dart';
@@ -742,8 +743,10 @@ class ThemeRenderer {
         final isLocked = controller.isOrientationLocked.value;
         return _makeButtonShell(
           style: style,
-          tooltip: item.grabString('tooltip') ??
-              (isLocked ? 'Unlock Orientation' : 'Lock Orientation'),
+          tooltip: localizeAppText(
+              context,
+              item.grabString('tooltip') ??
+                  (isLocked ? 'Unlock Orientation' : 'Lock Orientation')),
           enabled: enabled,
           onTap: enabled ? () => _doAction(id, item) : null,
           guts: Icon(
@@ -762,7 +765,8 @@ class ThemeRenderer {
 
     return _makeButtonShell(
       style: style,
-      tooltip: item.grabString('tooltip') ?? _tooltipForId(id),
+      tooltip: localizeAppText(
+          context, item.grabString('tooltip') ?? _tooltipForId(id) ?? id),
       enabled: enabled,
       onTap: enabled ? () => _doAction(id, item) : null,
       onLongPress:
@@ -780,7 +784,8 @@ class ThemeRenderer {
 
     return _makeButtonShell(
       style: style,
-      tooltip: item.grabString('tooltip') ?? 'Play / Pause',
+      tooltip: localizeAppText(
+          context, item.grabString('tooltip') ?? 'Play / Pause'),
       enabled: enabled,
       onTap: enabled ? controller.togglePlayPause : null,
       guts: AnimatedSwitcher(

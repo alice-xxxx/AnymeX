@@ -35,6 +35,7 @@ enum General {
   joinDialogShowCount,
   wrongTitleIsCardView,
   showHomeContinueWatching,
+  appLanguage,
 }
 
 enum ThemeKeys {

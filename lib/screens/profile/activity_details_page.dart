@@ -1,3 +1,4 @@
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/screens/profile/user_profile_page.dart';
 import 'package:anymex/screens/profile/profile_page.dart';
@@ -313,8 +314,8 @@ class _ActivityDetailsSheetState extends State<ActivityDetailsSheet> {
                   child: ActivityComposerSheet(
                     key: _composerKey,
                     hintText: _editingReplyId != null
-                        ? "Edit reply..."
-                        : "Write a reply...",
+                        ? context.l10n.editReply
+                        : context.l10n.writeAReply,
                     showCancelButton: _editingReplyId != null || _isReplying,
                     onCancel: () {
                       setState(() {

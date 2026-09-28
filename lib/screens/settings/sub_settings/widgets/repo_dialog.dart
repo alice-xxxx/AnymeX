@@ -4,6 +4,7 @@ import 'package:anymex/utils/extensions.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex_extension_runtime_bridge/Models/Source.dart';
 import 'package:expressive_loading_indicator/expressive_loading_indicator.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
@@ -205,7 +206,7 @@ class _GitHubRepoDialogState extends State<GitHubRepoDialog> {
                         controller: _controller,
                         focusNode: _focusNode,
                         decoration: InputDecoration(
-                            hintText: 'https://github.com/username/repo.json',
+                            hintText: context.l10n.githubRepositoryUrlHint,
                             hintStyle: TextStyle(
                               color: colorScheme.onSurfaceVariant.opaque(0.6),
                               fontSize: 14,

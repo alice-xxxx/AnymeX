@@ -11,6 +11,7 @@ import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/common/anymex_scaffold.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -139,7 +140,7 @@ class _NovelReaderState extends State<NovelReader>
                           _ttsMenuButton(
                             context: context,
                             icon: Icons.skip_previous_rounded,
-                            tooltip: 'Previous Paragraph',
+                            tooltip: context.l10n.previousParagraph,
                             onPressed: () {
                               HapticFeedback.lightImpact();
                               controller.ttsPrevious();
@@ -152,8 +153,8 @@ class _NovelReaderState extends State<NovelReader>
                                 ? Icons.pause_rounded
                                 : Icons.play_arrow_rounded,
                             tooltip: controller.ttsPlaying.value
-                                ? 'Pause TTS'
-                                : 'Play TTS',
+                                ? context.l10n.pauseTTS
+                                : context.l10n.playTTS,
                             isActive: controller.ttsPlaying.value,
                             onPressed: () {
                               HapticFeedback.lightImpact();
@@ -164,7 +165,7 @@ class _NovelReaderState extends State<NovelReader>
                           _ttsMenuButton(
                             context: context,
                             icon: Icons.skip_next_rounded,
-                            tooltip: 'Next Paragraph',
+                            tooltip: context.l10n.nextParagraph,
                             onPressed: () {
                               HapticFeedback.lightImpact();
                               controller.ttsNext();

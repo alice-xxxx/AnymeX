@@ -17,6 +17,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tabbar.dart';
 import 'package:anymex/widgets/header/header.dart';
 import 'package:anymex/widgets/common/scroll_aware_app_bar.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -125,7 +126,7 @@ class _ExtensionScreenState extends State<ExtensionScreen>
                   icon: Icon(Icons.build_outlined,
                       color: theme.primary, size: 20),
                   onPressed: () => navigate(() => const ExtensionTestPage()),
-                  tooltip: "Test Extensions",
+                  tooltip: context.l10n.testExtensions,
                   style: IconButton.styleFrom(
                     padding: const EdgeInsets.all(6),
                     tapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -136,7 +137,7 @@ class _ExtensionScreenState extends State<ExtensionScreen>
                   icon: Icon(HugeIcons.strokeRoundedGithub,
                       color: theme.primary, size: 20),
                   onPressed: () => navigate(() => const SettingsExtensions()),
-                  tooltip: "Repositories",
+                  tooltip: context.l10n.repositories,
                   style: IconButton.styleFrom(
                     padding: const EdgeInsets.all(6),
                     tapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -271,7 +272,7 @@ class _ExtensionScreenState extends State<ExtensionScreen>
               controller: _textEditingController,
               onChanged: _onSearchChanged,
               decoration: InputDecoration(
-                hintText: 'Search extensions...',
+                hintText: context.l10n.searchExtensions5ba4f342a1,
                 hintStyle: TextStyle(
                   color: context.colors.onSurface.withOpacity(0.4),
                   fontSize: 14,
@@ -336,7 +337,7 @@ class _ExtensionScreenState extends State<ExtensionScreen>
                           ? context.colors.primary
                           : context.colors.onSurface.withOpacity(0.55),
                     ),
-                    tooltip: 'Select Language',
+                    tooltip: context.l10n.selectLanguage,
                     padding: EdgeInsets.zero,
                   ),
                 ),

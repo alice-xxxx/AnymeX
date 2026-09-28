@@ -7,6 +7,7 @@ import 'package:anymex/widgets/common/search_bar.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:anymex/widgets/helper/tv_wrapper.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
@@ -157,8 +158,8 @@ class _WrongTitleModalState extends State<WrongTitleModal> {
                       size: 20,
                     ),
                     tooltip: _isCardView
-                        ? 'Switch to List View'
-                        : 'Switch to Card View',
+                        ? context.l10n.switchToListView
+                        : context.l10n.switchToCardView,
                   ),
                 ),
               ],

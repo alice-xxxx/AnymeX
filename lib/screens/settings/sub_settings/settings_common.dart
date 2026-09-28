@@ -10,6 +10,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_section_builder.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile_builder.dart';
 
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -37,6 +38,47 @@ class _SettingsCommonState extends State<SettingsCommon> {
     uniScrapper = General.universalScrapper.get<bool>(false);
   }
 
+  String _appLanguageLabel(BuildContext context) =>
+      switch (settings.appLanguage.value) {
+        'en_US' => context.l10n.english,
+        'zh_CN' => context.l10n.simplifiedChinese,
+        _ => context.l10n.followSystem,
+      };
+
+  Future<void> _showLanguageDialog() async {
+    const languages = <String>['system', 'en_US', 'zh_CN'];
+
+    await showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: Text(dialogContext.l10n.language),
+        contentPadding: const EdgeInsets.symmetric(vertical: 8),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: languages.map((language) {
+            return RadioListTile<String>(
+              value: language,
+              groupValue: settings.appLanguage.value,
+              title: Text(switch (language) {
+                'en_US' => dialogContext.l10n.english,
+                'zh_CN' => dialogContext.l10n.simplifiedChinese,
+                _ => dialogContext.l10n.followSystem,
+              }),
+              onChanged: (value) async {
+                if (value == null) return;
+                await settings.saveAppLanguage(value);
+                if (mounted) setState(() {});
+                if (dialogContext.mounted) {
+                  Navigator.of(dialogContext).pop();
+                }
+              },
+            );
+          }).toList(),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return AnymeXScaffold(
@@ -52,6 +94,12 @@ class _SettingsCommonState extends State<SettingsCommon> {
                     AnymeXSectionBuilder(
                       title: 'Universal',
                       children: [
+                        AnymeXTile(
+                          icon: Icons.language_rounded,
+                          title: 'Language',
+                          subtitle: _appLanguageLabel(context),
+                          onTap: _showLanguageDialog,
+                        ),
                         AnymeXTile.toggle(
                           icon: Icons.touch_app_rounded,
                           title: 'Ask for tracking permission',

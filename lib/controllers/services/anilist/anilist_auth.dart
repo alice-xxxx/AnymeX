@@ -21,6 +21,7 @@ import 'package:anymex/utils/logger.dart';
 import 'package:anymex/utils/string_extensions.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
@@ -279,7 +280,7 @@ class AnilistAuth extends GetxController {
             TextField(
               controller: tokenController,
               decoration: InputDecoration(
-                hintText: 'Enter token here',
+                hintText: context.l10n.enterTokenHere,
                 hintStyle: TextStyle(
                   fontFamily: 'Linotte',
                   color: theme.onSurface.opaque(0.5),

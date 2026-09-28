@@ -3,6 +3,7 @@ import 'package:anymex/controllers/settings/methods.dart';
 import 'package:anymex/controllers/settings/settings.dart';
 import 'package:anymex/controllers/theme.dart';
 import 'package:anymex/utils/theme_extensions.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_header.dart';
 import 'package:anymex/widgets/helper/platform_builder.dart';
 import 'package:flutter/gestures.dart';
@@ -156,7 +157,7 @@ class AnymeXScaffold extends StatelessWidget {
             onSearchChanged: onHeaderSearchChanged,
             onSearchSubmitted: onHeaderSearchSubmitted,
             onSearchClear: onHeaderSearchClear,
-            searchHint: headerSearchHint,
+            searchHint: localizeAppText(context, headerSearchHint),
             child: body ?? const SizedBox.shrink(),
           )
         : body;

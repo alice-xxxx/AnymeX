@@ -15,6 +15,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile_builder.dart';
 import 'package:anymex/widgets/common/anymex_slider_m3.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 
 class LogoAnimationPreviewDialog extends StatefulWidget {
@@ -244,7 +245,7 @@ class _LogoAnimationPreviewDialogState
                               ),
                             ),
                             IconButton(
-                              tooltip: 'Change File',
+                              tooltip: context.l10n.changeFile,
                               icon: Icon(
                                 Icons.sync_rounded,
                                 size: 20,
@@ -286,7 +287,7 @@ class _LogoAnimationPreviewDialogState
                         setDialogState(() {});
                       },
                       decoration: InputDecoration(
-                        hintText: 'e.g. My Anime Logo',
+                        hintText: context.l10n.eGMyAnimeLogo,
                         errorText: errorText,
                         filled: true,
                         fillColor: dialogContext.colors.surfaceContainer,
@@ -515,7 +516,7 @@ class _LogoAnimationPreviewDialogState
                         setDialogState(() {});
                       },
                       decoration: InputDecoration(
-                        hintText: 'e.g. My Anime Logo',
+                        hintText: context.l10n.eGMyAnimeLogo,
                         errorText: errorText,
                         filled: true,
                         fillColor: dialogContext.colors.surfaceContainer,
@@ -716,7 +717,7 @@ class _LogoAnimationPreviewDialogState
             child: _buildIconSegmentItem(
               context: context,
               icon: Icons.crop_square_rounded,
-              tooltip: 'Default Size (200px)',
+              tooltip: context.l10n.defaultSize200px,
               isSelected: currentMode == CustomLogoSizeMode.defaultSize,
               onTap: () => onModeChanged(CustomLogoSizeMode.defaultSize),
             ),
@@ -726,7 +727,7 @@ class _LogoAnimationPreviewDialogState
             child: _buildIconSegmentItem(
               context: context,
               icon: Icons.aspect_ratio_rounded,
-              tooltip: 'Original Size',
+              tooltip: context.l10n.originalSize,
               isSelected: currentMode == CustomLogoSizeMode.originalSize,
               onTap: () => onModeChanged(CustomLogoSizeMode.originalSize),
             ),
@@ -736,7 +737,7 @@ class _LogoAnimationPreviewDialogState
             child: _buildIconSegmentItem(
               context: context,
               icon: Icons.zoom_in_rounded,
-              tooltip: 'Custom Scale',
+              tooltip: context.l10n.customScale,
               isSelected: currentMode == CustomLogoSizeMode.customScale,
               onTap: () => onModeChanged(CustomLogoSizeMode.customScale),
             ),
@@ -988,13 +989,13 @@ class _LogoAnimationPreviewDialogState
                       IconButton(
                         icon: Icon(Icons.tune_rounded,
                             size: 20, color: context.colors.primary),
-                        tooltip: 'Edit Logo Settings',
+                        tooltip: context.l10n.editLogoSettings,
                         onPressed: () => _showEditCustomLogoDialog(logo),
                       ),
                       IconButton(
                         icon: const Icon(Icons.delete_outline_rounded,
                             size: 20, color: Colors.redAccent),
-                        tooltip: 'Delete Logo',
+                        tooltip: context.l10n.deleteLogo,
                         onPressed: () => _confirmDeleteCustomLogo(logo),
                       ),
                     ],

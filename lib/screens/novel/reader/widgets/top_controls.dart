@@ -3,6 +3,7 @@ import 'package:anymex/screens/novel/reader/controller/reader_controller.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -304,7 +305,7 @@ class _ChapterListSheetState extends State<ChapterListSheet> {
                                     : Icons.arrow_downward_rounded,
                                 color: Theme.of(context).colorScheme.primary,
                               ),
-                              tooltip: _isReversed ? 'Ascending' : 'Descending',
+                              tooltip: _isReversed ? context.l10n.ascending : context.l10n.descending,
                             ),
                           ],
                         ),
@@ -317,7 +318,7 @@ class _ChapterListSheetState extends State<ChapterListSheet> {
                             });
                           },
                           decoration: InputDecoration(
-                            hintText: 'Search chapters...',
+                            hintText: context.l10n.searchChapters,
                             prefixIcon: const Icon(Icons.search, size: 20),
                             filled: true,
                             fillColor: Theme.of(context)

@@ -1,4 +1,5 @@
 import 'package:anymex/controllers/settings/settings.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/widgets/common/marquee_text.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
@@ -150,7 +151,8 @@ class AnymeXText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Obx(() {
-      final processedText = stripHtml ? _removeHtmlTags(text) : text;
+      final processedText =
+          localizeAppText(context, stripHtml ? _removeHtmlTags(text) : text);
       final textStyle = _resolveStyle();
       final effectiveMaxLines = isMarquee ? 1 : maxLines;
 

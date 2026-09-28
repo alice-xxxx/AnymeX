@@ -4,6 +4,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_dialog.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_spring_transition.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -206,7 +207,7 @@ class _AnymeXHistoryPageState extends State<AnymeXHistoryPage> {
                   controller: _searchController.searchController,
                   onChanged: _searchController.search,
                   onClose: _searchController.toggleSearch,
-                  hintText: 'Search in History...',
+                  hintText: context.l10n.searchInHistory,
                 ),
                 actions: [
                   HeaderActionButton(

@@ -5,6 +5,7 @@ import 'package:anymex/widgets/common/marquee_text.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_fullscreen_image_viewer.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -96,7 +97,7 @@ class _UserProfileAppBarState extends State<UserProfileAppBar> {
               color: context.theme.colorScheme.primary,
               size: 20,
             ),
-            tooltip: 'Check Compatibility',
+            tooltip: context.l10n.checkCompatibility,
             onPressed: () {
               navigate(() => CompatibilityInputPage(
                     prefillProfile: user,

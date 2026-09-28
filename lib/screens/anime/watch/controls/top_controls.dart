@@ -7,6 +7,7 @@ import 'package:anymex/screens/anime/watch/controls/widgets/control_button.dart'
 import 'package:anymex/screens/anime/watch/controls/widgets/decoder_quick_button.dart';
 import 'package:anymex/screens/settings/sub_settings/settings_player.dart';
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:anymex/utils/theme_extensions.dart';
@@ -75,9 +76,9 @@ class TopControls extends StatelessWidget {
               child: enableBlur
                   ? BackdropFilter(
                       filter: ui.ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: _buildContent(theme, isDesktop),
+                      child: _buildContent(context, theme, isDesktop),
                     )
-                  : _buildContent(theme, isDesktop),
+                  : _buildContent(context, theme, isDesktop),
             ),
           ),
         ),
@@ -85,7 +86,8 @@ class TopControls extends StatelessWidget {
     });
   }
 
-  Widget _buildContent(ThemeData theme, bool isDesktop) {
+  Widget _buildContent(
+      BuildContext context, ThemeData theme, bool isDesktop) {
     return SafeArea(
       bottom: false,
       left: false,
@@ -95,18 +97,20 @@ class TopControls extends StatelessWidget {
           horizontal: isDesktop ? 32 : 20,
           vertical: isDesktop ? 24 : 8,
         ),
-        child: isDesktop ? _buildLayout(theme) : _buildMobileLayout(theme),
+        child: isDesktop
+            ? _buildLayout(context, theme)
+            : _buildMobileLayout(context, theme),
       ),
     );
   }
 
-  Widget _buildMobileLayout(ThemeData theme) {
+  Widget _buildMobileLayout(BuildContext context, ThemeData theme) {
     final controller = Get.find<PlayerController>();
     final isDark = theme.brightness == Brightness.dark;
 
     if (controller.currentOrientation.value == DeviceOrientation.portraitUp ||
         controller.currentOrientation.value == DeviceOrientation.portraitDown) {
-      return _buildMobilePortrait(theme, controller, isDark);
+      return _buildMobilePortrait(context, theme, controller, isDark);
     }
 
     return Container(
@@ -116,7 +120,7 @@ class TopControls extends StatelessWidget {
           ControlButton(
             icon: Icons.arrow_back_ios_rounded,
             onPressed: () => _handleBack(),
-            tooltip: 'Back',
+            tooltip: context.l10n.back,
             isPrimary: true,
           ),
           const SizedBox(width: 20),
@@ -218,7 +222,7 @@ class TopControls extends StatelessWidget {
           ControlButton(
             icon: Icons.lock_rounded,
             onPressed: () => controller.isLocked.value = true,
-            tooltip: 'Lock Controls',
+            tooltip: context.l10n.lockControls,
             compact: true,
           ),
           const SizedBox(width: 8),
@@ -226,7 +230,7 @@ class TopControls extends StatelessWidget {
             ControlButton(
               icon: Icons.picture_in_picture_rounded,
               onPressed: () => controller.enterPip(),
-              tooltip: 'Picture in Picture',
+              tooltip: context.l10n.pictureInPicture,
               compact: true,
             ),
           const SizedBox(width: 8),
@@ -252,7 +256,7 @@ class TopControls extends StatelessWidget {
                         )),
               );
             },
-            tooltip: 'Settings',
+            tooltip: context.l10n.settings,
             compact: true,
           ),
         ],
@@ -260,7 +264,7 @@ class TopControls extends StatelessWidget {
     );
   }
 
-  Widget _buildLayout(ThemeData theme) {
+  Widget _buildLayout(BuildContext context, ThemeData theme) {
     final controller = Get.find<PlayerController>();
     final isDark = theme.brightness == Brightness.dark;
 
@@ -274,7 +278,7 @@ class TopControls extends StatelessWidget {
                 ControlButton(
                   icon: Icons.arrow_back_ios_rounded,
                   onPressed: () => _handleBack(),
-                  tooltip: 'Back',
+                  tooltip: context.l10n.back,
                   isPrimary: true,
                 ),
                 const SizedBox(width: 24),
@@ -397,7 +401,7 @@ class TopControls extends StatelessWidget {
               ControlButton(
                 icon: Icons.fullscreen_rounded,
                 onPressed: () => controller.toggleFullScreen(),
-                tooltip: 'Fullscreen',
+                tooltip: context.l10n.fullscreen,
                 compact: true,
               ),
               const SizedBox(width: 8),
@@ -423,7 +427,7 @@ class TopControls extends StatelessWidget {
                             )),
                   );
                 },
-                tooltip: 'Settings',
+                tooltip: context.l10n.settings,
                 compact: true,
               ),
             ],
@@ -435,7 +439,10 @@ class TopControls extends StatelessWidget {
   }
 
   Widget _buildMobilePortrait(
-      ThemeData theme, PlayerController controller, bool isDark) {
+      BuildContext context,
+      ThemeData theme,
+      PlayerController controller,
+      bool isDark) {
     final titleStyle = theme.textTheme.titleSmall?.copyWith(
       color: Get.isDarkMode ? theme.colorScheme.onSurface : Colors.white,
       fontWeight: FontWeight.w600,
@@ -456,7 +463,7 @@ class TopControls extends StatelessWidget {
               ControlButton(
                 icon: Icons.arrow_back_ios_rounded,
                 onPressed: () => _handleBack(),
-                tooltip: 'Back',
+                tooltip: context.l10n.back,
                 isPrimary: true,
               ),
               const Spacer(),
@@ -468,7 +475,7 @@ class TopControls extends StatelessWidget {
               ControlButton(
                 icon: Icons.lock_rounded,
                 onPressed: () => controller.isLocked.value = true,
-                tooltip: 'Lock Controls',
+                tooltip: context.l10n.lockControls,
                 compact: true,
               ),
               const SizedBox(width: 8),
@@ -476,7 +483,7 @@ class TopControls extends StatelessWidget {
                 ControlButton(
                   icon: Icons.picture_in_picture_rounded,
                   onPressed: () => controller.enterPip(),
-                  tooltip: 'Picture in Picture',
+                  tooltip: context.l10n.pictureInPicture,
                   compact: true,
                 ),
               const SizedBox(width: 8),
@@ -501,7 +508,7 @@ class TopControls extends StatelessWidget {
                     ),
                   );
                 },
-                tooltip: 'Settings',
+                tooltip: context.l10n.settings,
                 compact: true,
               ),
             ],

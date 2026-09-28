@@ -8,6 +8,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_dialog.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_section_builder.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_tile_builder.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:anymex/utils/theme_extensions.dart';
@@ -658,7 +659,7 @@ class _ListEditorModalState extends State<ListEditorModal> {
           ),
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-          hintText: 'Season',
+          hintText: context.l10n.season,
           hintStyle: TextStyle(color: colors.onSurfaceVariant),
         ),
         onChanged: (v) {
@@ -785,7 +786,7 @@ class _ListEditorModalState extends State<ListEditorModal> {
           ),
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-          hintText: widget.isManga ? 'Chapters' : 'Episodes',
+          hintText: widget.isManga ? context.l10n.chapters : context.l10n.episodes,
           hintStyle: TextStyle(color: colors.onSurfaceVariant),
         ),
         onChanged: (v) {

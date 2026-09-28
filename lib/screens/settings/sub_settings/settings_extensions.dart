@@ -10,6 +10,7 @@ import 'package:anymex_extension_runtime_bridge/ExtensionManager.dart';
 import 'package:anymex_extension_runtime_bridge/Extensions/Extensions.dart';
 import 'package:anymex_extension_runtime_bridge/Models/Source.dart';
 import 'package:anymex_extension_runtime_bridge/AnymeXBridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -177,7 +178,7 @@ class _SettingsExtensionsState extends State<SettingsExtensions> {
       headerAction: IconButton(
         onPressed: () => navigate(() => const SettingsExtensionManager()),
         icon: const Icon(Icons.settings_rounded),
-        tooltip: 'Extension Manager',
+        tooltip: context.l10n.extensionManager,
       ),
       floatingActionButton: _buildFab(),
       body: Builder(
@@ -903,7 +904,7 @@ class _AddRepoDialogState extends State<_AddRepoDialog> {
                 color: c.onSurface,
                 height: 1.5),
             decoration: InputDecoration(
-              hintText: 'https://raw.githubusercontent.com/...',
+              hintText: context.l10n.rawThemesUrlHint,
               hintStyle: TextStyle(
                   fontSize: 12,
                   color: c.onSurfaceVariant.withOpacity(0.6),

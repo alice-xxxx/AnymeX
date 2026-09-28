@@ -4,6 +4,7 @@ import 'package:anymex/screens/anime/watch/controls/themes/setup/player_control_
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_bottomsheet.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_text.dart';
 
@@ -461,7 +462,7 @@ class _ThemeCard extends StatelessWidget {
               ),
               IconButton(
                 onPressed: onDelete,
-                tooltip: 'Remove',
+                tooltip: context.l10n.remove,
                 icon: Icon(Icons.delete_outline_rounded,
                     size: 20,
                     color: context.colors.error.withValues(alpha: 0.8)),
@@ -533,7 +534,7 @@ Future<String?> _showUrlDialog(BuildContext context) async {
               keyboardType: TextInputType.url,
               autofocus: true,
               decoration: InputDecoration(
-                hintText: 'https://example.com/themes.json',
+                hintText: context.l10n.customThemesUrlHint,
                 border: const OutlineInputBorder(),
                 prefixIcon: const Icon(Icons.link_rounded),
                 errorText: error,

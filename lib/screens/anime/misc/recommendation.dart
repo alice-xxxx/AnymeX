@@ -20,6 +20,7 @@ import 'package:anymex/widgets/common/cards/card_gate.dart';
 import 'package:anymex/widgets/common/search_bar.dart';
 import 'package:anymex/widgets/media_items/media_item.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -253,7 +254,7 @@ class _AIRecommendationState extends State<AIRecommendation> {
                     }
                   },
                   disableIcons: true,
-                  hintText: "Enter Username",
+                  hintText: context.l10n.enterUsername,
                 ),
               ),
               const SizedBox(height: 16),

@@ -13,6 +13,7 @@ import 'package:anymex/widgets/anymex_widgets/anymex_image.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_progress.dart';
 import 'package:anymex_extension_runtime_bridge/Services/CloudStream/CloudStreamSourceMethods.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -329,7 +330,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
       return _actionButton(
         icon: Icons.download_rounded,
         color: theme.primary,
-        tooltip: "Download",
+        tooltip: context.l10n.download,
         onTap: _handleInstall,
         borderRadius: BorderRadius.circular(30),
       );
@@ -342,7 +343,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
           _actionButton(
             icon: Icons.refresh_rounded,
             color: theme.tertiary,
-            tooltip: "Update",
+            tooltip: context.l10n.update,
             onTap: _handleUpdate,
             borderRadius: const BorderRadius.horizontal(
               left: Radius.circular(20),
@@ -353,7 +354,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
           _actionButton(
             icon: Iconsax.trash,
             color: theme.error,
-            tooltip: "Delete",
+            tooltip: context.l10n.delete,
             iconSize: 17,
             onTap: () => _onActionTap(false),
             borderRadius: BorderRadius.circular(5),
@@ -362,7 +363,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
           _actionButton(
             icon: Iconsax.setting,
             color: theme.secondary,
-            tooltip: "Settings",
+            tooltip: context.l10n.settings,
             iconSize: 17,
             onTap: _handleOpenSettings,
             borderRadius: const BorderRadius.horizontal(
@@ -384,7 +385,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
         _actionButton(
           icon: Iconsax.trash,
           color: theme.error,
-          tooltip: "Delete",
+          tooltip: context.l10n.delete,
           iconSize: 17,
           onTap: () => _onActionTap(false),
           borderRadius: BorderRadius.horizontal(
@@ -397,7 +398,7 @@ class _ExtensionListTileWidgetState extends State<ExtensionListTileWidget> {
           _actionButton(
             icon: Iconsax.setting,
             color: theme.secondary,
-            tooltip: "Settings",
+            tooltip: context.l10n.settings,
             iconSize: 17,
             onTap: _handleOpenSettings,
             borderRadius: const BorderRadius.horizontal(

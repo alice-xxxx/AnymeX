@@ -6,6 +6,7 @@ import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
 import 'package:anymex/widgets/anymex_widgets/anymex_bottomsheet.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:get/get.dart';
@@ -555,7 +556,7 @@ class _PluginReleaseSheetState extends State<_PluginReleaseSheet>
                 ? IconButton(
                     onPressed: widget.manager.forceSyncLocalApk,
                     icon: Icon(Icons.sync_rounded, color: colors.primary),
-                    tooltip: 'Force Sync from SD Card',
+                    tooltip: context.l10n.forceSyncFromSDCard,
                   )
                 : Icon(
                     widget.mode == _PluginSheetMode.install

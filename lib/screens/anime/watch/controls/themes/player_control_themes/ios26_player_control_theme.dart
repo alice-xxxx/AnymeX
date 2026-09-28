@@ -10,6 +10,7 @@ import 'package:anymex/screens/anime/watch/controls/widgets/progress_slider.dart
 import 'package:anymex/screens/settings/sub_settings/settings_player.dart';
 import 'package:anymex/services/cast/widgets/cast_device_dialog.dart';
 import 'package:expressive_loading_indicator/expressive_loading_indicator.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -70,19 +71,19 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                         children: [
                           _Ios26CapsuleIconButton(
                             icon: CupertinoIcons.back,
-                            tooltip: 'Back',
+                            tooltip: context.l10n.back,
                             onPressed: () => Get.back(),
                           ),
                           const SizedBox(width: 4),
                           _Ios26CapsuleIconButton(
                             icon: CupertinoIcons.lock_fill,
-                            tooltip: 'Lock Controls',
+                            tooltip: context.l10n.lockControls,
                             onPressed: () => controller.isLocked.value = true,
                           ),
                           const SizedBox(width: 4),
                           _Ios26CapsuleIconButton(
                             icon: CupertinoIcons.gear_alt_fill,
-                            tooltip: 'Player Settings',
+                            tooltip: context.l10n.playerSettings,
                             onPressed: () {
                               controller.showSheetWithPause(
                                 () => showModalBottomSheet(
@@ -108,14 +109,14 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                             const SizedBox(width: 4),
                             _Ios26CapsuleIconButton(
                               icon: CupertinoIcons.square_on_square,
-                              tooltip: 'Picture in Picture',
+                              tooltip: context.l10n.pictureInPicture,
                               onPressed: () => controller.enterPip(),
                             ),
                           ],
                           const SizedBox(width: 4),
                           _Ios26CapsuleIconButton(
                             icon: CupertinoIcons.arrow_up_right_square,
-                            tooltip: 'External Player',
+                            tooltip: context.l10n.externalPlayer,
                             onPressed: () => controller.launchExternalPlayer(),
                           ),
                         ],
@@ -139,22 +140,22 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                         ? Icons.screen_lock_rotation_rounded
                                         : CupertinoIcons.device_phone_portrait,
                                     tooltip: controller.isOrientationLocked.value
-                                        ? 'Unlock Orientation'
-                                        : 'Lock Orientation',
+                                        ? context.l10n.unlockOrientation
+                                        : context.l10n.lockOrientation,
                                     onPressed: () =>
                                         controller.toggleOrientation(),
                                   )),
                               const SizedBox(width: 4),
                               _Ios26CapsuleIconButton(
                                 icon: Icons.fit_screen,
-                                tooltip: 'Aspect Ratio',
+                                tooltip: context.l10n.aspectRatio,
                                 onPressed: () => controller.toggleVideoFit(),
                               ),
                               if (!_isMobilePlatform) ...[
                                 const SizedBox(width: 4),
                                 _Ios26CapsuleIconButton(
                                   icon: CupertinoIcons.fullscreen,
-                                  tooltip: 'Fullscreen',
+                                  tooltip: context.l10n.fullscreen,
                                   onPressed: controller.toggleFullScreen,
                                 ),
                               ],
@@ -196,7 +197,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                 children: [
                   _Ios26GlassCircleButton(
                     icon: Icons.skip_previous_rounded,
-                    tooltip: 'Previous Episode',
+                    tooltip: context.l10n.previousEpisode,
                     size: 52,
                     onPressed: controller.canGoBackward.value
                         ? () => controller.navigator(false)
@@ -211,7 +212,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                   const SizedBox(width: 20),
                   _Ios26GlassCircleButton(
                     icon: Icons.skip_next_rounded,
-                    tooltip: 'Next Episode',
+                    tooltip: context.l10n.nextEpisode,
                     size: 52,
                     onPressed: controller.canGoForward.value
                         ? () => controller.navigator(true)
@@ -462,7 +463,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                     children: [
                                       _Ios26CapsuleIconButton(
                                         icon: CupertinoIcons.timer,
-                                        tooltip: 'Sync Subtitles',
+                                        tooltip: context.l10n.syncSubtitles,
                                         onPressed: () {
                                           controller.isEpisodePaneOpened.value = false;
                                           controller.isTracksPaneOpened.value = false;
@@ -475,7 +476,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                       const SizedBox(width: 4),
                                       _Ios26CapsuleIconButton(
                                         icon: CupertinoIcons.speaker_2_fill,
-                                        tooltip: 'Audio Tracks',
+                                        tooltip: context.l10n.audioTracks,
                                         onPressed: () =>
                                             PlayerBottomSheets.showAudioTracks(
                                                 context, controller),
@@ -483,7 +484,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                       const SizedBox(width: 4),
                                       _Ios26CapsuleIconButton(
                                         icon: CupertinoIcons.speedometer,
-                                        tooltip: 'Playback Speed',
+                                        tooltip: context.l10n.playbackSpeed,
                                         onPressed: () {
                                           controller.isEpisodePaneOpened.value = false;
                                           controller.isTracksPaneOpened.value = false;
@@ -496,7 +497,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                       const SizedBox(width: 4),
                                       _Ios26CapsuleIconButton(
                                         icon: CupertinoIcons.tv,
-                                        tooltip: 'Cast to Device',
+                                        tooltip: context.l10n.castToDevice,
                                         onPressed: () =>
                                             CastDeviceDialog.show(context, controller),
                                       ),
@@ -504,7 +505,7 @@ class Ios26PlayerControlTheme extends PlayerControlTheme {
                                       _Ios26CapsuleIconButton(
                                         icon:
                                             CupertinoIcons.slider_horizontal_3,
-                                        tooltip: 'Shaders & Colors',
+                                        tooltip: context.l10n.shadersColors,
                                         onPressed: () => controller
                                             .openColorProfileBottomSheet(
                                                 context),

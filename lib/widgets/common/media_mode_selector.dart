@@ -10,6 +10,7 @@ import 'package:anymex/screens/manga/reading_page.dart';
 import 'package:anymex/screens/novel/reader/novel_reader.dart';
 import 'package:anymex/widgets/non_widgets/snackbar.dart';
 import 'package:anymex/utils/function.dart';
+import 'package:anymex/utils/localization.dart';
 import 'package:anymex/utils/theme_extensions.dart';
 import 'package:anymex_extension_runtime_bridge/anymex_extension_runtime_bridge.dart';
 import 'package:flutter/material.dart';
@@ -163,7 +164,7 @@ class MediaModeSelector extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: _buildCustomPillItemContent(
-                      theme, opt.key, isSelected),
+                      context, theme, opt.key, isSelected),
                 ),
               );
             }).toList(),
@@ -205,7 +206,7 @@ class MediaModeSelector extends StatelessWidget {
                       onTap: () => onOptionSelected?.call(opt.value),
                       behavior: HitTestBehavior.opaque,
                       child: _buildCustomPillItemContent(
-                          theme, opt.key, isSelected),
+                          context, theme, opt.key, isSelected),
                     ),
                   );
                 }).toList(),
@@ -303,7 +304,7 @@ class MediaModeSelector extends StatelessWidget {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: _buildPillItemContent(
-                            theme, opt.key, opt.value, isSelected),
+                            context, theme, opt.key, opt.value, isSelected),
                       ),
                     );
                   }),
@@ -362,7 +363,7 @@ class MediaModeSelector extends StatelessWidget {
                               onTap: () => controller.mode = opt.value,
                               behavior: HitTestBehavior.opaque,
                               child: _buildPillItemContent(
-                                  theme, opt.key, opt.value, isSelected),
+                                  context, theme, opt.key, opt.value, isSelected),
                             ),
                           );
                         }).toList(),
@@ -419,7 +420,7 @@ class MediaModeSelector extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: _buildPillItemContent(
-                          theme, opt.key, opt.value, isSelected),
+                          context, theme, opt.key, opt.value, isSelected),
                     ),
                   );
                 }),
@@ -477,7 +478,7 @@ class MediaModeSelector extends StatelessWidget {
                             onTap: () => controller.mode = opt.value,
                             behavior: HitTestBehavior.opaque,
                             child: _buildPillItemContent(
-                                theme, opt.key, opt.value, isSelected),
+                                context, theme, opt.key, opt.value, isSelected),
                           ),
                         );
                       }).toList(),
@@ -492,8 +493,8 @@ class MediaModeSelector extends StatelessWidget {
     });
   }
 
-  Widget _buildPillItemContent(
-      ThemeData theme, String label, ItemType type, bool isSelected) {
+  Widget _buildPillItemContent(BuildContext context, ThemeData theme,
+      String label, ItemType type, bool isSelected) {
     IconData icon;
     switch (type) {
       case ItemType.anime:
@@ -530,7 +531,7 @@ class MediaModeSelector extends StatelessWidget {
                     children: [
                       const SizedBox(width: 4),
                       Text(
-                        label,
+                        localizeAppText(context, label),
                         style: TextStyle(
                           fontFamily: 'Linotte',
                           fontWeight: FontWeight.bold,
@@ -554,8 +555,9 @@ class MediaModeSelector extends StatelessWidget {
       List<OfflineMedia> items) {
     final theme = Theme.of(context);
     final icon = _getIconForMode(activeMode);
-    final String text =
-        activeMode == ItemType.anime ? 'Continue Watching' : 'Continue Reading';
+    final String text = activeMode == ItemType.anime
+        ? context.l10n.continueWatching
+        : context.l10n.continueReading;
 
     return GestureDetector(
       onTap: () => _autoPlayLastMedia(context, activeMode, items),
@@ -617,7 +619,7 @@ class MediaModeSelector extends StatelessWidget {
   }
 
   Widget _buildCustomPillItemContent(
-      ThemeData theme, String label, bool isSelected) {
+      BuildContext context, ThemeData theme, String label, bool isSelected) {
     IconData icon;
     switch (label.toLowerCase()) {
       case 'anime':
@@ -655,7 +657,7 @@ class MediaModeSelector extends StatelessWidget {
                     children: [
                       const SizedBox(width: 4),
                       Text(
-                        label,
+                        localizeAppText(context, label),
                         style: TextStyle(
                           fontFamily: 'Linotte',
                           fontWeight: FontWeight.bold,
